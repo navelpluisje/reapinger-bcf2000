@@ -1,27 +1,26 @@
 Zone "VST: MCompressor (MeldaProduction)" MCompressor
     SelectedTrackNavigator
     Option Option
-    Fader1        FXParam 5  "Treshhold"
-    Fader2        FXParam 4  "PreComp"
-    Fader3        FXParam 2  "Attack"     
-    Fader4        FXParam 3  "Release"
-    Fader5        FXParam 6  "Ratio"
-    Fader6        FXParam 8  "Knee"
-    Fader7        FXParam 1  "Output Gain"
-
-    Rotary1       FXParam 0  "Signal Input"
-    Rotary4       FXParam 4  "RMS length"
+    Rotary1        FXParam 0  "Signal Input"
+    Rotary2        FXParam 1  "Output Gain"
+    Rotary3        FXParam 2  "Attack"     
+    Rotary4        FXParam 3  "Release"
+    Rotary5        FXParam 4  "RMS length"
+    Rotary6        FXParam 5  "Treshhold"
+    Rotary7        FXParam 6  "Ratio"
+    Rotary8        FXParam 8  "Knee"
 
 / This is not working. 17 needs some attention 2 options for the same setting
-	RotaryPush6   FXParam 7  "Knee Mode"        [ 0.0 0.5 1.0 ] 
+	RotaryPush8   FXParam 7  "Knee Mode"        [ 0.0 0.5 1.0 ] 
 
 / Rest all the other stuff    
-	Rotary2       NoAction
-	Rotary3       NoAction
-	Rotary5       NoAction
-	Rotary6       NoAction
-	Rotary7       NoAction
-	Rotary8       NoAction
+	Fader1        NoAction
+	Fader2        NoAction
+	Fader3        NoAction
+	Fader4        NoAction
+	Fader5        NoAction
+	Fader6        NoAction
+	Fader7        NoAction
 	Fader8        NoAction
 ZoneEnd
 

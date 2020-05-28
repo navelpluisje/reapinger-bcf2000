@@ -15,8 +15,8 @@ The next effects and instruments are currently supported.
 * ReaEQ [(Reaper)][reaplugs]
 * [Blue Cat Gain](./docs/BlueCatGain.md ) - [(Blue Cat)][bluecat]
 * [Blue Cat Chorus (Stereo)](./docs/BlueCatChorusStereo.md) - [(Blue Cat)][bluecat]
-* MAutopan [(Melda)][melda]
-* MCompressor [(Melda)][melda]
+* [MAutopan](./docs/MAutopan.md) - [(Melda)][melda]
+* [MCompressor](./docs/MCompressor.md) - [(Melda)][melda]
 
 ### Instruments
 
