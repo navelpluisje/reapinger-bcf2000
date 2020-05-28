@@ -17,6 +17,7 @@ The next effects and instruments are currently supported.
 * [Blue Cat Chorus (Stereo)](./docs/BlueCatChorusStereo.md) - [(Blue Cat)][bluecat]
 * [MAutopan](./docs/MAutopan.md) - [(Melda)][melda]
 * [MCompressor](./docs/MCompressor.md) - [(Melda)][melda]
+* TDR Slick EQ - [(Tokyo Dawn Labs)](tdr)
 
 ### Instruments
 
@@ -26,8 +27,7 @@ The next effects and instruments are currently supported.
 
 Use the Behringer BCF200 in MCU-mode
 
-
-Will come
+More info will come
 
 [reaper]: https://reaper.fm
 [csi-surface]: https://github.com/malcolmgroves/reaper_csi/wiki/Defining-Control-Surface-Capabilities
@@ -35,3 +35,4 @@ Will come
 [reaplugs]: http://reaper.fm/reaplugs/
 [bluecat]: https://www.bluecataudio.com/Products/Bundle_FreewarePack/
 [melda]: https://www.meldaproduction.com/MFreeFXBundle
+[tdr]: https://www.tokyodawn.net/tokyo-dawn-labs/
