@@ -1,0 +1,25 @@
+Zone "VST: MAutopan (MeldaProduction)" MAutopan
+    SelectedTrackNavigator
+    Option Option
+    Rotary1       FXParam 0  "Depth"
+    Rotary2       FXParam 1  "Rate"
+    Rotary3       FXParam 2  "Pan"
+    RotaryPush3   FXParam 3  "LFO Override"
+    RotaryPush4   FXParam 4  "Synchronise"
+    Rotary4       FXParam 5  "Sync length"
+    Rotary5       FXParam 6  "Sync Type"
+    Rotary6       FXParam 7  "SyncPhase"
+
+/ Rest all the other stuff    
+    Fader1        NoAction
+    Fader2        NoAction
+    Fader3        NoAction
+    Fader4        NoAction
+    Fader5        NoAction
+    Fader6        NoAction
+    Fader7        NoAction
+	Fader8        NoAction
+	Rotary7       NoAction
+	Rotary8       NoAction
+ZoneEnd
+

@@ -1,0 +1,614 @@
+// The encoders
+
+Widget Rotary1
+	Encoder b0 10 7f
+	FB_Encoder b0 10 7f
+WidgetEnd
+
+Widget Rotary2
+	Encoder b0 11 7f
+	FB_Encoder b0 11 7f
+WidgetEnd
+
+Widget Rotary3
+	Encoder b0 12 7f
+	FB_Encoder b0 12 7f
+WidgetEnd
+
+Widget Rotary4
+	Encoder b0 13 7f
+	FB_Encoder b0 13 7f
+WidgetEnd
+
+Widget Rotary5
+	Encoder b0 14 7f
+	FB_Encoder b0 14 7f
+WidgetEnd
+
+Widget Rotary6
+	Encoder b0 15 7f
+	FB_Encoder b0 15 7f
+WidgetEnd
+
+Widget Rotary7
+	Encoder b0 16 7f
+	FB_Encoder b0 16 7f
+WidgetEnd
+
+Widget Rotary8
+	Encoder b0 17 7f
+	FB_Encoder b0 17 7f
+WidgetEnd
+
+Widget RotaryPush1
+	Press 90 20 7f
+	FB_TwoState 90 20 7f 90 20 00
+WidgetEnd
+
+Widget RotaryPush2
+	Press 90 21 7f
+	FB_TwoState 90 21 7f 90 21 00
+WidgetEnd
+
+Widget RotaryPush3
+	Press 90 22 7f
+	FB_TwoState 90 22 7f 90 22 00
+WidgetEnd
+
+Widget RotaryPush4
+	Press 90 23 7f
+	FB_TwoState 90 23 7f 90 23 00
+WidgetEnd
+
+Widget RotaryPush5
+	Press 90 24 7f
+	FB_TwoState 90 24 7f 90 24 00
+WidgetEnd
+
+Widget RotaryPush6
+	Press 90 25 7f
+	FB_TwoState 90 25 7f 90 25 00
+WidgetEnd
+
+Widget RotaryPush7
+	Press 90 26 7f
+	FB_TwoState 90 26 7f 90 26 00
+WidgetEnd
+
+Widget RotaryPush8
+	Press 90 27 7f
+	FB_TwoState 90 27 7f 90 27 00
+WidgetEnd
+// End Rotary
+
+// Top Row Default
+Widget Mute1
+	Press 90 10 7f 90 10 00
+	FB_TwoState 90 10 7f 90 10 00
+WidgetEnd
+
+Widget Mute2
+	Press 90 11 7f 90 11 00
+	FB_TwoState 90 11 7f 90 11 00
+WidgetEnd
+
+Widget Mute3
+	Press 90 12 7f 90 12 00
+	FB_TwoState 90 12 7f 90 12 00
+WidgetEnd
+
+Widget Mute4
+	Press 90 13 7f 90 13 00
+	FB_TwoState 90 13 7f 90 13 00
+WidgetEnd
+
+Widget Mute5
+	Press 90 14 7f 90 14 00
+	FB_TwoState 90 14 7f 90 14 00
+WidgetEnd
+
+Widget Mute6
+	Press 90 15 7f 90 15 00
+	FB_TwoState 90 15 7f 90 15 00
+WidgetEnd
+
+Widget Mute7
+	Press 90 16 7f 90 16 00
+	FB_TwoState 90 16 7f 90 16 00
+WidgetEnd
+
+Widget Mute8
+	Press 90 17 7f 90 17 00
+	FB_TwoState 90 17 7f 90 17 00
+WidgetEnd
+
+// Top Row Top Shift
+Widget Solo1
+	Press 90 08 7f 90 08 00
+	FB_TwoState 90 08 7f 90 08 00
+WidgetEnd
+
+Widget Solo2
+	Press 90 09 7f 90 09 00
+	FB_TwoState 90 09 7f 90 09 00
+WidgetEnd
+
+Widget Solo3
+	Press 90 0a 7f 90 0a 00
+	FB_TwoState 90 0a 7f 90 0a 00
+WidgetEnd
+
+Widget Solo4
+	Press 90 0b 7f 90 0b 00
+	FB_TwoState 90 0b 7f 90 0b 00
+WidgetEnd
+
+Widget Solo5
+	Press 90 0c 7f 90 0c 00
+	FB_TwoState 90 0c 7f 90 0c 00
+WidgetEnd
+
+Widget Solo6
+	Press 90 0d 7f 90 0d 00
+	FB_TwoState 90 0d 7f 90 0d 00
+WidgetEnd
+
+Widget Solo7
+	Press 90 0e 7f 90 0e 00
+	FB_TwoState 90 0e 7f 90 0e 00
+WidgetEnd
+
+Widget Solo8
+	Press 90 0f 7f 90 0f 00
+	FB_TwoState 90 0f 7f 90 0f 00
+WidgetEnd
+
+// Top Row Bottom Shift
+Widget ShowDrumTracks
+	Press 90 36 7f 90 36 00
+	FB_TwoState 90 36 7f 90 36 00
+WidgetEnd
+
+Widget ShowBassTracks
+	Press 90 37 7f 90 37 00
+	FB_TwoState 90 37 7f 90 37 00
+WidgetEnd
+
+Widget ShowGuitarTracks
+	Press 90 38 7f 90 38 00
+	FB_TwoState 90 38 7f 90 38 00
+WidgetEnd
+
+Widget ShowVocalTracks
+	Press 90 39 7f 90 39 00
+	FB_TwoState 90 39 7f 90 39 00
+WidgetEnd
+
+Widget ShowKeysTracks
+	Press 90 3a 7f 90 3a 00
+	FB_TwoState 90 3a 7f 90 3a 00
+WidgetEnd
+
+Widget ButtonTopBS6
+	Press 90 3b 7f 90 3b 00
+WidgetEnd
+
+Widget ButtonTopBS7
+	Press 90 3c 7f 90 3c 00
+	FB_TwoState 90 3c 7f 90 3c 00
+WidgetEnd
+
+Widget ButtonTopBS8
+	Press 90 3d 7f 90 3d 00
+	FB_TwoState 90 3d 7f 90 3d 00
+WidgetEnd
+
+// Bottom Row Default
+Widget Select1
+	Press 90 18 7f
+	FB_TwoState 90 18 7f 90 18 00
+WidgetEnd
+
+Widget Select2
+	Press 90 19 7f
+	FB_TwoState 90 19 7f 90 19 00
+WidgetEnd
+
+Widget Select3
+	Press 90 1a 7f
+	FB_TwoState 90 1a 7f 90 1a 00
+WidgetEnd
+
+Widget Select4
+	Press 90 1b 7f
+	FB_TwoState 90 1b 7f 90 1b 00
+WidgetEnd
+
+Widget Select5
+	Press 90 1c 7f
+	FB_TwoState 90 1c 7f 90 1c 00
+WidgetEnd
+
+Widget Select6
+	Press 90 1d 7f
+	FB_TwoState 90 1d 7f 90 1d 00
+WidgetEnd
+
+Widget Select7
+	Press 90 1e 7f
+	FB_TwoState 90 1e 7f 90 1e 00
+WidgetEnd
+
+Widget Select8
+	Press 90 1f 7f
+	FB_TwoState 90 1f 7f 90 1f 00
+WidgetEnd
+
+// Bottom Row Top Shift
+
+Widget RecArm1
+	Press 90 00 7f
+	FB_TwoState 90 00 7f 90 00 00
+WidgetEnd
+
+Widget RecArm2
+	Press 90 01 7f
+	FB_TwoState 90 01 7f 90 01 00
+WidgetEnd
+
+Widget RecArm3
+	Press 90 02 7f
+	FB_TwoState 90 02 7f 90 02 00
+WidgetEnd
+
+Widget RecArm4
+	Press 90 03 7f
+	FB_TwoState 90 03 7f 90 03 00
+WidgetEnd
+
+Widget RecArm5
+	Press 90 04 7f
+	FB_TwoState 90 04 7f 90 04 00
+WidgetEnd
+
+Widget RecArm6
+	Press 90 05 7f
+	FB_TwoState 90 05 7f 90 05 00
+WidgetEnd
+
+Widget RecArm7
+	Press 90 06 7f
+	FB_TwoState 90 06 7f 90 06 00
+WidgetEnd
+
+Widget RecArm8
+	Press 90 07 7f
+	FB_TwoState 90 07 7f 90 07 00
+WidgetEnd
+
+// Bottom Row Bottom Shift
+Widget ButtonTopBS1
+	Press 90 3f 7f 90 3f 00
+	FB_TwoState 90 3f 7f 90 3f 00
+WidgetEnd
+
+Widget ButtonTopBS2
+	Press 90 3f 7f 90 3f 00
+	FB_TwoState 90 3f 7f 90 3f 00
+WidgetEnd
+
+Widget ButtonTopBS3
+	Press 90 40 7f 90 40 00
+	FB_TwoState 90 40 7f 90 40 00
+WidgetEnd
+
+Widget ButtonTopBS4
+	Press 90 41 7f 90 41 00
+	FB_TwoState 90 41 7f 90 41 00
+WidgetEnd
+
+Widget ButtonTopBS5
+	Press 90 42 7f 90 42 00
+	FB_TwoState 90 42 7f 90 42 00
+WidgetEnd
+
+Widget ShowEffectsTracks
+	Press 90 43 7f 90 43 00
+	FB_TwoState 90 43 7f 90 43 00
+WidgetEnd
+
+Widget ShowBussTracks
+	Press 90 44 7f 90 44 00
+	FB_TwoState 90 44 7f 90 44 00
+WidgetEnd
+
+Widget ShowAllTracks
+	Press 90 45 7f 90 45 00
+	FB_TwoState 90 45 7f 90 45 00
+WidgetEnd
+
+// Faders
+Widget Fader1
+	Fader14Bit e0 7f 7f
+	FB_Fader14Bit e0 7f 7f
+WidgetEnd
+
+Widget Fader2
+	Fader14Bit e1 7f 7f
+	FB_Fader14Bit e1 7f 7f
+WidgetEnd
+
+Widget Fader3
+	Fader14Bit e2 7f 7f
+	FB_Fader14Bit e2 7f 7f
+WidgetEnd
+
+Widget Fader4
+	Fader14Bit e3 7f 7f
+	FB_Fader14Bit e3 7f 7f
+WidgetEnd
+
+Widget Fader5
+	Fader14Bit e4 7f 7f
+	FB_Fader14Bit e4 7f 7f
+WidgetEnd
+
+Widget Fader6
+	Fader14Bit e5 7f 7f
+	FB_Fader14Bit e5 7f 7f
+WidgetEnd
+
+Widget Fader7
+	Fader14Bit e6 7f 7f
+	FB_Fader14Bit e6 7f 7f
+WidgetEnd
+
+Widget Fader8
+	Fader14Bit e7 7f 7f
+	FB_Fader14Bit e7 7f 7f
+WidgetEnd
+
+Widget FaderTouch1
+	Press 90 68 7f
+WidgetEnd
+
+Widget FaderTouch2
+	Press 90 69 7f
+WidgetEnd
+
+Widget FaderTouch3
+	Press 90 6a 7f
+WidgetEnd
+
+Widget FaderTouch4
+	Press 90 6b 7f
+WidgetEnd
+
+Widget FaderTouch5
+	Press 90 6c 7f
+WidgetEnd
+
+Widget FaderTouch6
+	Press 90 6d 7f
+WidgetEnd
+
+Widget FaderTouch7
+	Press 90 6e 7f
+WidgetEnd
+
+Widget FaderTouch8
+	Press 90 6f 7f
+WidgetEnd
+
+// Top Section under Display. The 2 left ones are shift buttons
+// Top Default
+Widget Option
+	Press 90 29 7f 90 29 00
+	FB_TwoState 90 29 7f 90 29 00
+WidgetEnd
+
+// Top, Top Shift
+Widget Flip
+	Press 90 32 7f
+	FB_TwoState 90 32 7f 90 32 00
+WidgetEnd
+
+// Top, Bottom Shift
+// Not yet implemented
+Widget View
+	Press 90 49 7f
+WidgetEnd
+
+// Bottom Default
+Widget Track
+	Press 90 28 7f
+	FB_TwoState 90 28 7f 90 28 00
+WidgetEnd
+
+// Bottom, Top Shift
+Widget Send
+	Press 90 4f 7f
+	FB_TwoState 90 4f 7f 90 4f 00
+WidgetEnd
+
+// Bottom, Bottom Shift
+Widget Effects
+	Press 90 48 7f
+	FB_TwoState 90 48 7f 90 48 00
+WidgetEnd
+
+// End Top Section
+
+// Middle Section
+// Button Store
+Widget Store_Default
+	Press 90 2c 7f
+	FB_TwoState 90 2c 7f 90 2c 00
+WidgetEnd
+
+// Button Store, Bottom Shift
+// The above, but only the off variant
+
+// Button Store, Bottom Shift
+Widget Store_BS
+	Press 90 4b 7f
+WidgetEnd
+
+// Button Learn
+Widget Learn_Default
+	Press 90 2b 7f
+	FB_TwoState 90 2b 7f 90 2b 00
+WidgetEnd
+
+// Button Learn, Top Shift
+Widget Learn_TS
+	Press 90 50 7f
+WidgetEnd
+
+// Button Learn, Bottom Shift
+Widget Learn_BS
+	Press 90 33 7f
+	FB_TwoState 90 33 7f 90 33 00
+WidgetEnd
+
+// Buton Edit
+Widget Edit_Default
+	Press 90 2a 7f
+	FB_TwoState 90 2a 7f 90 2a 00
+WidgetEnd
+
+// Button Edit, Top Shift
+Widget Edit_TS
+	Press 90 51 7f
+WidgetEnd
+
+// Button Edit, Bottom Shift
+Widget Edit_BS
+	Press 90 4a 7f
+WidgetEnd
+
+// Button Exit
+Widget Exit_Default
+	Press 90 2d 7f 90 2d 00
+	FB_TwoState 90 2d 7f 90 2d 00
+WidgetEnd
+
+// Buton Exit, Top Shift
+Widget Exit_TS
+	Press 90 4c 7f
+	FB_TwoState 90 4c 7f 90 4c 00
+WidgetEnd
+
+// Button Exit, Bottom Shift
+Widget Exit_BS
+	Press 90 4e 7f
+	FB_TwoState 90 4e 7f 90 4e 00
+WidgetEnd
+
+// End Middle Section
+
+// Preset Section
+// Button Left
+Widget BankLeft
+	Press 90 2e 7f
+WidgetEnd
+
+// Button Left, Top Shift
+Widget ChannelLeft
+	Press 90 30 7f
+WidgetEnd
+
+// Button Left, Bottom Shift
+Widget SelectPrevTrack
+	Press 90 46 7f
+WidgetEnd
+
+// Button Right
+Widget BankRight
+	Press 90 2f 7f
+WidgetEnd
+
+// Button Right, Top Shift
+Widget ChannelRight
+	Press 90 31 7f
+WidgetEnd
+
+// Button Right, Bottom Shift
+Widget SelectNextTrack
+	Press 90 47 7f
+WidgetEnd
+
+// End Preset Section
+
+// User Section
+// Button Top Left
+Widget PreviousMarker
+	Press 90 5b 7f
+WidgetEnd
+
+// Button TL, TS
+Widget ScrollBackward
+	Press 90 58 7f
+	FB_TwoState 90 58 7f 90 58 00
+WidgetEnd
+
+// Button TL, BS
+Widget GoToProjectStart
+	Press 90 54 7f
+	FB_TwoState 90 54 7f 90 54 00
+WidgetEnd
+
+// Button Top Right
+Widget NextMarker
+	Press 90 5c 7f
+WidgetEnd
+
+// Button TR, TS
+Widget ScrollForward
+	Press 90 5a 7f
+	FB_TwoState 90 5a 7f 90 5a 00
+WidgetEnd
+
+// Button TR, BS
+Widget GoToProjectEnd
+	Press 90 55 7f
+	FB_TwoState 90 55 7f 90 55 00
+WidgetEnd
+
+// Button Bottom Left
+Widget Stop
+	Press 90 5d 7f
+	FB_TwoState 90 5d 7f 90 5d 00
+WidgetEnd
+
+// Button BL, TS
+Widget Metronome
+	Press 90 59 7f
+	FB_TwoState 90 59 7f 90 59 00
+WidgetEnd
+
+// Button BL, BS
+Widget Cycle
+	Press 90 56 7f
+	FB_TwoState 90 56 7f 90 56 00
+WidgetEnd
+
+// Button Bottom Right
+Widget Play
+	Press 90 5e 7f
+	FB_TwoState 90 5e 7f 90 5e 00
+WidgetEnd
+
+// Button BR, TS
+Widget Record
+	Press 90 5f 7f
+	FB_TwoState 90 5f 7f 90 5f 00
+WidgetEnd
+
+// Button BR, BS
+Widget FollowCursor
+	Press 90 57 7f 90 57 00
+	FB_TwoState 90 57 7f 90 57 00
+WidgetEnd
+
+// End User Section

@@ -1,0 +1,31 @@
+Zone "AU: TDR VOS SlickEQ (Tokyo Dawn Labs)" SlickEQ 
+    SelectedTrackNavigator
+    Option Option
+    Rotary1             FXParam 10 "HP Freq"
+    Fader2              FXParam 0  "Low Gain"
+    RotaryPush2         FXParam 2  "Low Shape"
+    Option+RotaryPush2  FXParam 16 "Low Bypass"
+    Rotary2             FXParam 1  "Low Freq"
+    Fader3              FXParam 3  "Mid Gain"
+    Rotary3             FXParam 4  "Mid Freq"
+    Option+RotaryPush3  FXParam 17 "Mid Bypass"
+    Fader4              FXParam 5  "High Gain"
+    RotaryPush4         FXParam 7  "High Shape"
+    Rotary4             FXParam 6  "High Freq"
+    Option+RotaryPush4  FXParam 18 "High Bypass"
+    Rotary5             FXParam 8  "EQ Model"
+    RotaryPush5         FXParam 9  "EQ Saturation"
+    Rotary8             FXParam 13 "Gain Out"
+    Option+Rotary8      FXParam 12 "Drive Out"
+    RotaryPush8         FXParam 14 "ByPass"
+    Option+RotaryPush8  FXParam 19 "Auto Gain"
+
+    / Rest all the other stuff    
+	Fader5 NoAction 
+	Fader6 NoAction 
+	Fader7 NoAction 
+	Fader8 NoAction 
+	Rotary6 NoAction
+	Rotary7 NoAction
+
+ZoneEnd

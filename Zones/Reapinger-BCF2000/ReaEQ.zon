@@ -1,0 +1,27 @@
+Zone "VST: ReaEQ (Cockos)" ReaEQ 
+    SelectedTrackNavigator
+    Option Option
+    Rotary1        FXParam 0 "Freq-Band 1"
+    Fader1         FXParam 1 "Gain-Band 1"
+    Option+Rotary1 FXParam 2 "Q-Band 1"
+    Rotary2        FXParam 3 "Freq-Band 2"
+    Fader2         FXParam 4 "Gain-Band 2"
+    Option+Rotary2 FXParam 5 "Q-Band 2"
+    Rotary3        FXParam 6 "Freq-Band 3"
+    Fader3         FXParam 7 "Gain-Band 3"
+    Option+Rotary3 FXParam 8 "Q-Band 3"
+    Rotary4        FXParam 9 "Freq-Band 4"
+    Fader4         FXParam 10 "Gain-Band 4"
+    Option+Rotary4 FXParam 11 "Q-Band 4"
+    Fader5         FXParam 13 "Wet"
+
+/ Rest all the other stuff    
+	Fader6 NoAction 
+	Fader7 NoAction 
+	Fader8 NoAction 
+	Rotary5 NoAction
+	Rotary6 NoAction
+	Rotary7 NoAction
+	Rotary8 NoAction
+
+ZoneEnd
