@@ -2,8 +2,8 @@
 
 # Reapinger BCF2000
 
-A repo contains the mst and zone files to let the bcf commuinicate like a madman with Reaper.
-It contains the default mappngs as send and several effects.
+A repo contains the [MIDI surface][csi-surface] and zone files to let the [Behringer BCF2000](bcf2000) communicate like a madman with [Reaper][reaper].
+It contains the default mappings as send and several effects.
 
 ## ¿What is supported?
 
@@ -11,12 +11,12 @@ The next effects and instruments are currently supported.
 
 ### Effects
 
-* [ReaComp](http://reaper.fm/reaplugs/)
-* [ReaEQ](http://reaper.fm/reaplugs/)
-* [Blue Cat Gain](https://www.bluecataudio.com/Products/Bundle_FreewarePack/)
-* [Blue Cat Chorus (Stereo)](https://www.bluecataudio.com/Products/Bundle_FreewarePack/)
-* [MAutopan (Melda)](https://www.meldaproduction.com/MFreeFXBundle)
-* [MCompressor (Melda)](https://www.meldaproduction.com/MFreeFXBundle)
+* ReaComp [(Reaper)][reaplugs]
+* ReaEQ [(Reaper)][reaplugs]
+* Blue Cat Gain [(Blue Cat)][bluecat]
+* Blue Cat Chorus (Stereo) [(Blue Cat)][bluecat]
+* MAutopan [(Melda)][melda]
+* MCompressor [(Melda)][melda]
 
 ### Instruments
 
@@ -28,3 +28,10 @@ Use the Behringer BCF200 in MCU-mode
 
 
 Will come
+
+[reaper]: https://reaper.fm
+[csi-surface]: https://github.com/malcolmgroves/reaper_csi/wiki/Defining-Control-Surface-Capabilities
+[bcf2000]: https://www.behringer.com/Categories/Behringer/Computer-Audio/Desktop-Controllers/BCF2000/p/P0246#googtrans(en|en)
+[reaplugs]: http://reaper.fm/reaplugs/
+[bluecat]: https://www.bluecataudio.com/Products/Bundle_FreewarePack/
+[melda]: https://www.meldaproduction.com/MFreeFXBundle
