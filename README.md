@@ -7,7 +7,7 @@ It contains the default mappings as send and several effects.
 
 ## ¿What is supported?
 
-The next effects and instruments are currently supported.
+The next effects and instruments are currently supported. Most of them need some more testing and some more finetuning for the values.
 
 ### Effects
 
