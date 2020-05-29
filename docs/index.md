@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ![logo](../assets/reapinger-logo.png)
 
 # Reapinger BCF2000
