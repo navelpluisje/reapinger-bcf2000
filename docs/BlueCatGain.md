@@ -8,4 +8,4 @@
 | Push | On/Off   |
 
 ---
-[Back to home](../readme.md)
+[Back to home](./index.md)

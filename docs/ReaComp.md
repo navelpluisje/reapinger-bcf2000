@@ -13,4 +13,4 @@
 | Trreshold | PreComp | Attack  | Release | Ratio   | Knee    | Wet     | Dry     |
 
 ---
-[Back to home](../readme.md)
+[Back to home](./index.md)

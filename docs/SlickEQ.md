@@ -13,4 +13,4 @@
 |         |  | Low Gain   | Mid Gain   | High Gain   |  | |
 
 ---
-[Back to home](../readme.md)
+[Back to home](./index.md)

@@ -8,4 +8,4 @@
 | Push |          |          |          |          |          |           |          | Knee Mode |
 
 ---
-[Back to home](../readme.md)
+[Back to home](./index.md)

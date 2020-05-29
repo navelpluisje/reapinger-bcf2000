@@ -15,4 +15,4 @@ I created a version with only 4 bands. You can add more if you want.
 | Gain 1  | Gain 2  | Gain 3  | Gain 4  | Wet     |
 
 ---
-[Back to home](../readme.md)
+[Back to home](./index.md)

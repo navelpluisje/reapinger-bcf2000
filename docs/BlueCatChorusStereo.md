@@ -8,4 +8,4 @@
 | Push | Bypass   |          |          |          |          |          |          | Shape    |
 
 ---
-[Back to home](../readme.md)
+[Back to home](./index.md)
