@@ -1,4 +1,4 @@
-![logo](./assets/reapinger-logo.png)
+![logo](./docs/assets/reapinger-logo.png)
 
 # Reapinger BCF2000
 
