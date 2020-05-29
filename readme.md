@@ -12,7 +12,7 @@ The next effects and instruments are currently supported. Most of them need some
 ### Effects
 
 * [ReaComp](./docs/ReaComp.md) - [(ReaPlugs)][reaplugs]
-* [ReaEQ](.docs/ReaEQ.md) - [(ReaPlugs)][reaplugs]
+* [ReaEQ](./docs/ReaEQ.md) - [(ReaPlugs)][reaplugs]
 * [Blue Cat Gain](./docs/BlueCatGain.md ) - [(Blue Cat)][bluecat]
 * [Blue Cat Chorus (Stereo)](./docs/BlueCatChorusStereo.md) - [(Blue Cat)][bluecat]
 * [MAutopan](./docs/MAutopan.md) - [(Melda)][melda]
