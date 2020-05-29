@@ -21,6 +21,7 @@ Zone "AU: TDR VOS SlickEQ (Tokyo Dawn Labs)" SlickEQ
     Option+RotaryPush8  FXParam 19 "Auto Gain"
 
     / Rest all the other stuff    
+	Fader1 NoAction 
 	Fader5 NoAction 
 	Fader6 NoAction 
 	Fader7 NoAction 
