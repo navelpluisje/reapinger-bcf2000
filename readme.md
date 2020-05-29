@@ -17,7 +17,7 @@ The next effects and instruments are currently supported. Most of them need some
 * [Blue Cat Chorus (Stereo)](./docs/BlueCatChorusStereo.md) - [(Blue Cat)][bluecat]
 * [MAutopan](./docs/MAutopan.md) - [(Melda)][melda]
 * [MCompressor](./docs/MCompressor.md) - [(Melda)][melda]
-* [TDR Slick EQ](./docs/SlickEQ) - [(Tokyo Dawn Labs)](tdr)
+* [TDR Slick EQ](./docs/SlickEQ.md) - [(Tokyo Dawn Labs)](tdr)
 
 ### Instruments
 
