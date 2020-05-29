@@ -3,10 +3,10 @@ Zone "VSTi: CollaB3 (Collab)" CollaB3
 
   Rotary1       FXParam 0  "Volume"
   RotaryPush2   FXParam 1  "Perc on/off" [ 0.0 1.0 ]
-  RotaryPush3   FXParam 2  "Perc 2/3" [ 0.0 1.0 ]
-  Rotary4       FXParam 4  "Leakage"
-  RotaryPush4   FXParam 4  "Rotary" [ 0.0 0.5 1.0]
-  RotaryPush5   FXParam 5  "Chorus"
+  RotaryPush3   FXParam 2  "Perc 2/3"    [ 0.0 1.0 ]
+  Rotary4       FXParam 3  "Leakage"
+  RotaryPush4   FXParam 4  "Rotary"      [ 0.0 0.5 1.0 ]
+  RotaryPush5   FXParam 5  "Chorus"      [ 0.0 1.0 ] 
   
   Fader1        FXParam 6  "Drawbar 16"
   Fader2        FXParam 7  "Drawbar 8"

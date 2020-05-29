@@ -4,10 +4,10 @@ Zone "VST: MAutopan (MeldaProduction)" MAutopan
     Rotary1       FXParam 0  "Depth"
     Rotary2       FXParam 1  "Rate"
     Rotary3       FXParam 2  "Pan"
-    RotaryPush3   FXParam 3  "LFO Override"
-    RotaryPush4   FXParam 4  "Synchronise"
-    Rotary4       FXParam 5  "Sync length"
-    Rotary5       FXParam 6  "Sync Type"
+    RotaryPush3   FXParam 3  "LFO Override" [ 0.0 1.0 ]
+    RotaryPush4   FXParam 4  "Synchronise"  [ 0.0 1.0 ]
+    Rotary4       FXParam 5  "Sync length" / Needs fixing on values
+    Rotary5       FXParam 6  "Sync Type"   / Needs fixing on values
     Rotary6       FXParam 7  "Sync Phase"
 
 / Rest all the other stuff    
