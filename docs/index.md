@@ -1,9 +1,3 @@
----
-layout: post
----
-
-![logo](./assets/reapinger-logo.png)
-
 # Reapinger BCF2000
 
 A repo contains the [MIDI surface][csi-surface] and zone files to let the [Behringer BCF2000](bcf2000) communicate like a madman with [Reaper][reaper].

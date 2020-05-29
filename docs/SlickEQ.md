@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # SlickEQ
 
 ![logo](./assets/SlickEQ.png)
