@@ -1,6 +1,6 @@
 # ReaComp
 
-![logo](../assets/ReaComp.png)
+![logo](./assets/ReaComp.png)
 
 |      | Rotary 1     | Rotary 2       | Rotary 3   | Rotary 4    | Rotary 5     |
 |------|----------    |----------      |----------  |----------   |----------    |

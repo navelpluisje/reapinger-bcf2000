@@ -1,6 +1,6 @@
 # Blue Cat's Gain
 
-![logo](../assets/BlueCatGain.png)
+![logo](./assets/BlueCatGain.png)
 
 |      | Rotary 1 |
 |------|----------|
