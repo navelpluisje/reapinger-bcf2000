@@ -12,8 +12,8 @@
 |:---------:|:---------:|:---------:|:---------:|--------|--------|
 |           |           |           |           | Rotary | Set the panning |
 |           |           |           |           | Rotary Push | Go to PanWidth Zone |
-|           |           |           |           | Bottom Button | Mute Track |
-| X         |           |           |           | Bottom Button | Solo Track |
+|           |           |           |           | Top Button | Mute Track |
+| X         |           |           |           | Top Button | Solo Track |
 |           |           | X         |           | Top Button | Set Automation mode (toggles through options) |
 |           |           | X         | X         | Top Button | Set Automation mode Trim/Read |
 |           |           |           |           | Bottom Button | Select Track |
