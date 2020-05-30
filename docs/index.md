@@ -7,6 +7,18 @@ It contains the default mappings as send and several effects.
 
 The next effects and instruments are currently supported. Most of them need some more testing and some more finetuning for the values.
 
+### Zones
+
+* Channel
+* Transport
+* GroupButtons
+* PresetButtons
+* Buttons
+* Pan
+
+
+### Sends
+
 ### Effects
 
 * [ReaComp](./effects/ReaComp.md) - [(ReaPlugs)][reaplugs]
