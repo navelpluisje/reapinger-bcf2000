@@ -9,7 +9,7 @@ The next effects and instruments are currently supported. Most of them need some
 
 ### Zones
 
-* Channel
+* [Channel](./zones/Channel.md)
 * [Transport](./zones/Transport.md)
 * [GroupButton(s)](./zones/Group.md)
 * [PresetButtons](./zones/Presets.md)
