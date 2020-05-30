@@ -32,7 +32,7 @@ The next effects and instruments are currently supported. Most of them need some
 
 * [ReaComp](./effects/ReaComp.md) - [(ReaPlugs)][reaplugs]
 * [ReaEQ](./effects/ReaEQ.md) - [(ReaPlugs)][reaplugs]
-* [Blue Cat Gain](./effects/BlueCatGain.md ) - [(Blue Cat)][bluecat]
+* [Blue Cat Gain](./effects/BlueCatGain.md) - [(Blue Cat)][bluecat]
 * [Blue Cat Chorus (Stereo)](./effects/BlueCatChorusStereo.md) - [(Blue Cat)][bluecat]
 * [MAutopan](./effects/MAutopan.md) - [(Melda)][melda]
 * [MCompressor](./effects/MCompressor.md) - [(Melda)][melda]
