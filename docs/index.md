@@ -1,8 +1,17 @@
 # Reapinger BCF2000
 
+<img src="./assets/reapinger-logo.png" style="width: 200px; float:left; margin-right: 1rem;" >
+
+---
+
+---
+
 A repo contains the [MIDI surface][csi-surface] and zone files to let the [Behringer BCF2000](bcf2000) communicate like a madman with [Reaper][reaper].
 It contains the default mappings as send and several effects.
 
+---
+
+---
 ## ¿What is supported?
 
 The next effects and instruments are currently supported. Most of them need some more testing and some more finetuning for the values.
