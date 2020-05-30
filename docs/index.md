@@ -15,7 +15,7 @@ The next effects and instruments are currently supported. Most of them need some
 * PresetButtons
 * Buttons
 * Pan
-
+    
 
 ### Sends
 
