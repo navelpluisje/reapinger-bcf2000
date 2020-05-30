@@ -10,12 +10,12 @@ The next effects and instruments are currently supported. Most of them need some
 ### Zones
 
 * Channel
-* Transport
+* [Transport](./zones/Transport.md)
 * GroupButtons
-* PresetButtons
+* [PresetButtons](./zones/Presets.md)
 * Buttons
 * Pan
-    
+
 
 ### Sends
 
