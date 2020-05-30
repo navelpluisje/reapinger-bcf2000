@@ -8,4 +8,5 @@
 | Push | Bypass   |          |          |          |          |          |          | Shape    |
 
 ---
-[Back to home](../)
+
+[Home](../) > [Effects](./)

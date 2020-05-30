@@ -8,4 +8,5 @@
 | Push | On/Off   |
 
 ---
-[Back to home](../)
+
+[Home](../) > [Effects](./)

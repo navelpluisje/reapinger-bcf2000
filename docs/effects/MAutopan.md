@@ -8,4 +8,5 @@
 | Push |          |          | LFO Override | Synchronise |           |            |
 
 ---
-[Back to home](./index.md)
+
+[Home](../) > [Effects](./)

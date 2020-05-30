@@ -13,4 +13,5 @@
 |         |  | Low Gain   | Mid Gain   | High Gain   |  | |
 
 ---
-[Back to home](./index.md)
+
+[Home](../) > [Effects](./)

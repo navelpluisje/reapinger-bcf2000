@@ -8,4 +8,5 @@
 | Push |          |          |          |          |          |           |          | Knee Mode |
 
 ---
-[Back to home](./index.md)
+
+[Home](../) > [Effects](./)
