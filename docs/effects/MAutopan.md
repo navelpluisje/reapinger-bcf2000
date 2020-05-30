@@ -1,6 +1,6 @@
 # Melda MAutopan
 
-![logo](./assets/MAutopan.png)
+![logo](../assets/MAutopan.png)
 
 |      | Rotary 1 | Rotary 2 | Rotary 3     | Rotary 4    | Rotary 5  | Rotary 6   |
 |------|----------|----------|----------    |----------   |---------- |----------  |

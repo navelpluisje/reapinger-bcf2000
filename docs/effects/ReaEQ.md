@@ -2,7 +2,7 @@
 
 I created a version with only 4 bands. You can add more if you want.
 
-![logo](./assets/ReaEQ.png)
+![logo](../assets/ReaEQ.png)
 
 |         | Rotary 1 | Rotary 2 | Rotary 3 | Rotary 4 |
 |---------|----------|----------|----------|----------|

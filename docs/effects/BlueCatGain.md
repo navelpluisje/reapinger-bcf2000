@@ -1,6 +1,6 @@
 # Blue Cat's Gain
 
-![logo](./assets/BlueCatGain.png)
+![logo](../assets/BlueCatGain.png)
 
 |      | Rotary 1 |
 |------|----------|
@@ -8,4 +8,4 @@
 | Push | On/Off   |
 
 ---
-[Back to home](/)
+[Back to home](../)
