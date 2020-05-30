@@ -1,5 +1,11 @@
 # ReaComp
 
+---
+
+[Home](../) > [Effects](./)
+
+---
+
 ![logo](../assets/ReaComp.png)
 
 |      | Rotary 1     | Rotary 2       | Rotary 3   | Rotary 4    | Rotary 5     |
@@ -13,5 +19,3 @@
 | Trreshold | PreComp | Attack  | Release | Ratio   | Knee    | Wet     | Dry     |
 
 ---
-
-[Home](../) > [Effects](./)

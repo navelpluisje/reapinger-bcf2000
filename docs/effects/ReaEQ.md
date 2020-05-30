@@ -1,5 +1,11 @@
 # ReaEQ
 
+---
+
+[Home](../) > [Effects](./)
+
+---
+
 I created a version with only 4 bands. You can add more if you want.
 
 ![logo](../assets/ReaEQ.png)
@@ -15,5 +21,3 @@ I created a version with only 4 bands. You can add more if you want.
 | Gain 1  | Gain 2  | Gain 3  | Gain 4  | Wet     |
 
 ---
-
-[Home](../) > [Effects](./)

@@ -1,5 +1,11 @@
 # Blue Cat's Gain
 
+---
+
+[Home](../) > [Effects](./)
+
+---
+
 ![logo](../assets/BlueCatGain.png)
 
 |      | Rotary 1 |
@@ -8,5 +14,3 @@
 | Push | On/Off   |
 
 ---
-
-[Home](../) > [Effects](./)

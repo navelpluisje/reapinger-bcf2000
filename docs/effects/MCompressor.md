@@ -1,5 +1,11 @@
 # Melda MCompressor
 
+---
+
+[Home](../) > [Effects](./)
+
+---
+
 ![logo](../assets/MCompressor.png)
 
 |      | Rotary 1 | Rotary 2 | Rotary 3 | Rotary 4 | Rotary 5 | Rotary 6  | Rotary 7 | Rotary 8  |
@@ -8,5 +14,3 @@
 | Push |          |          |          |          |          |           |          | Knee Mode |
 
 ---
-
-[Home](../) > [Effects](./)
