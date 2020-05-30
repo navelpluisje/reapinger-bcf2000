@@ -11,7 +11,7 @@ The next effects and instruments are currently supported. Most of them need some
 
 * Channel
 * [Transport](./zones/Transport.md)
-* GroupButtons
+* [GroupButton(s)](./zones/Group.md)
 * [PresetButtons](./zones/Presets.md)
 * Buttons
 * Pan

@@ -8,7 +8,7 @@
 
 * Channel
 * [Transport](./Transport.md)
-* GroupButtons
+* [GroupButton(s)](./zones/Group.md)
 * [PresetButtons](./Presets.md)
 * Buttons
 * Pan

@@ -6,7 +6,7 @@
 
 ---
 
-Thios zon depends on the next 2 custom actions which are installable by [ReaPack](https://reapack.com/).
+This zone depends on the next 2 custom actions which are installable by [ReaPack](https://reapack.com/).
 
 * _XENAKIOS_SELPREVTRACK
 * _XENAKIOS_SELNEXTTRACK
@@ -18,8 +18,8 @@ Thios zon depends on the next 2 custom actions which are installable by [ReaPack
 |           |           | Preset Left | Shift Bank Left |
 | X         |           | Preset Left | Shift Channel Left |
 |           | X         | Preset Left | Select Previous Track |
-|           |           | Bottom Right | Shift Bank Right |
-| X         |           | Bottom Right | Shigft Channel Right  |
-|           | X         | Bottom Right | Select Next Track |
+|           |           | Preset Right | Shift Bank Right |
+| X         |           | Preset Right | Shift Channel Right  |
+|           | X         | Preset Right | Select Next Track |
 
 ---
