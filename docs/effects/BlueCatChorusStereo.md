@@ -8,4 +8,4 @@
 | Push | Bypass   |          |          |          |          |          |          | Shape    |
 
 ---
-[Back to home](./index.md)
+[Back to home](/)

@@ -8,4 +8,4 @@
 | Push | On/Off   |
 
 ---
-[Back to home](./index.md)
+[Back to home](/)
