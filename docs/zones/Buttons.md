@@ -32,4 +32,11 @@
 |           |           |        | Bottom Btn 7 | Show Busses |
 |           |           |        | Bottom Btn 8 | Show All tracks |
 
+> ### Note
+>
+> The top and bottom buttons are custom actions and are created to the way I work with Reaper.
+> The actual action files are added in this project, but you can easily assign other actions to these buttons.
+> 
+> More information about zone files and assinging actions can be found at the [CSI wiki](https://github.com/malcolmgroves/reaper_csi/wiki/Zones)
+
 ---

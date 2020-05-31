@@ -26,4 +26,13 @@
 | X         |           |        | Bottom Right | Record  |
 |           | X         |        | Bottom Right | Toggle Follow Cursor (custom action) |
 
+> ### Note
+>
+> The Toggle Follow Cursor is a custom action and looks like:
+> ![Follow Cursor Action](../assets/FollowCursor.png)
+> This action toggles the cursor following the song or not. You can also assing other actions to the button.
+> 
+>  * More information about zone files and assinging actions can be found at the [CSI wiki](https://github.com/malcolmgroves/reaper_csi/wiki/Zones)
+>  * More information about creating Custom Actions can be found in this [video by Kenny Gioia](http://reaper.fm/videos.php#15Evzb7rWCo)
+
 ---
