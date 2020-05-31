@@ -6,7 +6,7 @@
 
 ---
 
-I'd love for you to contribute to the source code and to make `SYnthZYGY`
+I'd love for you to contribute to the source code and to make `Reapinger BCF2000`
 even better than it is today! Here are the guidelines I'd like you to follow:
 
  - [Code of Conduct](#coc)
@@ -20,13 +20,13 @@ even better than it is today! Here are the guidelines I'd like you to follow:
 
 ## <a name="coc"></a> Code of Conduct
 
-Help me keep `SYnthZYGY` open and inclusive. Please be kind to and considerate
-of other developers, as we all have the same goal: make `SYnthZYGY` as good as
+Help me keep `Reapinger BCF2000` open and inclusive. Please be kind to and considerate
+of other developers, as we all have the same goal: make `Reapinger BCF2000` as good as
 it can be. Read the full [Code Of Conduct][coc-link]
 
 ## <a name="question"></a> Got a Question or Problem?
 
-If you have questions about how to use `SYnthZYGY`, please see the
+If you have questions about how to use `Reapinger BCF2000`, please see the
 [docs][docs-link], and if you don't find the answer there, please contact
 me via [twitter][twitter-link]
 
@@ -45,7 +45,7 @@ You can request a new feature by submitting an issue to my
 consider what kind of change it is:
 
 * **Major Changes** that you wish to contribute to the project should be
-  discussed first with `SYnthZYGY` contributors in an issue or pull request so
+  discussed first with `Reapinger BCF2000` contributors in an issue or pull request so
   that we can develop a proper solution and better coordinate our efforts,
   prevent duplication of work, and help you to craft the change so that it is
   successfully accepted into the project.
@@ -138,7 +138,7 @@ the changes from the main (upstream) repository.
 
 
 [coc-link]: ./code-of-conduct.md
-[docs-link]: ./docs/index.md
+[docs-link]: ./index.md
 [twitter-link]: https://twitter.com/navelpluisje_nl
 [issue-link]: https://github.com/navelpluisje/reapinger-bcf2000/issues/new
 [github]: https://github.com/navelpluisje/reapinger-bcf2000
