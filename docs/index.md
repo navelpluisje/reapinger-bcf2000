@@ -40,7 +40,12 @@ The **Effects** zone will avctivate the effect tracks over the channels.
 
 * [Installation](./install.md)
 
-More info will come
+## Others
+
+* [Credits](./credits.md)
+* Licence: MIT
+* [Code Of Conduct](code-of-conduct.md)
+* [Contribute](contributing.md)
 
 [reaper]: https://reaper.fm
 [csi-surface]: https://github.com/malcolmgroves/reaper_csi/wiki/Defining-Control-Surface-Capabilities
