@@ -21,16 +21,22 @@
 
 ### Effects
 
-* [ReaComp](./ReaComp.md) - [(ReaPlugs)][reaplugs]
-* [ReaEQ](./ReaEQ.md) - [(ReaPlugs)][reaplugs]
-* [Blue Cat Gain](./BlueCatGain.md) - [(Blue Cat)][bluecat]
-* [Blue Cat Chorus (Stereo)](./BlueCatChorusStereo.md) - [(Blue Cat)][bluecat]
-* [MAutopan](./MAutopan.md) - [(Melda)][melda]
-* [MCompressor](./MCompressor.md) - [(Melda)][melda]
-* [TDR Slick EQ](./SlickEQ.md) - [(Tokyo Dawn Labs)](tdr)
+* [ReaComp](./ReaComp.md) - [(ReaPlugs Website)][reaplugs]
+* [ReaEQ](./ReaEQ.md) - [(ReaPlugs Website)][reaplugs]
+* [Blue Cat Gain](./BlueCatGain.md) - [(Blue Cat Website)][bluecat]
+* [Blue Cat Chorus (Stereo)](./BlueCatChorusStereo.md) - [(Blue Cat Website)][bluecat]
+* [MAutopan](./MAutopan.md) - [(Melda Website)][melda]
+* [MCompressor](./MCompressor.md) - [(Melda Website)][melda]
+* [TDR Slick EQ](./SlickEQ.md) - [(Tokyo Dawn Labs Website)][tdr]
 
 ### Instruments
 
-* [CollabB3](https://sampleson.com/collab3-free-tonewheel-organ.html)
+* [CollabB3](./CollaB3.md) - [(CollabB3 Website)][CollabB3]
 
 ---
+
+[reaplugs]: http://reaper.fm/reaplugs/
+[bluecat]: https://www.bluecataudio.com/Products/Bundle_FreewarePack/
+[melda]: https://www.meldaproduction.com/MFreeFXBundle
+[tdr]: https://www.tokyodawn.net/tokyo-dawn-labs/
+[CollabB3]: https://sampleson.com/collab3-free-tonewheel-organ.html

@@ -10,7 +10,7 @@ Zone "VSTi: CollaB3 (Collab)" CollaB3
   
   Fader1        FXParam 6  "Drawbar 16"
   Fader2        FXParam 7  "Drawbar 8"
-  Fader3        FXParam 8  "Drawbar 1/3"
+  Fader3        FXParam 8  "Drawbar 5 1/3"
   Fader4        FXParam 9  "Drawbar 4"
   Fader5        FXParam 10 "Drawbar 2 2/3"
   Fader6        FXParam 11 "Drawbar 2"
