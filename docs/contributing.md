@@ -1,4 +1,10 @@
-# Contributing to `SYnthZYGY`
+# Contributing to `Reapinger BCF2000`
+
+---
+
+[Home](../)
+
+---
 
 I'd love for you to contribute to the source code and to make `SYnthZYGY`
 even better than it is today! Here are the guidelines I'd like you to follow:

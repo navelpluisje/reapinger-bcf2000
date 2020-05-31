@@ -1,5 +1,11 @@
 # Contributor Covenant Code of Conduct
 
+---
+
+[Home](../)
+
+---
+
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
