@@ -38,7 +38,7 @@ The **Effects** zone will avctivate the effect tracks over the channels.
 
 ## Install and usage
 
-Use the Behringer BCF200 in MCU-mode
+* [Installation](./install.md)
 
 More info will come
 
