@@ -21,12 +21,28 @@
 
 ### Effects
 
-* [ReaComp](./ReaComp.md) - [(ReaPlugs Website)][reaplugs]
-* [ReaEQ](./ReaEQ.md) - [(ReaPlugs Website)][reaplugs]
-* [Blue Cat Gain](./BlueCatGain.md) - [(Blue Cat Website)][bluecat]
-* [Blue Cat Chorus (Stereo)](./BlueCatChorusStereo.md) - [(Blue Cat Website)][bluecat]
-* [MAutopan](./MAutopan.md) - [(Melda Website)][melda]
-* [MCompressor](./MCompressor.md) - [(Melda Website)][melda]
+#### ReaPlugs [(ReaPlugs Website)][reaplugs]
+
+* [ReaComp](./ReaComp.md)
+* [ReaEQ](./ReaEQ.md)
+
+#### Blue Cat [(Blue Cat Website)][bluecat]
+
+* [Blue Cat Chorus](./BlueCatChorus.md)
+* [Blue Cat Flanger](./BlueCatFlanger.md)
+* [Blue Cat Free Amp](./BlueCatFreeAmp.md)
+* [Blue Cat Freq Analyst](./BlueCatFreqAnalyst.md)
+* [Blue Cat Gain](./BlueCatGain.md)
+* [Blue Cat Phaser](./BlueCatPhaser.md)
+* [Blue Cat Tripple EQ](./BlueCatTrippleEQ.md)
+
+#### Melda Productions [(Melda Website)][melda]
+
+* [MAutopan](./MAutopan.md)
+* [MCompressor](./MCompressor.md)
+
+### Others:
+
 * [TDR Slick EQ](./SlickEQ.md) - [(Tokyo Dawn Labs Website)][tdr]
 
 ### Instruments
