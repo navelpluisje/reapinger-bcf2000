@@ -126,7 +126,7 @@ ZoneEnd
 Zone "Send|1-8"
   SelectedTrackNavigator
   Rotary|           TrackSendPan
-  RotaryPush|       Reaper "40293"
+  RotaryPush|       Reaper "40293"   // View routing and I/O
   Mute|             TrackSendMute
   Fader|            TrackSendVolume
   TrackTouch+Fader| TrackSendVolume

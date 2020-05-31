@@ -19,28 +19,22 @@ The next effects and instruments are currently supported. Most of them need some
 ### Zones
 
 * [Channel](./zones/Channel.md)
-* [Transport](./zones/Transport.md)
 * [GroupButton(s)](./zones/Group.md)
+* [Buttons](./zones/Buttons.md)
 * [PresetButtons](./zones/Presets.md)
-* Buttons
-* Pan
-
+* [Transport](./zones/Transport.md)
 
 ### Sends
 
+The **Sends** zone will avctivate the send tracks over the channels.
+
+* [Sends](./zones/Sends.md)
+
 ### Effects
 
-* [ReaComp](./effects/ReaComp.md) - [(ReaPlugs)][reaplugs]
-* [ReaEQ](./effects/ReaEQ.md) - [(ReaPlugs)][reaplugs]
-* [Blue Cat Gain](./effects/BlueCatGain.md) - [(Blue Cat)][bluecat]
-* [Blue Cat Chorus (Stereo)](./effects/BlueCatChorusStereo.md) - [(Blue Cat)][bluecat]
-* [MAutopan](./effects/MAutopan.md) - [(Melda)][melda]
-* [MCompressor](./effects/MCompressor.md) - [(Melda)][melda]
-* [TDR Slick EQ](./effects/SlickEQ.md) - [(Tokyo Dawn Labs)](tdr)
+The **Effects** zone will avctivate the effect tracks over the channels.
 
-### Instruments
-
-* [CollabB3](https://sampleson.com/collab3-free-tonewheel-organ.html)
+* [Effects](./effects/index.md)
 
 ## Install and usage
 
