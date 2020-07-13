@@ -40,10 +40,12 @@
 
 * [MAutopan](./MAutopan.md)
 * [MCompressor](./MCompressor.md)
+* [MBandPass](./MBandPass.md)
 
 ### Others:
 
 * [TDR Slick EQ](./SlickEQ.md) - [(Tokyo Dawn Labs Website)][tdr]
+* [Molot](./Molot.md) - [(Molot on the Tokyo Dawn Labs Website)][tdr]
 
 ### Instruments
 

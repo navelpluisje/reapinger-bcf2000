@@ -86,7 +86,7 @@ Zone "Buttons|"
   StoreBS                    Reaper "40613"  // Remove closest marker
 
 // Button Learn
-  Learn_Default              NoAction
+  Learn_Default              Reaper "42076"  // Pre fader track metering
   Learn_TS                   NoAction
   Learn_BS                   NoAction
 

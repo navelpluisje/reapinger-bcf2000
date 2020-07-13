@@ -456,7 +456,7 @@ WidgetEnd
 
 // Button Learn
 Widget Learn_Default
-	Press 90 2b 7f
+	Press 90 2b 7f 90 2b 00
 	FB_TwoState 90 2b 7f 90 2b 00
 WidgetEnd
 
@@ -543,7 +543,7 @@ WidgetEnd
 // User Section
 // Button Top Left
 Widget PreviousMarker
-	Press 90 5b 7f
+	Press 90 5b 7f 90 5b 00
 WidgetEnd
 
 // Button TL, TS
@@ -560,7 +560,7 @@ WidgetEnd
 
 // Button Top Right
 Widget NextMarker
-	Press 90 5c 7f
+	Press 90 5c 7f 90 5c 00
 WidgetEnd
 
 // Button TR, TS

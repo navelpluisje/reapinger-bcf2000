@@ -1,0 +1,15 @@
+Zone "VST: MBandPass (MeldaProduction)" "MBandPass"
+	SelectedTrackNavigator
+ 
+	Rotary1         FXParam 0 "Dry/Wet"
+	Rotary2         FXParam 1 "Gain"
+	RotaryPush3     FXParam 2 "HPF enable"    [ 0.0 1.0 ]
+	Rotary3         FXParam 3 "HPF Frequency"
+	Rotary4         FXParam 4 "HPF Q"
+	Option+Rotary4  FXParam 5 "HPF Slope"     [ 0.0>1.0 (0.875) ]
+	RotaryPush5     FXParam 6 "LPF enable"    [ 0.0 1.0 ]
+	Rotary5         FXParam 7 "LPF Frequency"
+	Rotary6         FXParam 8 "LPF Q"
+	Option+Rotary6  FXParam 9 "LPF Slope"     [ 0.0>1.0 (0.875) ]
+	Rotary8         FXParam 17 "Wet"
+ZoneEnd

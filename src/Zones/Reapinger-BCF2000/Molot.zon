@@ -1,0 +1,17 @@
+Zone "VST: Molot (Vladislav Goncharov)" "Molot"
+	SelectedTrackNavigator
+ 
+	Rotary1         FXParam 0  "Filter"
+	Option+Rotary1  FXParam 6  "Limiter"
+	Rotary2         FXParam 3  "Attack"
+	Option+Rotary2  FXParam 8  "Mid Scoop"
+	RotaryPush2     FXParam 12 "Alpha/Sigma" [ 0.0 1.0 ]
+	Rotary3         FXParam 4  "Release"
+	Option+Rotary3  FXParam 10 "Mode"        [ 0.08 0.4 0.73 0.56 0.88 0.24 1 ]
+	Rotary4         FXParam 5  "Ratio"
+	Option+Rotary4  FXParam 11  "Upsampling" [ 0 0.33 0.66 1 ]
+	Rotary5         FXParam 1  "Treshold"
+	Rotary6         FXParam 2  "Knee"
+	Rotary7         FXParam 7  "Makeup"
+	Rotary8         FXParam 9  "Dry/Wet"
+ZoneEnd
