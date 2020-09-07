@@ -42,10 +42,17 @@
 * [MCompressor](./MCompressor.md)
 * [MBandPass](./MBandPass.md)
 
+#### Analog Obsession [(Analog Obsession Website)][analogObsession]
+
+* [LALA](./analogObsessionLala.md)
+* [TREANSATURE](./analogObsessionTransature.md)
+
 ### Others:
 
 * [TDR Slick EQ](./SlickEQ.md) - [(Tokyo Dawn Labs Website)][tdr]
 * [Molot](./Molot.md) - [(Molot on the Tokyo Dawn Labs Website)][tdr]
+* [ValhallaFreqEcho](./ValhallaFreqEcho.md) - [(Valhalla's Website)][valhalla]
+* [Waves CLA-76](./WavesCla-76.md) - [(Waves Website)][waves]
 
 ### Instruments
 
@@ -57,4 +64,7 @@
 [bluecat]: https://www.bluecataudio.com/Products/Bundle_FreewarePack/
 [melda]: https://www.meldaproduction.com/MFreeFXBundle
 [tdr]: https://www.tokyodawn.net/tokyo-dawn-labs/
+[valhalla]: https://valhalladsp.com/
+[waves]: https://www.waves.com/
 [CollabB3]: https://sampleson.com/collab3-free-tonewheel-organ.html
+[analogObsession]: https://www.patreon.com/analogobsession

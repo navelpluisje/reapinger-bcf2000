@@ -1,0 +1,8 @@
+Zone "VST: TRANSATURE (AnalogObsession)" FreqEcho 
+    SelectedTrackNavigator
+    Rotary1             FXParam 0  "Input"
+    RotaryPush2         FXParam 2  "Mode"  [ 0.0 0.33 0.66 1.0 ]
+    Rotary3             FXParam 1  "Output"
+    RotaryPush4         FXParam 3  "Oversampling" [ 0.0 1.0 ]
+    RotaryPush5         FXParam 4  "ByPass" [ 0.0 1.0 ]
+ZoneEnd

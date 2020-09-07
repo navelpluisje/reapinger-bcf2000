@@ -1,0 +1,13 @@
+Zone "VST: LALA (AnalogObsession)" LALA
+    SelectedTrackNavigator
+    Rotary1             FXParam 0  "Gain"
+    RotaryPush1         FXParam 7  "Power" [ 0.0 1.0 ]
+    Rotary2             FXParam 1  "Peak Reduction"
+    RotaryPush2         FXParam 8  "Limit" [ 0.0 1.0 ]
+    Rotary3             FXParam 3  "HPF"
+    RotaryPush3         FXParam 9  "Ext" [ 0.0 1.0 ]
+    Rotary4             FXParam 4  "MF"
+    Rotary5             FXParam 5  "MG"
+    Rotary6             FXParam 2  "HF"
+    Rotary7             FXParam 6  "Mix"
+ZoneEnd
