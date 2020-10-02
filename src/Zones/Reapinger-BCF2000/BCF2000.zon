@@ -15,16 +15,23 @@ ZoneEnd
 Zone "Channel|"
   TrackNavigator
   Option Option
+  DisplayZone         FixedTextDisplay "Channel"
+  DisplayUpper|       TrackNameDisplay
+  DisplayLower|       TrackPanDisplay
+  TrackTouch+DisplayLower| 	TrackVolumeDisplay
+  Option+DisplayLower| 	TrackCycle
+
   RotaryPush|         GoZone PanWidth|
   Rotary|             TrackPan "0"
+  RecArm|             TrackRecordArm
+  Solo|               TrackSolo
   Mute|               TrackMute
+  Select|             TrackUniqueSelect
   Option+Mute|        CycleTrackAutoMode [ 0 1 3 2 4 5 ]
   Option+Hold+Mute|   TrackAutoMode 0
-  Solo|               TrackSolo
-  Select|             TrackUniqueSelect
-  RecArm|             TrackRecordArm
   Fader|              TrackVolume
   FaderTouch|         TrackTouch
+  VUMeter|            TrackOutputMeter
 ZoneEnd
 
 Zone "Transport|"
@@ -50,6 +57,8 @@ Zone "Transport|"
   Play                 Play                // Play / Pause
   Record               Record
   FollowCursor         Reaper     "_3537748bbdcf4f4dbc17d4f304a0574c"
+
+  TimeDisplay TimeDisplay
 ZoneEnd
 
 
@@ -60,8 +69,8 @@ Zone "GroupButtons|"
 /  View     ? Unknown Action // Top Right, Top Shift
 
   / Place for top right button function
-  Track      GoZone Home                   // Go to home. TRhe base for all fun 
-  Send       ToggleMapSelectedTrackSends   // Open send zone for the selected track 
+  Track      GoZone Home                   // Go to home. TRhe base for all fun
+  Send       ToggleMapSelectedTrackSends   // Open send zone for the selected track
   Effects    ToggleMapSelectedTrackFXMenu  // Open the fx zone for the selected track
 ZoneEnd
 
@@ -125,6 +134,10 @@ ZoneEnd
 
 Zone "Send|1-8"
   SelectedTrackNavigator
+  DisplayZone       FixedTextDisplay "Sends"
+  DisplayUpper|     TrackSendNameDisplay
+  DisplayLower|     TrackNameDisplay
+
   Rotary|           TrackSendPan
   RotaryPush|       Reaper "40293"   // View routing and I/O
   Mute|             TrackSendMute
@@ -134,58 +147,75 @@ Zone "Send|1-8"
 ZoneEnd
 
 Zone "FXMenu|1-1"
-	SelectedTrackNavigator 
+  SelectedTrackNavigator
+  DisplayZone     FixedTextDisplay "Effects"
+  DisplayUpper1   FXNameDisplay "1"
+  DisplayUpper2   FXNameDisplay "2"
+  DisplayUpper3   FXNameDisplay "3"
+  DisplayUpper4   FXNameDisplay "4"
+  DisplayUpper5   FXNameDisplay "5"
+  DisplayUpper6   FXNameDisplay "6"
+  DisplayUpper7   FXNameDisplay "7"
+  DisplayUpper8   FXNameDisplay "8"
+  DisplayLower1   NoAction
+  DisplayLower2   NoAction
+  DisplayLower3   NoAction
+  DisplayLower4   NoAction
+  DisplayLower5   NoAction
+  DisplayLower6   NoAction
+  DisplayLower7   NoAction
+  DisplayLower8   NoAction
 
   / Bypass the effects
-	Mute1         Reaper "_S&M_FXBYP1"
-	Mute2         Reaper "_S&M_FXBYP2" 
-	Mute3         Reaper "_S&M_FXBYP3"
-	Mute4         Reaper "_S&M_FXBYP4"
-	Mute5         Reaper "_S&M_FXBYP5"
-	Mute6         Reaper "_S&M_FXBYP6"
-	Mute7         Reaper "_S&M_FXBYP7"
-	Mute8         Reaper "_S&M_FXBYP8"
+  Mute1           Reaper "_S&M_FXBYP1"
+  Mute2           Reaper "_S&M_FXBYP2"
+  Mute3           Reaper "_S&M_FXBYP3"
+  Mute4           Reaper "_S&M_FXBYP4"
+  Mute5           Reaper "_S&M_FXBYP5"
+  Mute6           Reaper "_S&M_FXBYP6"
+  Mute7           Reaper "_S&M_FXBYP7"
+  Mute8           Reaper "_S&M_FXBYP8"
 
   / Open the effewct window and select zone for editing
-	Select1       Reaper "_S&M_SHOWFXCHAIN1" 
-	Select1       GoFXSlot 1 
-  Select2       Reaper "_S&M_SHOWFXCHAIN2" 
-	Select2       GoFXSlot 2 
-  Select3       Reaper "_S&M_SHOWFXCHAIN3" 
-	Select3       GoFXSlot 3 
-  Select4       Reaper "_S&M_SHOWFXCHAIN4" 
-	Select4       GoFXSlot 4 
-  Select5       Reaper "_S&M_SHOWFXCHAIN5" 
-	Select5       GoFXSlot 5 
-  Select6       Reaper "_S&M_SHOWFXCHAIN6" 
-	Select6       GoFXSlot 6 
-  Select7       Reaper "_S&M_SHOWFXCHAIN7" 
-	Select7       GoFXSlot 7 
-  Select8       Reaper "_S&M_SHOWFXCHAIN8" 
-	Select8       GoFXSlot 8 
+  Select1         Reaper "_S&M_SHOWFXCHAIN1"
+  Select1         GoFXSlot 1
+  Select2         Reaper "_S&M_SHOWFXCHAIN2"
+  Select2         GoFXSlot 2
+  Select3         Reaper "_S&M_SHOWFXCHAIN3"
+  Select3         GoFXSlot 3
+  Select4         Reaper "_S&M_SHOWFXCHAIN4"
+  Select4         GoFXSlot 4
+  Select5         Reaper "_S&M_SHOWFXCHAIN5"
+  Select5         GoFXSlot 5
+  Select6         Reaper "_S&M_SHOWFXCHAIN6"
+  Select6         GoFXSlot 6
+  Select7         Reaper "_S&M_SHOWFXCHAIN7"
+  Select7         GoFXSlot 7
+  Select8         Reaper "_S&M_SHOWFXCHAIN8"
+  Select8         GoFXSlot 8
 
   / Some global actions
-  Store_Default Reaper  "_S&M_SHOWFXCHAINSEL"  // open the channel fx chain window
-  Edit_Default  Reaper  "_S&M_SELFXPREV"       // Select the previous effect
-  Learn_Default Reaper  "_S&M_HIDEFXCHAIN"     // hide the channel fx chain window
-  Exit_Default  Reaper  "_S&M_SELFXNEXT"       // Select the next effect
+  Store_Default   Reaper  "_S&M_SHOWFXCHAINSEL"  // open the channel fx chain window
+  Edit_Default    Reaper  "_S&M_SELFXPREV"       // Select the previous effect
+  Learn_Default   Reaper  "_S&M_HIDEFXCHAIN"     // hide the channel fx chain window
+  Exit_Default    Reaper  "_S&M_SELFXNEXT"       // Select the next effect
 
   / Reset the rotaries and faders
-	RotaryPush1   NoAction 
-	RotaryPush2   NoAction
-	RotaryPush3   NoAction
-	RotaryPush4   NoAction
-	RotaryPush5   NoAction
-	RotaryPush6   NoAction
-	RotaryPush7   NoAction
-	RotaryPush8   NoAction
-	Fader1        NoAction 
-	Fader2        NoAction 
-	Fader3        NoAction 
-	Fader4        NoAction 
-	Fader5        NoAction 
-	Fader6        NoAction 
-	Fader7        NoAction 
-	Fader8        NoAction 
+  RotaryPush1     NoAction
+  RotaryPush2     NoAction
+  RotaryPush3     NoAction
+  RotaryPush4     NoAction
+  RotaryPush5     NoAction
+  RotaryPush6     NoAction
+  RotaryPush7     NoAction
+  RotaryPush8     NoAction
+  Fader1          NoAction
+  Fader2          NoAction
+  Fader3          NoAction
+  Fader4          NoAction
+  Fader5          NoAction
+  Fader6          NoAction
+  Fader7          NoAction
+  Fader8          NoAction
 ZoneEnd
 

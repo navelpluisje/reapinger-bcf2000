@@ -1,32 +1,59 @@
-Zone "AU: TDR VOS SlickEQ (Tokyo Dawn Labs)" SlickEQ 
-    SelectedTrackNavigator
-    Option Option
-    Rotary1             FXParam 10 "HP Freq"
-    Fader2              FXParam 0  "Low Gain"
-    RotaryPush2         FXParam 2  "Low Shape"     [ 0.0 1.0 ]
-    Option+RotaryPush2  FXParam 16 "Low Bypass"    [ 0.0 1.0 ]
-    Rotary2             FXParam 1  "Low Freq"
-    Fader3              FXParam 3  "Mid Gain"
-    Rotary3             FXParam 4  "Mid Freq"
-    Option+RotaryPush3  FXParam 17 "Mid Bypass"    [ 0.0 1.0 ]
-    Fader4              FXParam 5  "High Gain"
-    RotaryPush4         FXParam 7  "High Shape"    [ 0.0 1.0 ]
-    Rotary4             FXParam 6  "High Freq"
-    Option+RotaryPush4  FXParam 18 "High Bypass"   [ 0.0 1.0 ]
-    Rotary5             FXParam 8  "EQ Model"
-    RotaryPush5         FXParam 9  "EQ Saturation" [ 0.0 1.0 ]
-    Rotary8             FXParam 13 "Gain Out"
-    Option+Rotary8      FXParam 12 "Drive Out"
-    RotaryPush8         FXParam 14 "ByPass"        [ 0.0 1.0 ]
-    Option+RotaryPush8  FXParam 19 "Auto Gain"     [ 0.0 1.0 ]
+Zone "VST: TDR VOS SlickEQ (Tokyo Dawn Labs)" SlickEQ
+  SelectedTrackNavigator
+  Option Option
+  DisplayZone         FixedTextDisplay "SlickEQ"
 
-    / Rest all the other stuff    
-	Fader1 NoAction 
-	Fader5 NoAction 
-	Fader6 NoAction 
-	Fader7 NoAction 
-	Fader8 NoAction 
-	Rotary6 NoAction
-	Rotary7 NoAction
+  Rotary1             FXParam 10 "HP Freq"
+  DisplayUpper1       FXParamNameDisplay 10 "HP Freq"
+
+  Fader2              FXParam 0  "Low Gain"
+  DisplayLower2       FXParamNameDisplay 0 "Low Gain"
+
+  RotaryPush2         FXParam 2  "Low Shape"     [ 0.0 1.0 ]
+  Option+RotaryPush2  FXParam 16 "Low Bypass"    [ 0.0 1.0 ]
+  Rotary2             FXParam 1  "Low Freq"
+  DisplayUpper2       FXParamNameDisplay 1 "Low Freq"
+
+  Fader3              FXParam 3  "Mid Gain"
+  DisplayLower3       FXParamNameDisplay 3 "Mid Gain"
+
+  Rotary3             FXParam 4  "Mid Freq"
+  Option+RotaryPush3  FXParam 17 "Mid Bypass"    [ 0.0 1.0 ]
+  DisplayUpper3       FXParamNameDisplay 4 "Mid Freq"
+
+  Fader4              FXParam 5  "High Gain"
+  DisplayLower4       FXParamNameDisplay 5 "High Gain"
+
+  RotaryPush4         FXParam 7  "High Shape"    [ 0.0 1.0 ]
+  Rotary4             FXParam 6  "High Freq"
+  Option+RotaryPush4  FXParam 18 "High Bypass"   [ 0.0 1.0 ]
+  DisplayUpper4       FXParamNameDisplay 7 "High Freq"
+
+  Rotary5             FXParam 8  "EQ Model"
+  RotaryPush5         FXParam 9  "EQ Saturation" [ 0.0 1.0 ]
+  DisplayUpper5       FXParamNameDisplay 8 "EQ model"
+
+  Rotary8             FXParam 13 "Gain Out"
+  Option+Rotary8      FXParam 12 "Drive Out"
+  RotaryPush8         FXParam 14 "ByPass"        [ 0.0 1.0 ]
+  Option+RotaryPush8  FXParam 19 "Auto Gain"     [ 0.0 1.0 ]
+  DisplayUpper8       FXParamNameDisplay 13 "Gain out"
+  Option+DisplayUpper8  FXParamNameDisplay 12 "Drive out"
+
+  / Rest all the other stuff
+  Fader1 NoAction
+  DisplayLower1       FixedTextDisplay ""
+  Fader5 NoAction
+  DisplayLower5       FixedTextDisplay ""
+  Fader6 NoAction
+  DisplayLower6       FixedTextDisplay ""
+  Fader7 NoAction
+  DisplayLower7       FixedTextDisplay ""
+  Fader8 NoAction
+  DisplayLower8       FixedTextDisplay ""
+  Rotary6 NoAction
+  DisplayUpper6       FixedTextDisplay ""
+  Rotary7 NoAction
+  DisplayUpper7       FixedTextDisplay ""
 
 ZoneEnd
