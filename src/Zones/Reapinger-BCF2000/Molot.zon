@@ -1,6 +1,6 @@
 Zone "VST: Molot (Vladislav Goncharov)" "Molot"
 	SelectedTrackNavigator
- 
+
 	Rotary1         FXParam 0  "Filter"
 	Option+Rotary1  FXParam 6  "Limiter"
 	Rotary2         FXParam 3  "Attack"

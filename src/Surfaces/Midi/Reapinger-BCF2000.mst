@@ -369,42 +369,41 @@ Widget Fader8
 WidgetEnd
 
 Widget FaderTouch1
-	Press 90 68 7f
+	Press 90 68 7f 90 68 00
 WidgetEnd
 
 Widget FaderTouch2
-	Press 90 69 7f
+	Press 90 69 7f 90 69 00
 WidgetEnd
 
 Widget FaderTouch3
-	Press 90 6a 7f
+	Press 90 6a 7f 90 6a 00
 WidgetEnd
 
 Widget FaderTouch4
-	Press 90 6b 7f
+	Press 90 6b 7f 90 6b 00
 WidgetEnd
 
 Widget FaderTouch5
-	Press 90 6c 7f
+	Press 90 6c 7f 90 6c 00
 WidgetEnd
 
 Widget FaderTouch6
-	Press 90 6d 7f
+	Press 90 6d 7f 90 6d 00
 WidgetEnd
 
 Widget FaderTouch7
-	Press 90 6e 7f
+	Press 90 6e 7f 90 6e 00
 WidgetEnd
 
 Widget FaderTouch8
-	Press 90 6f 7f
+	Press 90 6f 7f 90 6f 00
 WidgetEnd
 
 // Top Section under Display. The 2 left ones are shift buttons
 // Top Default
 Widget Option
 	Press 90 29 7f 90 29 00
-	FB_TwoState 90 29 7f 90 29 00
 WidgetEnd
 
 // Top, Top Shift
@@ -713,7 +712,74 @@ Widget DisplayLower8
 	FB_MCUDisplayLower 7
 WidgetEnd
 
+Widget DisplayAddUpper1
+	FB_MCUXTDisplayUpper 0
+WidgetEnd
+
+Widget DisplayAddUpper2
+	FB_MCUXTDisplayUpper 1
+WidgetEnd
+
+Widget DisplayAddUpper3
+	FB_MCUXTDisplayUpper 2
+WidgetEnd
+
+Widget DisplayAddUpper4
+	FB_MCUXTDisplayUpper 3
+WidgetEnd
+
+Widget DisplayAddUpper5
+	FB_MCUXTDisplayUpper 4
+WidgetEnd
+
+Widget DisplayAddUpper6
+	FB_MCUXTDisplayUpper 5
+WidgetEnd
+
+Widget DisplayAddUpper7
+	FB_MCUXTDisplayUpper 6
+WidgetEnd
+
+Widget DisplayAddUpper8
+	FB_MCUXTDisplayUpper 7
+WidgetEnd
+
+Widget DisplayAddLower1
+	FB_MCUXTDisplayLower 0
+WidgetEnd
+
+Widget DisplayAddLower2
+	FB_MCUXTDisplayLower 1
+WidgetEnd
+
+Widget DisplayAddLower3
+	FB_MCUXTDisplayLower 2
+WidgetEnd
+
+Widget DisplayAddLower4
+	FB_MCUXTDisplayLower 3
+WidgetEnd
+
+Widget DisplayAddLower5
+	FB_MCUXTDisplayLower 4
+WidgetEnd
+
+Widget DisplayAddLower6
+	FB_MCUXTDisplayLower 5
+WidgetEnd
+
+Widget DisplayAddLower7
+	FB_MCUXTDisplayLower 6
+WidgetEnd
+
+Widget DisplayAddLower8
+	FB_MCUXTDisplayLower 7
+WidgetEnd
 // Abusing some MCUXT displays for the Scribble-D
-Widget DisplayZone
+Widget DisplayZone1
 	FB_C4DisplayUpper 0 0
+WidgetEnd
+
+Widget DisplayEffect1
+	FB_C4DisplayUpper 0 1
 WidgetEnd

@@ -15,11 +15,10 @@ ZoneEnd
 Zone "Channel|"
   TrackNavigator
   Option Option
-  DisplayZone         FixedTextDisplay "Channel"
+  DisplayZone1        FixedTextDisplay "Channel"
   DisplayUpper|       TrackNameDisplay
   DisplayLower|       TrackPanDisplay
   TrackTouch+DisplayLower| 	TrackVolumeDisplay
-  Option+DisplayLower| 	TrackCycle
 
   RotaryPush|         GoZone PanWidth|
   Rotary|             TrackPan "0"
@@ -123,20 +122,23 @@ ZoneEnd
 Zone "Pan|1-8"
   TrackNavigator
   Rotary|           TrackPan "0"
+  DisplayLower|     TrackPanDisplay
   RotaryPush|       GoZone PanWidth|
 ZoneEnd
 
 Zone "PanWidth|1-8"
   TrackNavigator
   Rotary|           TrackPanWidth "1"
+  DisplayLower|     TrackPanWidthDisplay
   RotaryPush|       GoZone Pan|
 ZoneEnd
 
 Zone "Send|1-8"
   SelectedTrackNavigator
-  DisplayZone       FixedTextDisplay "Sends"
-  DisplayUpper|     TrackSendNameDisplay
-  DisplayLower|     TrackNameDisplay
+  DisplayZone|      FixedTextDisplay "Sends"
+  DisplayUpper|     TrackNameDisplay
+  DisplayLower|     TrackSendNameDisplay
+  DisplayAddUpper|  TrackSendVolumeDisplay
 
   Rotary|           TrackSendPan
   RotaryPush|       Reaper "40293"   // View routing and I/O
@@ -148,7 +150,7 @@ ZoneEnd
 
 Zone "FXMenu|1-1"
   SelectedTrackNavigator
-  DisplayZone     FixedTextDisplay "Effects"
+  DisplayZone1    FixedTextDisplay "Effects"
   DisplayUpper1   FXNameDisplay "1"
   DisplayUpper2   FXNameDisplay "2"
   DisplayUpper3   FXNameDisplay "3"
