@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=h1, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Reapinger BCF2000</h1>
+
+  <!-- What -->
+  <section>
+    <h2>¿What is supported?</h2>
+
+    <p>
+      The next effects and instruments are currently supported. Most of them need some more testing and some more finetuning for the values.
+    </p>
+    <h3><a href="#home-zone">Home Zone</a></h3>
+    <ul>
+      <li><a href="#channel">Channel</a></li>
+      <li><a href="#group-buttons">GroupButton(s)</a></li>
+      <li><a href="#buttons">Buttons</a></li>
+      <li><a href="#preset-buttons">PresetButtons</a></li>
+      <li><a href="#transport">Transport</a></li>
+    </ul>
+
+    <h3>Sends</h3>
+    <p>
+      The Sends zone will avctivate the send tracks over the channels.
+    </p>
+    <ul>
+      <li><a href="#sends-zone">Sends</a></li>
+    </ul>
+
+    <h3>Effects</h3>
+    <p>
+      The Effects zone will avctivate the effect tracks over the channels.
+    </p>
+    <ul>
+      <li><a href="#effects">Effects</a></li>
+    </ul>
+
+    <h3>Install and usage</h3>
+    <ul>
+      <li><a href="#install">Installation</a></li>
+    </ul>
+  </section>
+  <hr>
+
+  <!-- Installation instruction -->
+  <section>
+    <h2>Installation</h2>
+
+  </section>
+
+  <!-- Naming of th edifferent controles of the BCF2000 -->
+  <section>
+    <h2>Naming</h2>
+    <p>A small list of the names of the elements and their location on the BCF2000. They are grouped per location</p>
+    <h3>Channel</h3>
+    <ul>
+      <li>Rotary: The Rotary encoder</li>
+      <li>RotaryPush: A puch/click on the Rotary</li>
+      <li>Top Button: The top button of the channel</li>
+      <li>Bottom Button: The bottom button of the channel</li>
+      <li>Fader: The fader ;-)</li>
+    </ul>
+
+    <h3>Top right button group</h3>
+    <p>The 4 buttons located under the display</p>
+    <ul>
+      <li>Top Shift(TS): The top left button</li>
+      <li>Bottom Shift(BS): The bottom left button</li>
+      <li>Option: The top right button</li>
+      <li>Botton Right: The bottom right button</li>
+    </ul>
+
+    <h3>Programm buttons</h3>
+    <p>The top 4 buttons located next to the slider</p>
+    <ul>
+      <li>Store: The top left button</li>
+      <li>Learn: The top right button</li>
+      <li>Edit: The bottom left button</li>
+      <li>Exit: The bottom right button</li>
+    </ul>
+
+    <h3>Preset buttons</h3>
+    <p>The 2 buttons group located in the center next to the slider</p>
+    <ul>
+      <li>Preset Left: The left button</li>
+      <li>Preset Right: The right button</li>
+    </ul>
+
+    <h3>Transport buttons</h3>
+    <p>The bottom 4 buttons located next to the slider</p>
+    <ul>
+      <li>Previous: The top left button</li>
+      <li>Next: The top right button</li>
+      <li>Stop: The bottom left button</li>
+      <li>Play: The bottom right button</li>
+    </ul>
+  </section>
+  <hr>
+
+  <!-- The Zones -->
+  <section>
+    <h2 id="home-zone">Home Zone</h2>
+    <h3 id="channel">Channel</h3>
+    <p>
+      The channel uses the next elements of the BCF2000:
+    </p>
+    <ul>
+      <li>Rotary: Panning or Width of the panning</li>
+      <li>RotaryPush: Toggles between the Panning and Widtth mode of the encoder</li>
+      <li>Top Button: Mute track</li>
+      <li>TS+Top Button: Solo Track</li>
+      <li>Option+Top Button: Set Automation mode (toggles through options)</li>
+      <li>Option+Hold+Top Button: Set Automation mode Trim/Read</li>
+      <li>Bottom Button: Select Track</li>
+      <li>TS+Bottom Button: RecArm track</li>
+      <li>Fader: Set Track Volume</li>
+    </ul>
+    <h3 id="buttons">Group Buttons</h3>
+    <p>Buttons with general purposes</p>
+    <ul>
+      <li>Store: Add marker at current position</li>
+      <li>Hold+Store: Edit current marker</li>
+      <li>BS+Store: Remove closets maerker</li>
+      <li>Learn: Toggle Pre-fader track metering</li>
+      <li>Edit: Save the project</li>
+      <li>TS+Edit: Undo ste/action</li>
+      <li>BS+Edit: Redo undone step/action</li>
+      <li>Exit: Unsolo all channels</li>
+    </ul>
+    <p>There are more options, but need custom actions. Will add them to the project</p>
+    <h3 id="preset-buttons">Preset Buttons</h3>
+    <p>Some of these actions require teh next actions: _XENAKIOS_SELPREVTRACK and _XENAKIOS_SELNEXTTRACK. Both of them are installable by reapack</p>
+    <ul>
+      <li>Preset Left: Shift Bank Left</li>
+      <li>TS+Preset Left: Shift Channel Left</li>
+      <li>BS+Preset Left: Select Previous Track</li>
+      <li>Preset Right: Shift Bank Right</li>
+      <li>TS+Preset Right: Shift Channel Right</li>
+      <li>BS+Preset Right: Select Next Track</li>
+    </ul>
+    <h3 id="transport">Transport Buttons</h3>
+    <ul>
+      <li>Top Left: Go to previous Marker</li>
+      <li>Hold+Top Left: Go to Project Start</li>
+      <li>TS+Top Left: Scroll step Backward</li>
+      <li>BS+Top Left: Go to Project Start</li>
+      <li>Top Right: Go to next Marker</li>
+      <li>Hold+Top Right: Go to Project End</li>
+      <li>TS+Top Right: Scroll step Forward</li>
+      <li>BS+Top Right: Go to Project End</li>
+      <li>Bottom Left: Stop</li>
+      <li>TS+Bottom Left: Toggle Cycle / Repeat</li>
+      <li>BS+Bottom Left: Toggle Metronome</li>
+      <li>BS+Hold+Bottom Left: Open Metronome Settings</li>
+      <li>Bottom Right: Play / Pause</li>
+      <li>TS+Bottom Right: Record</li>
+      <li>BS+Bottom Right: Toggle Follow Cursor (custom action)</li>
+    </ul>
+  </section>
+  <hr>
+
+  <!-- Send Zone -->
+  <section>
+    <h2 id="sends-zone">Sends Zone</h2>
+    <p>
+      Control the sends of the actice channel.
+    </p>
+    <ul>
+      <li>Rotary: Set send panning</li>
+      <li>RotaryPush: View routing and I/O</li>
+      <li>Top Button: Mute send</li>
+      <li>Bottom Button: Select Track</li>
+      <li>Fader: Set Send Volume</li>
+    </ul>
+  </section>
+
+  <!-- Effects Zone -->
+  <section>
+    <h2 id="effects-zone">Effects Zone</h2>
+    <p>
+      Control the effects of the actice channel.
+    </p>
+    <ul>
+      <li>Rotary: Set send panning</li>
+      <li>RotaryPush: View routing and I/O</li>
+      <li>Top Button: Mute send</li>
+      <li>Bottom Button: Select Track</li>
+      <li>Fader: Set Send Volume</li>
+    </ul>
+  </section>
+</body>
+</html>
