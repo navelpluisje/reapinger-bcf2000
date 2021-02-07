@@ -4,13 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=h1, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    * {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  </style>
 </head>
 <body>
   <h1>Reapinger BCF2000</h1>
 
+  <nav role="navigation" aria-label="Main">
+    <ul>
+      <li><a href="#what">What is supported</a></li>
+      <li><a href="#installation">Installation</a></li>
+      <li><a href="#namig">Naming</a></li>
+    </ul>
+  </nav>
   <!-- What -->
   <section>
-    <h2>¿What is supported?</h2>
+    <h2 id="what">¿What is supported?</h2>
+    <nav role="navigation" aria-label="Supported">
+      <ul>
+        <li><a href="#what-home">Home Zone</a></li>
+        <li><a href="#what-sends">Sends</a></li>
+        <li><a href="#what-effects">Effects</a></li>
+      </ul>
+    </nav>
 
     <p>
       The next effects and instruments are currently supported. Most of them need some more testing and some more finetuning for the values.
@@ -24,7 +43,7 @@
       <li><a href="#transport">Transport</a></li>
     </ul>
 
-    <h3>Sends</h3>
+    <h3 id="what-sends">Sends</h3>
     <p>
       The Sends zone will avctivate the send tracks over the channels.
     </p>
@@ -32,30 +51,25 @@
       <li><a href="#sends-zone">Sends</a></li>
     </ul>
 
-    <h3>Effects</h3>
+    <h3 id="what-effects">Effects</h3>
     <p>
       The Effects zone will avctivate the effect tracks over the channels.
     </p>
     <ul>
-      <li><a href="#effects">Effects</a></li>
-    </ul>
-
-    <h3>Install and usage</h3>
-    <ul>
-      <li><a href="#install">Installation</a></li>
+      <li><a href="#effects-zone">Effects</a></li>
     </ul>
   </section>
   <hr>
 
   <!-- Installation instruction -->
   <section>
-    <h2>Installation</h2>
+    <h2 id="installation">Installation</h2>
 
   </section>
 
   <!-- Naming of th edifferent controles of the BCF2000 -->
   <section>
-    <h2>Naming</h2>
+    <h2 id="naming">Naming</h2>
     <p>A small list of the names of the elements and their location on the BCF2000. They are grouped per location</p>
     <h3>Channel</h3>
     <ul>
@@ -183,15 +197,387 @@
   <section>
     <h2 id="effects-zone">Effects Zone</h2>
     <p>
-      Control the effects of the actice channel.
+      The effects zone uses the Mute and Select buttons. Reason for this is that most effects use the rotary encoders.
+      This way the Mute buttons can still bypass the other effects and while pressing another Select button, the corresponding effect will get triggered.
     </p>
     <ul>
-      <li>Rotary: Set send panning</li>
-      <li>RotaryPush: View routing and I/O</li>
-      <li>Top Button: Mute send</li>
-      <li>Bottom Button: Select Track</li>
-      <li>Fader: Set Send Volume</li>
+      <li>Top Button: Toggle Bypass of the effect</li>
+      <li>Bottom Button: Open effect window and go to corresponding zone</li>
     </ul>
+    <p>The next effects are currently avaiable, grouped by developer</p>
+    <dd>
+      <dt>ReaPlugs</dt>
+      <dd><a href="#reaplugs-reacomp">ReaComp</a></dd>
+      <dd><a href="#reaplugs-reaeq">ReaEq</a></dd>
+      <dt>Blue Cat</dt>
+      <dd><a href="#bluecat-chorus">Blue Cat Chorus</a></dd>
+      <dd><a href="#bluecat-flanger">Blue Cat Flanger</a></dd>
+      <dd><a href="#bluecat-phaser">Blue Cat Phaser</a></dd>
+      <dd><a href="#bluecat-gain">Blue Cat Gain</a></dd>
+      <dd><a href="#bluecat-tripple-eq">Blue Cat Tripple Eq</a></dd>
+      <dd><a href="#bluecat-freq-analyst">Blue Cat Freq Analyst</a></dd>
+      <dd><a href="#bluecat-free-amp">Blue Cat Free Amp</a></dd>
+      <dt>Melda Productions</dt>
+      <dd><a href="#mp-mautopan">MAutopan</a></dd>
+      <dd><a href="#mp-mcompressor">MCompressor</a></dd>
+      <dd><a href="#mp-mbandpass">MBandpass</a></dd>
+      <dt>Analog Obsession</dt>
+      <dd><a href="#ao-lala">LALA</a></dd>
+      <dd><a href="#ao-treansature">TREANSATURE</a></dd>
+      <dt>Valhalla</dt>
+      <dd><a href="#valhalla-freqecho">FreqEcho</a></dd>
+      <dt>Tokyo Dawn Labs</dt>
+      <dd><a href="#tdl-slick-eq">Slick EQ</a></dd>
+      <dd><a href="#tdl-molot">Molot</a></dd>
+      <dt>Waves</dt>
+      <dd><a href="#waves-cla76">CLA-76</a></dd>
+    </dd>
+  </section>
+
+  <!-- The Effects -->
+  <section>
+    <h2>Effects</h2>
+
+    <!-- ReaComp -->
+    <article>
+      <h3 id="reaplugs-reacomp">ReaComp</h3>
+      <ul>
+        <li>Rotary 1: Input</li>
+        <li>Rotary 2: LowPass</li>
+        <li>Rotary 3: HighPass</li>
+        <li>Rotary 4: RMS Size</li>
+        <li>Rotary 5: Limit Output</li>
+        <li>RotaryPush 1: Auto Release</li>
+        <li>RotaryPush 2: Classic Attack</li>
+        <li>RotaryPush 3: Pre Filter</li>
+        <li>RotaryPush 3: Auto Makup</li>
+        <li>Fader 1: Tresshold</li>
+        <li>Fader 2: Pre Comp</li>
+        <li>Fader 3: Attack</li>
+        <li>Fader 4: Release</li>
+        <li>Fader 5: Ratio</li>
+        <li>Fader 6: Knee</li>
+        <li>Fader 7: Wet</li>
+        <li>Fader 8: Dry</li>
+      </ul>
+    </article>
+
+    <!-- ReaEq -->
+    <article>
+      <h3 id="reaplugs-reaeq">ReaEq</h3>
+      <ul>
+        <li>Rotary 1: Frequency 1</li>
+        <li>Rotary 2: Frequency 2</li>
+        <li>Rotary 3: Frequency 3</li>
+        <li>Rotary 4: Frequency 4</li>
+        <li>Option+Rotary 1: Q1</li>
+        <li>Option+Rotary 2: Q2</li>
+        <li>Option+Rotary 3: Q3</li>
+        <li>Option+Rotary 4: Q4</li>
+        <li>Fader 1: Gain 1</li>
+        <li>Fader 2: Gain 2</li>
+        <li>Fader 3: Gain 3</li>
+        <li>Fader 4: Gain 4</li>
+      </ul>
+    </article>
+
+    <!-- Blue Cat Chorus -->
+    <article>
+      <h3 id="bluecat-chorus">Blue Cat Chorus</h3>
+      <p>
+        The Blue Cat Chorus is availablein 2 versions: the mono and stereo version.
+        The Spread control therefore is only available for the stereo version.
+      </p>
+      <ul>
+        <li>Rotary 1: Gain</li>
+        <li>Rotary 2: Delay</li>
+        <li>Rotary 3: Depth</li>
+        <li>Rotary 4: Rate</li>
+        <li>Rotary 5: Spread</li>
+        <li>Rotary 6: Dry</li>
+        <li>Rotary 7: Wet</li>
+        <li>RotaryPush 1: Bypass</li>
+        <li>RotaryPush 8: Shape</li>
+      </ul>
+    </article>
+
+    <!-- Blue Cat Flanger -->
+    <article>
+      <h3 id="bluecat-flanger">Blue Cat Flanger</h3>
+      <p>
+        The Blue Cat Flanger is availablein 2 versions: the mono and stereo version.
+        The Spread control therefore is only available for the stereo version.
+      </p>
+      <ul>
+        <li>Rotary 1: Gain</li>
+        <li>Rotary 2: Delay</li>
+        <li>Rotary 3: Depth</li>
+        <li>Rotary 4: Rate</li>
+        <li>Rotary 5: Spread</li>
+        <li>Rotary 6: Dry</li>
+        <li>Rotary 7: Feed Forward</li>
+        <li>Rotary 8: Feedback</li>
+        <li>RotaryPush 1: Bypass</li>
+        <li>RotaryPush 8: Shape</li>
+      </ul>
+    </article>
+
+    <!-- Blue Cat Phaser -->
+    <article>
+      <h3 id="bluecat-phaser">Blue Cat Phaser</h3>
+      <p>
+        The Blue Cat Phaser is availablein 2 versions: the mono and stereo version.
+        The Spread control therefore is only available for the stereo version.
+      </p>
+      <ul>
+        <li>Rotary 1: Gain</li>
+        <li>Rotary 2: Stages</li>
+        <li>Rotary 3: Depth</li>
+        <li>Rotary 4: Rate</li>
+        <li>Rotary 5: Spread</li>
+        <li>Rotary 6: Dry</li>
+        <li>Rotary 7: Wet</li>
+        <li>Rotary 8: Feedback</li>
+        <li>RotaryPush 1: Bypass</li>
+        <li>RotaryPush 8: Shape</li>
+      </ul>
+    </article>
+
+    <!-- Blue Cat Gain -->
+    <article>
+      <h3 id="bluecat-gain">Blue Cat Gain (Mono version)</h3>
+      <ul>
+        <li>Rotary 1: Gain</li>
+        <li>RotaryPush 1: On/Off</li>
+      </ul>
+      <h3>Blue Cat Gain (Dual version)</h3>
+      <ul>
+        <li>Rotary 1: Gain Left</li>
+        <li>Rotary 1: Gain Right</li>
+        <li>RotaryPush 1: On/Off</li>
+        <li>RotaryPush 1: Stereo Mode</li>
+      </ul>
+    </article>
+
+    <!-- Blue Cat Tripple EQ -->
+    <article>
+      <h3 id="bluecat-tripple-eq">Blue Cat Tripple EQ (Mono/Stereo Version)</h3>
+      <ul>
+        <li>Rotary 1: Gain</li>
+        <li>Rotary 2: Frequency</li>
+        <li>Rotary 3: Bandwidth</li>
+        <li>Rotary 4: Low</li>
+        <li>Rotary 5: Mid</li>
+        <li>Rotary 6: High</li>
+        <li>RotaryPush 1: Bypass</li>
+      </ul>
+      <h3>Blue Cat Tripple EQ (Dual Version)</h3>
+      <ul>
+        <li>Rotary 1: Gain</li>
+        <li>Rotary 2: Frequency</li>
+        <li>Rotary 3: Bandwidth</li>
+        <li>Rotary 4: Low</li>
+        <li>Rotary 5: Mid</li>
+        <li>Rotary 6: High</li>
+        <li>Opion+Rotary 1: Gain 2</li>
+        <li>Opion+Rotary 2: Frequency 2</li>
+        <li>Opion+Rotary 3: Bandwidth 2</li>
+        <li>Opion+Rotary 4: Low 2</li>
+        <li>Opion+Rotary 5: Mid 2</li>
+        <li>Opion+Rotary 6: High 2</li>
+        <li>RotaryPush 1: Bypass</li>
+      </ul>
+    </article>
+
+    <!-- Blue Cat Frequency Analyst -->
+    <article>
+      <h3 id="bluecat-freq-analyst">Blue Cat Frequency Analyst</h3>
+      <p>
+        Both the mono and the stereo version have the same controlls
+      </p>
+      <ul>
+        <li>Rotary 1: Precision</li>
+        <li>Rotary 2: Speed</li>
+        <li>Rotary 3: Attack</li>
+        <li>Rotary 4: Release</li>
+        <li>Rotary 5: Peek Reset</li>
+        <li>Rotary 6: Absolute</li>
+        <li>Rotary 7: Relative</li>
+        <li>RotaryPush 1: Bypass</li>
+      </ul>
+    </article>
+
+    <!-- Blue Cat Free Amp -->
+    <article>
+      <h3 id="bluecat-free-amp">Blue Cat Free Amp</h3>
+      <p>
+        Both the mono and the stereo version have the same controlls
+      </p>
+      <ul>
+        <li>Rotary 1: Gain</li>
+        <li>Rotary 2: Drive</li>
+        <li>Rotary 3: Bass</li>
+        <li>Rotary 4: Mid</li>
+        <li>Rotary 5: Treble</li>
+        <li>Rotary 6: Tone</li>
+        <li>Rotary 7: Volume</li>
+        <li>RotaryPush 1: Bypass</li>
+        <li>RotaryPush 8: Model</li>
+      </ul>
+    </article>
+
+    <!-- Melda Productions MAutopan -->
+    <article>
+      <h3 id="mp-mautopan">MAutoPan</h3>
+      <ul>
+        <li>Rotary 1: Depth</li>
+        <li>Rotary 2: Rate</li>
+        <li>Rotary 3: Pan</li>
+        <li>Rotary 4: Sync Length</li>
+        <li>Rotary 5: Sync Type</li>
+        <li>Rotary 6: Sync Phase</li>
+        <li>RotaryPush 3: LFO Override</li>
+        <li>RotaryPush 4: Synchronise</li>
+      </ul>
+    </article>
+
+    <!-- Melda Productions MCompressor -->
+    <article>
+      <h3 id="mp-mcompressor">MCompressor</h3>
+      <ul>
+        <li>Rotary 1: Input</li>
+        <li>Rotary 2: Gain</li>
+        <li>Rotary 3: Attack</li>
+        <li>Rotary 4: Release</li>
+        <li>Rotary 5: RMS</li>
+        <li>Rotary 6: Treshhold</li>
+        <li>Rotary 7: Ratio</li>
+        <li>Rotary 8: Knee</li>
+        <li>RotaryPush 8: Knee Mode</li>
+      </ul>
+    </article>
+
+    <!-- Melda Productions MBandPass-->
+    <article>
+      <h3 id="mp-mbandpass">MBandPass</h3>
+      <ul>
+        <li>Rotary 1: Dry/Wet</li>
+        <li>Rotary 2: Gain</li>
+        <li>Rotary 3: HPF Frequency</li>
+        <li>Rotary 4: HPF Q</li>
+        <li>Rotary 5: LPF Frequency</li>
+        <li>Rotary 6: LPF Q</li>
+        <li>Rotary 8: Wet</li>
+        <li>Option+Rotary 4: HPF Slop</li>
+        <li>Option+Rotary 6: LPF Slope</li>
+        <li>RotaryPush 3: HPF Enable</li>
+        <li>RotaryPush 5: LPF Enable</li>
+      </ul>
+    </article>
+
+    <!-- Analog Obsession LALA-->
+    <article>
+      <h3 id="ao-lala">Analog Obsession LALA</h3>
+      <ul>
+        <li>Rotary 1: Gain</li>
+        <li>Rotary 2: Peak reduction</li>
+        <li>Rotary 3: HPF</li>
+        <li>Rotary 4: MF</li>
+        <li>Rotary 5: MG</li>
+        <li>Rotary 6: HF</li>
+        <li>Rotary 7: Mix</li>
+        <li>RotaryPush 1: Power</li>
+        <li>RotaryPush 2: Limit</li>
+        <li>RotaryPush 3: Ext</li>
+      </ul>
+    </article>
+
+    <!-- Analog Obsession TREANSATURE-->
+    <article>
+      <h3 id="ao-treansature">Analog Obsession TREANSATURE</h3>
+      <ul>
+        <li>Rotary 1: Input</li>
+        <li>Rotary 3: Output</li>
+        <li>RotaryPush 2: Mode</li>
+        <li>RotaryPush 4: Oversample</li>
+        <li>RotaryPush 5: Bypass</li>
+      </ul>
+    </article>
+
+    <!-- Valhalla FreqEcho-->
+    <article>
+      <h3 id="valhalla-freqecho">Valhalla FreqEcho</h3>
+      <ul>
+        <li>Rotary 1: Mix</li>
+        <li>Rotary 2: Delay</li>
+        <li>Rotary 3: Shift</li>
+        <li>Rotary 4: Feedback</li>
+        <li>Rotary 5: Low Cut</li>
+        <li>Rotary 6: High Cut</li>
+        <li>RotaryPush 1: Mode</li>
+        <li>Fader 2: Sync</li>
+      </ul>
+    </article>
+
+    <!-- TDL Slick EQ-->
+    <article>
+      <h3 id="tdl-slick-eq">TDL Slick EQ</h3>
+      <ul>
+        <li>Rotary 1: HP Frequency</li>
+        <li>Rotary 2: Low Frequency</li>
+        <li>Rotary 3: Mid Frequency</li>
+        <li>Rotary 4: High Frequency</li>
+        <li>Rotary 5: EQ model</li>
+        <li>Rotary 8: Gain Out</li>
+        <li>Option+Rotary 8: Gain Out</li>
+        <li>RotaryPush 2: Low Shape</li>
+        <li>RotaryPush 4: High Shape</li>
+        <li>RotaryPush 5: EQ Saturation</li>
+        <li>RotaryPush 8: Bypass</li>
+        <li>Option+RotaryPush 2: Low Bypass</li>
+        <li>Option+RotaryPush 3: Mid Bypass</li>
+        <li>Option+RotaryPush 4: High Bypass</li>
+        <li>Option+RotaryPush 8: Auto Gain</li>
+        <li>Fader 2: Low Gain</li>
+        <li>Fader 3: Mid Gain</li>
+        <li>Fader 4: High Gain</li>
+      </ul>
+    </article>
+
+    <!-- TDL molot-->
+    <article>
+      <h3 id="tdl-molot">TDL Molot</h3>
+      <ul>
+        <li>Rotary 1: Filter</li>
+        <li>Rotary 2: Attack</li>
+        <li>Rotary 3: Release</li>
+        <li>Rotary 4: Ratio</li>
+        <li>Rotary 5: Treshhold</li>
+        <li>Rotary 6: Knee</li>
+        <li>Rotary 7: Makeup</li>
+        <li>Option+Rotary 1: Limiter</li>
+        <li>Option+Rotary 2: Mid Scoop</li>
+        <li>Option+Rotary 3: Mode</li>
+        <li>Option+Rotary 4: Upsampling</li>
+        <li>RotaryPush 2: Alpha/Sigma</li>
+      </ul>
+    </article>
+
+    <!-- Waves CLA 76-->
+    <article>
+      <h3 id="waves-cla76">Waves CLA 76</h3>
+      <ul>
+        <li>Rotary 1: Input</li>
+        <li>Rotary 2: Output</li>
+        <li>Rotary 3: Attack</li>
+        <li>Rotary 4: Release</li>
+        <li>RotaryPush 1: Mode</li>
+        <li>RotaryPush 5: Ratio</li>
+        <li>RotaryPush 6: Meter</li>
+        <li>RotaryPush 7: Analog</li>
+        <li>RotaryPush 8: Revision</li>
+      </ul>
+    </article>
   </section>
 </body>
 </html>
