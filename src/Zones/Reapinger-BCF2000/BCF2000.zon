@@ -1,39 +1,37 @@
-Zone Home
-  OnTrackSelection MapSelectedTrackSendsToWidgets
-  OnTrackSelection MapSelectedTrackFXToMenu
-  OnFXFocus MapFocusedFXToWidgets
-
+Zone Home  
   IncludedZones
-    "GroupButtons|"
-    "Buttons|"
-    "PresetButtons|"
-    "Transport|"
-    "Channel|1-8"
+    "GroupButtons"
+    "Buttons"
+    "PresetButtons"
+    "Transport"
+    "Channel"
   IncludedZonesEnd
 ZoneEnd
 
-Zone "Channel|"
+Zone "Channel"
   TrackNavigator
   Option Option
+
+  // Some display stuff
   DisplayZone1        FixedTextDisplay "Channel"
   DisplayUpper|       TrackNameDisplay
-  DisplayLower|       TrackPanDisplay
+  DisplayLower|       MCUTrackPanDisplay Rotary|
   TrackTouch+DisplayLower| 	TrackVolumeDisplay
+  VUMeter|            TrackOutputMeter
 
-  RotaryPush|         GoZone PanWidth|
-  Rotary|             TrackPan "0"
-  RecArm|             TrackRecordArm
-  Solo|               TrackSolo
+  // The channel controls
+  Rotary|             MCUTrackPan
   Mute|               TrackMute
-  Select|             TrackUniqueSelect
   Option+Mute|        CycleTrackAutoMode [ 0 1 3 2 4 5 ]
   Option+Hold+Mute|   TrackAutoMode 0
+  Solo|               TrackSolo
+  Select|             TrackUniqueSelect
+  RecArm|             TrackRecordArm
   Fader|              TrackVolume
   FaderTouch|         TrackTouch
-  VUMeter|            TrackOutputMeter
 ZoneEnd
 
-Zone "Transport|"
+Zone "Transport"
   / Top left button
   PreviousMarker       Reaper     "40172"  // Go to the previous Marker
   Hold+PreviousMarker  Reaper     "40042"  // Go to the project start
@@ -57,41 +55,39 @@ Zone "Transport|"
   Record               Record
   FollowCursor         Reaper     "_3537748bbdcf4f4dbc17d4f304a0574c"
 
-  TimeDisplay TimeDisplay
+  TimeDisplay          TimeDisplay
 ZoneEnd
 
 
 / The encoder group buttons
-Zone "GroupButtons|"
-/  Master   ? Show the master fader
-/  Flip     ? Unknown Action // Top right button
-/  View     ? Unknown Action // Top Right, Top Shift
-
+Zone "GroupButtons"
   / Place for top right button function
-  Track      GoZone Home                   // Go to home. TRhe base for all fun
-  Send       ToggleMapSelectedTrackSends   // Open send zone for the selected track
-  Effects    ToggleMapSelectedTrackFXMenu  // Open the fx zone for the selected track
+  Track      GoZone "Home"                    // Go to home. TRhe base for all fun
+  Send       MapSelectedTrackSendsToWidgets   // Open send zone for the selected track
+  Effects    MapSelectedTrackFXToMenu         // Open the fx zone for the selected track
 ZoneEnd
 
 
-Zone "PresetButtons|"
-// Buttons Preset
+Zone "PresetButtons"
+  // Buttons Preset
   BankLeft             TrackBank "-8"
   ChannelLeft          TrackBank "-1"
   SelectPrevTrack      Reaper "_XENAKIOS_SELPREVTRACK"
+  SelectPrevTrack      TrackBank "-1"
 
   BankRight            TrackBank "8"
   ChannelRight         TrackBank "1"
   SelectNextTrack      Reaper "_XENAKIOS_SELNEXTTRACK"
+  SelectNextTrack      TrackBank "1"
 ZoneEnd
 
 
-Zone "Buttons|"
+Zone "Buttons"
   Option Option
 // Button Store
   Store_Default              Reaper "40157"  // Add marker at current position
   Hold+Store_Default         Reaper "40614"  // Edit current marker
-  StoreBS                    Reaper "40613"  // Remove closest marker
+  Store_BS                   Reaper "40613"  // Remove closest marker
 
 // Button Learn
   Learn_Default              Reaper "42076"  // Pre fader track metering
@@ -119,22 +115,9 @@ Zone "Buttons|"
   ShowAllTracks              Reaper "_RS491b66b86139ece8e5cf7979b00ea71d0b23fc31"
 ZoneEnd
 
-Zone "Pan|1-8"
-  TrackNavigator
-  Rotary|           TrackPan "0"
-  DisplayLower|     TrackPanDisplay
-  RotaryPush|       GoZone PanWidth|
-ZoneEnd
 
-Zone "PanWidth|1-8"
-  TrackNavigator
-  Rotary|           TrackPanWidth "1"
-  DisplayLower|     TrackPanWidthDisplay
-  RotaryPush|       GoZone Pan|
-ZoneEnd
-
-Zone "Send|1-8"
-  SelectedTrackNavigator
+Zone "Send"
+  SendNavigator
   DisplayZone|      FixedTextDisplay "Sends"
   DisplayUpper|     TrackNameDisplay
   DisplayLower|     TrackSendNameDisplay
@@ -148,76 +131,15 @@ Zone "Send|1-8"
   FaderTouch|       TrackTouch
 ZoneEnd
 
-Zone "FXMenu|1-1"
-  SelectedTrackNavigator
-  DisplayZone1    FixedTextDisplay "Effects"
-  DisplayUpper1   FXNameDisplay "1"
-  DisplayUpper2   FXNameDisplay "2"
-  DisplayUpper3   FXNameDisplay "3"
-  DisplayUpper4   FXNameDisplay "4"
-  DisplayUpper5   FXNameDisplay "5"
-  DisplayUpper6   FXNameDisplay "6"
-  DisplayUpper7   FXNameDisplay "7"
-  DisplayUpper8   FXNameDisplay "8"
-  DisplayLower1   NoAction
-  DisplayLower2   NoAction
-  DisplayLower3   NoAction
-  DisplayLower4   NoAction
-  DisplayLower5   NoAction
-  DisplayLower6   NoAction
-  DisplayLower7   NoAction
-  DisplayLower8   NoAction
 
-  / Bypass the effects
-  Mute1           Reaper "_S&M_FXBYP1"
-  Mute2           Reaper "_S&M_FXBYP2"
-  Mute3           Reaper "_S&M_FXBYP3"
-  Mute4           Reaper "_S&M_FXBYP4"
-  Mute5           Reaper "_S&M_FXBYP5"
-  Mute6           Reaper "_S&M_FXBYP6"
-  Mute7           Reaper "_S&M_FXBYP7"
-  Mute8           Reaper "_S&M_FXBYP8"
-
-  / Open the effewct window and select zone for editing
-  Select1         Reaper "_S&M_SHOWFXCHAIN1"
-  Select1         GoFXSlot 1
-  Select2         Reaper "_S&M_SHOWFXCHAIN2"
-  Select2         GoFXSlot 2
-  Select3         Reaper "_S&M_SHOWFXCHAIN3"
-  Select3         GoFXSlot 3
-  Select4         Reaper "_S&M_SHOWFXCHAIN4"
-  Select4         GoFXSlot 4
-  Select5         Reaper "_S&M_SHOWFXCHAIN5"
-  Select5         GoFXSlot 5
-  Select6         Reaper "_S&M_SHOWFXCHAIN6"
-  Select6         GoFXSlot 6
-  Select7         Reaper "_S&M_SHOWFXCHAIN7"
-  Select7         GoFXSlot 7
-  Select8         Reaper "_S&M_SHOWFXCHAIN8"
-  Select8         GoFXSlot 8
-
-  / Some global actions
-  Store_Default   Reaper  "_S&M_SHOWFXCHAINSEL"  // open the channel fx chain window
-  Edit_Default    Reaper  "_S&M_SELFXPREV"       // Select the previous effect
-  Learn_Default   Reaper  "_S&M_HIDEFXCHAIN"     // hide the channel fx chain window
-  Exit_Default    Reaper  "_S&M_SELFXNEXT"       // Select the next effect
-
-  / Reset the rotaries and faders
-  RotaryPush1     NoAction
-  RotaryPush2     NoAction
-  RotaryPush3     NoAction
-  RotaryPush4     NoAction
-  RotaryPush5     NoAction
-  RotaryPush6     NoAction
-  RotaryPush7     NoAction
-  RotaryPush8     NoAction
-  Fader1          NoAction
-  Fader2          NoAction
-  Fader3          NoAction
-  Fader4          NoAction
-  Fader5          NoAction
-  Fader6          NoAction
-  Fader7          NoAction
-  Fader8          NoAction
+Zone "FXMenu"
+    FXMenuNavigator
+    DisplayZone|      FixedTextDisplay "Effects"
+    DisplayUpper|     FXMenuNameDisplay
+    DisplayLower|     NoAction
+    Rotary|           NoAction
+    RotaryPush|       NoAction
+    Mute|             Reaper _S&M_FXBYP|
+    Select|           GoFXSlot
+    Select|           Reaper _S&M_SHOWFXCHAIN|
 ZoneEnd
-
