@@ -1,5 +1,6 @@
-Zone "VST: MCompressor (MeldaProduction)" MCompressor
+Zone "VST: MCompressor (MeldaProduction)" "MCompressor"
   SelectedTrackNavigator
+  
   Option Option
   DisplayZone1     FixedTextDisplay "Effect"
   DisplayEffect1   FixedTextDisplay "MCompressor"

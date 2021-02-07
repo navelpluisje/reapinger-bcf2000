@@ -3,81 +3,81 @@
 Widget Rotary1
 	Encoder b0 10 7f
 	FB_Encoder b0 10 7f
+	Toggle 90 20 7f
 WidgetEnd
 
 Widget Rotary2
 	Encoder b0 11 7f
 	FB_Encoder b0 11 7f
+	Toggle 90 21 7f
 WidgetEnd
 
 Widget Rotary3
 	Encoder b0 12 7f
 	FB_Encoder b0 12 7f
+	Toggle 90 22 7f
 WidgetEnd
 
 Widget Rotary4
 	Encoder b0 13 7f
 	FB_Encoder b0 13 7f
+	Toggle 90 23 7f
 WidgetEnd
 
 Widget Rotary5
 	Encoder b0 14 7f
 	FB_Encoder b0 14 7f
+	Toggle 90 24 7f
 WidgetEnd
 
 Widget Rotary6
 	Encoder b0 15 7f
 	FB_Encoder b0 15 7f
+	Toggle 90 25 7f
 WidgetEnd
 
 Widget Rotary7
 	Encoder b0 16 7f
 	FB_Encoder b0 16 7f
+	Toggle 90 26 7f
 WidgetEnd
 
 Widget Rotary8
 	Encoder b0 17 7f
 	FB_Encoder b0 17 7f
+	Toggle 90 27 7f
 WidgetEnd
 
 Widget RotaryPush1
-	Press 90 20 7f
-	FB_TwoState 90 20 7f 90 20 00
+	Press 90 20 7f 90 20 00
 WidgetEnd
 
 Widget RotaryPush2
-	Press 90 21 7f
-	FB_TwoState 90 21 7f 90 21 00
+	Press 90 21 7f 90 21 00
 WidgetEnd
 
 Widget RotaryPush3
-	Press 90 22 7f
-	FB_TwoState 90 22 7f 90 22 00
+	Press 90 22 7f 90 22 00
 WidgetEnd
 
 Widget RotaryPush4
-	Press 90 23 7f
-	FB_TwoState 90 23 7f 90 23 00
+	Press 90 23 7f 90 23 00
 WidgetEnd
 
 Widget RotaryPush5
-	Press 90 24 7f
-	FB_TwoState 90 24 7f 90 24 00
+	Press 90 24 7f 90 24 00
 WidgetEnd
 
 Widget RotaryPush6
-	Press 90 25 7f
-	FB_TwoState 90 25 7f 90 25 00
+	Press 90 25 7f 90 25 00
 WidgetEnd
 
 Widget RotaryPush7
-	Press 90 26 7f
-	FB_TwoState 90 26 7f 90 26 00
+	Press 90 26 7f 90 26 00
 WidgetEnd
 
 Widget RotaryPush8
-	Press 90 27 7f
-	FB_TwoState 90 27 7f 90 27 00
+	Press 90 27 7f 90 27 00
 WidgetEnd
 // End Rotary
 
@@ -441,7 +441,7 @@ WidgetEnd
 // Middle Section
 // Button Store
 Widget Store_Default
-	Press 90 2c 7f
+	Press 90 2c 7f 90 2c 00
 	FB_TwoState 90 2c 7f 90 2c 00
 WidgetEnd
 
@@ -582,7 +582,7 @@ WidgetEnd
 
 // Button BL, TS
 Widget Metronome
-	Press 90 59 7f
+	Press 90 59 7f 90 59 00
 	FB_TwoState 90 59 7f 90 59 00
 WidgetEnd
 
