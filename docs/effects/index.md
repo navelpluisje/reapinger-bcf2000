@@ -44,15 +44,15 @@
 
 #### Analog Obsession [(Analog Obsession Website)][analogObsession]
 
-* [LALA](./analogObsessionLala.md)
-* [TREANSATURE](./analogObsessionTransature.md)
+* [LALA](./AnalogObsessionLala.md)
+* [TREANSATURE](./AnalogObsessionTransature.md)
 
 ### Others:
 
 * [TDR Slick EQ](./SlickEQ.md) - [(Tokyo Dawn Labs Website)][tdr]
 * [Molot](./Molot.md) - [(Molot on the Tokyo Dawn Labs Website)][tdr]
 * [ValhallaFreqEcho](./ValhallaFreqEcho.md) - [(Valhalla's Website)][valhalla]
-* [Waves CLA-76](./WavesCla-76.md) - [(Waves Website)][waves]
+* [Waves CLA-76](./WavesCla76.md) - [(Waves Website)][waves]
 
 ### Instruments
 
