@@ -1,4 +1,4 @@
-Zone Home  
+Zone Home
   IncludedZones
     "GroupButtons"
     "Buttons"
@@ -141,5 +141,5 @@ Zone "FXMenu"
     RotaryPush|       NoAction
     Mute|             Reaper _S&M_FXBYP|
     Select|           GoFXSlot
-    Select|           Reaper _S&M_SHOWFXCHAIN|
+    Select|           Reaper _S&M_TOGLFLOATFX|
 ZoneEnd
