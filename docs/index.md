@@ -6,7 +6,7 @@
 
 ---
 
-A repo contains the [MIDI surface][csi-surface] and zone files to let the [Behringer BCF2000](bcf2000) communicate like a madman with [Reaper][reaper].
+A repo containing the [MIDI surface][csi-surface] and zone files to let the [Behringer BCF2000](bcf2000) communicate like a madman with [Reaper][reaper].
 It contains the default mappings as send and several effects.
 
 ---

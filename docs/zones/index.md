@@ -11,7 +11,7 @@ The zones are divideed into 3 group of zones:
 ### Track Zones
 
 * [Channel](./Channel.md)
-* [GroupButton(s)](./zones/Group.md)
+* [GroupButton(s)](./Group.md)
 * [Buttons](./Buttons.md)
 * [PresetButtons](./Presets.md)
 * [Transport](./Transport.md)
