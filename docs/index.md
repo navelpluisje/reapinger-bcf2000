@@ -12,6 +12,12 @@ It contains the default mappings as send and several effects.
 ---
 
 ---
+
+## Install and usage
+
+* [Installation](./install.md)
+
+
 ## ¿What is supported?
 
 The next effects and instruments are currently supported. Most of them need some more testing and some more finetuning for the values.
@@ -35,10 +41,6 @@ The **Sends** zone will avctivate the send tracks over the channels.
 The **Effects** zone will avctivate the effect tracks over the channels.
 
 * [Effects](./effects/index.md)
-
-## Install and usage
-
-* [Installation](./install.md)
 
 ## Others
 

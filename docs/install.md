@@ -6,9 +6,21 @@
 
 ---
 
+## Emulation Mode
+
+The Behringer BCF2000 needs to be in MCU mode to function with these files. MCU mode can be entered by following the next steps
+
+* Power of the BCF2000
+* Hold down the second button of the top row (Row under the encoders)
+* While holding down the button, power up the BCF2000
+
+You should be in MCU mode now.
+
+>There's also a video on this on [ReaperBlog](https://reaperblog.net/2015/04/behringer-bcf2000-basic-setup-in-reaper/). Jon tells you exactly how to do so.
+
 ## Copy the files
 
-If you are here and want to install these files, I presume you already did teh steps for installimng CSI. If not, [install CSI first](https://github.com/malcolmgroves/reaper_csi/wiki/Installation). For now stop at step 5. We will pick up later from here
+If you are here and want to install these files, I presume you already did the steps for installimng CSI. If not, [install CSI first](https://github.com/malcolmgroves/reaper_csi/wiki/Installation). For now stop after step 5. We will pick up later from here
 
 Here the steps for instaling Reapinger BCF2000:
 
@@ -32,10 +44,9 @@ CSI/
 
 ## Install the Surface and Zones
 
-First of all, the Behringer BCF2000 should be set to MCU mode. This [video on ReaberBlog](https://reaperblog.net/2015/04/behringer-bcf2000-basic-setup-in-reaper/) tells you exactly how to do so.
+Now we can continue with the installation steps as statet on the CSI wiki pages. There are 2 differences:
 
-Now we can conrtinue with th einstallation steps as state mon the CSI wiki pages. There are 2 differences:
-
+* **Step 11**: Choose `Add Midi`
 * **Step 13**: For both the Surface and Zones we need to select `Reapinger-BCF2000`. Also check the `Auto Map Focussed Effects` checkbox.
 
 And you're done.
