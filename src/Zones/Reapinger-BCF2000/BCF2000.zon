@@ -105,6 +105,7 @@ Zone "Buttons"
   Exit_BS                    NoAction
 
 //Show Hide mixer groups
+// The Id's may differ from the ones you have.
   ShowDrumTracks             Reaper "_RSc429de8016e96de1bab0936bf348eecd37febbec"
   ShowBassTracks             Reaper "_RS7c9ee3225d95e1a583ed75adcbf960ff2001a215"
   ShowGuitarTracks           Reaper "_RSda248e6e2bae001b25df9630fcf02e0e5c4a6bd0"
@@ -133,13 +134,13 @@ ZoneEnd
 
 
 Zone "FXMenu"
-    FXMenuNavigator
-    DisplayZone|      FixedTextDisplay "Effects"
-    DisplayUpper|     FXMenuNameDisplay
-    DisplayLower|     NoAction
-    Rotary|           NoAction
-    RotaryPush|       NoAction
-    Mute|             Reaper _S&M_FXBYP|
-    Select|           GoFXSlot
-    Select|           Reaper _S&M_TOGLFLOATFX|
+  FXMenuNavigator
+  DisplayZone|      FixedTextDisplay "Effects"
+  DisplayUpper|     FXMenuNameDisplay
+  DisplayLower|     NoAction
+  Rotary|           NoAction
+  RotaryPush|       NoAction
+  Mute|             Reaper _S&M_FXBYP|
+  Select|           GoFXSlot
+  Select|           Reaper _S&M_TOGLFLOATFX|
 ZoneEnd

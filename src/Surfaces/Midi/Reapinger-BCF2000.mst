@@ -450,7 +450,7 @@ WidgetEnd
 
 // Button Store, Bottom Shift
 Widget Store_BS
-	Press 90 4b 7f
+	Press 90 4b 7f 90 4b 00
 WidgetEnd
 
 // Button Learn

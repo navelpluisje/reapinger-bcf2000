@@ -50,7 +50,3 @@ The **Effects** zone will avctivate the effect tracks over the channels.
 [reaper]: https://reaper.fm
 [csi-surface]: https://github.com/malcolmgroves/reaper_csi/wiki/Defining-Control-Surface-Capabilities
 [bcf2000]: https://www.behringer.com/Categories/Behringer/Computer-Audio/Desktop-Controllers/BCF2000/p/P0246#googtrans(en|en)
-[reaplugs]: http://reaper.fm/reaplugs/
-[bluecat]: https://www.bluecataudio.com/Products/Bundle_FreewarePack/
-[melda]: https://www.meldaproduction.com/MFreeFXBundle
-[tdr]: https://www.tokyodawn.net/tokyo-dawn-labs/
