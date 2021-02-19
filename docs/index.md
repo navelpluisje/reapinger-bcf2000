@@ -20,7 +20,8 @@ It contains the default mappings as send and several effects.
 
 ## ¿What is supported?
 
-The next effects and instruments are currently supported. Most of them need some more testing and some more finetuning for the values.
+The next effects and instruments are currently supported. Some of them need some more testing and some more finetuning for the values.
+If you find faults or so ever, let me know so I can improve the files.
 
 ### Zones
 
@@ -43,6 +44,9 @@ The **Effects** zone will avctivate the effect tracks over the channels.
 * [Effects](./effects/index.md)
 
 ## Others
+
+Everyone is welcome to contribute, so this can grow to support more and more effects, instruments, etc.
+If you have any request and do not know how to make it? Let me know and I will try to help you out.
 
 * [Credits](./credits.md)
 * Licence: MIT
