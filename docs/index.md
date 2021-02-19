@@ -13,6 +13,8 @@ It contains the default mappings as send and several effects.
 
 ---
 
+> [Screenreaderfriendly version](./screenreader)
+
 ## Install and usage
 
 * [Installation](./install.md)
