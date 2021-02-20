@@ -44,13 +44,13 @@ CSI/
 
 ## Install the Surface and Zones
 
-Now we can continue with the installation steps as statet on the CSI wiki pages. There are 2 differences:
+Now we can continue with the installation steps as statet on the CSI wiki pages. There are a couple of steps defined below:
 
 * **Step 11**: Choose `Add Midi`
 * **Step 12**: The number of channels is: 8
 * **Step 13**: The number of sends is 8
 * **Step 14**: The number of effects is 8
-* **Step 16**: For both the Surface and Zones we need to select `Reapinger-BCF2000`. Also check the `Auto Map Focussed Effects` checkbox.
+* **Step 16**: For both the Surface and Zones we need to select `Reapinger-BCF2000`.
 
 And you're done.
 
