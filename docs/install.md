@@ -20,7 +20,7 @@ You should be in MCU mode now.
 
 ## Copy the files
 
-If you are here and want to install these files, I presume you already did the steps for installimng CSI. If not, [install CSI first](https://github.com/malcolmgroves/reaper_csi/wiki/Installation). For now stop after step 5. We will pick up later from here
+If you are here and want to install these files, I presume you already did the steps for installimng CSI. If not, [install CSI first](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Installation). For now stop after step 5. We will pick up later from here
 
 Here the steps for instaling Reapinger BCF2000:
 
@@ -47,7 +47,10 @@ CSI/
 Now we can continue with the installation steps as statet on the CSI wiki pages. There are 2 differences:
 
 * **Step 11**: Choose `Add Midi`
-* **Step 13**: For both the Surface and Zones we need to select `Reapinger-BCF2000`. Also check the `Auto Map Focussed Effects` checkbox.
+* **Step 12**: The number of channels is: 8
+* **Step 13**: The number of sends is 8
+* **Step 14**: The number of effects is 8
+* **Step 16**: For both the Surface and Zones we need to select `Reapinger-BCF2000`. Also check the `Auto Map Focussed Effects` checkbox.
 
 And you're done.
 
