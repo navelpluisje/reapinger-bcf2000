@@ -64,7 +64,64 @@
   <!-- Installation instruction -->
   <section>
     <h2 id="installation">Installation</h2>
+    <h3>Emulation Mode</h3>
+    <p>
+      The Behringer BCF2000 needs to be in MCU mode to function with these files. MCU mode can be entered by following the next steps
+    </p>
+    <ul>
+      <li>Power of the BCF2000</li>
+      <li>Hold down the second button of the top row (Row under the encoders)</li>
+      <li>While holding down the button, power up the BCF2000</li>
+    </ul>
+    <p>
+      You should be in MCU mode now.
+    </p>
+    <blockquote>
+      There's also a video on this on <a href="https://reaperblog.net/2015/04/behringer-bcf2000-basic-setup-in-reaper/">ReaperBlog</a>. Jon tells you exactly how to do so.
+    </blockquote>
 
+    <h3>Copy the files</h3>
+    <p>
+      If you are here and want to install these files, I presume you already did the steps for installimng CSI. If not, [install CSI first](https://github.com/GeoffAWaddington/reaper_csurf_integrator/wiki/Installation). For now stop after step 5. We will pick up later from here
+    </p>
+    <p>
+      Here the steps for instaling Reapinger BCF2000:
+    </p>
+    <ul>
+      <li>Open the CSI folder in Finder, Explorer, or whatever application you are using for browsing files.</li>
+      <li>Copy the `Reapinger-BCF2000.mst` file in the Surfaces/Midi folder to the Surfaces/Midi folder in CSI.</li>
+      <li>Copy the `Reapinger-BCF2000` folder in the Zones folder to the Zones folder in CSI.</li>
+      <li>The folder structure should look like below</li>
+    </ul>
+    <pre>
+      CSI/
+      ├── Surfaces/
+      │   ├── Midi/
+      │       ├── Reapinger-BCF2000.mst
+      │       └── Other files.mst
+      ├── Zones/
+      │   ├── Reapinger-BCF2000/
+      │   │   └── Reapinger-zon-files
+      │   └── bootstrap.min.js
+      └── Other CSI Folders/
+    </pre>
+
+    <h3>Install the Surface and Zones</h3>
+    <p>
+      Now we can continue with the installation steps as statet on the CSI wiki pages. There are a couple of steps defined below:
+    </p>
+    <ul>
+      <li>
+        <strong>Step 11:</strong> Choose `Add Midi`
+        <strong>Step 12:</strong> The number of channels is: 8
+        <strong>Step 13:</strong> The number of sends is 8
+        <strong>Step 14:</strong> The number of effects is 8
+        <strong>Step 16:</strong> For both the Surface and Zones we need to select `Reapinger-BCF2000`
+      </li>
+    </ul>
+    <p>
+      And you're done.
+    </p>
   </section>
 
   <!-- Naming of th edifferent controles of the BCF2000 -->
