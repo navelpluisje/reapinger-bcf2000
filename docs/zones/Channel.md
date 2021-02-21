@@ -17,6 +17,8 @@
 |           |           | X         |           | Top Button | Set Automation mode (toggles through options) |
 |           |           | X         | X         | Top Button | Set Automation mode Trim/Read |
 |           |           |           |           | Bottom Button | Select Track |
+|           |           | X         |           | Bottom Button | Select Track Range |
+| X         |           | X         |           | Bottom Button | Add Track to selection |
 | X         |           |           |           | Bottom Button | Set recArm for Track |
 |           |           |           |           | Fader | Set track volume |
 |           |           |           |           | FaderTouch | TrackTouch |

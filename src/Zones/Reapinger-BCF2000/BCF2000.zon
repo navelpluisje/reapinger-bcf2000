@@ -26,8 +26,11 @@ Zone "Channel"
   Option+Hold+Mute|   TrackAutoMode 0
   Solo|               TrackSolo
   Select|             TrackUniqueSelect
+  Option+Select|      TrackRangeSelect
   RecArm|             TrackRecordArm
+  Option+RecArm|      TrackSelect
   Fader|              TrackVolume
+  FaderTouch+Fader|   TrackVolume
   FaderTouch|         TrackTouch
 ZoneEnd
 
@@ -142,5 +145,6 @@ Zone "FXMenu"
   RotaryPush|       NoAction
   Mute|             Reaper _S&M_FXBYP|
   Select|           GoFXSlot
+  Select|           Reaper "_S&M_WNCLS5"
   Select|           Reaper _S&M_TOGLFLOATFX|
 ZoneEnd
