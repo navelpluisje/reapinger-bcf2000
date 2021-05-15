@@ -19,6 +19,8 @@ It contains the default mappings as send and several effects.
 
 * [Installation](./install.md)
 
+Also check out this [video by Reaperblog](https://reaperblog.net/2021/03/csi-reapinger/) about CSI and Reapinger BCF2000
+
 
 ## ¿What is supported?
 

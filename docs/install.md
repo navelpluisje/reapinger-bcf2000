@@ -6,6 +6,10 @@
 
 ---
 
+## Download the files
+
+The files can be downloaded from [Reaper Stash](https://stash.reaper.fm/v/39995/reapinger-BCF2000-v0.0.3.zip) or from [Github](https://github.com/navelpluisje/reapinger-bcf2000/releases/tag/v0.1.1).
+
 ## Emulation Mode
 
 The Behringer BCF2000 needs to be in MCU mode to function with these files. MCU mode can be entered by following the next steps
