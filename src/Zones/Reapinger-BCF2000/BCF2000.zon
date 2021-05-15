@@ -8,16 +8,19 @@ Zone Home
   IncludedZonesEnd
 ZoneEnd
 
-Zone "Channel"
+Zone Channel
   TrackNavigator
   Option Option
 
   // Some display stuff
-  DisplayZone1        FixedTextDisplay "Channel"
-  DisplayUpper|       TrackNameDisplay
-  DisplayLower|       MCUTrackPanDisplay Rotary|
-  TrackTouch+DisplayLower| 	TrackVolumeDisplay
+  DisplayZone         FixedTextDisplay "Channel"
+  DisplayUpperA|      TrackNameDisplay
+  DisplayLowerA|      MCUTrackPanDisplay Rotary|
   VUMeter|            TrackOutputMeter
+  LedMute|            TrackMute
+  LedSolo|            TrackSolo
+  LedSelect|          TrackUniqueSelect
+  LedRecArm|          TrackRecordArm
 
   // The channel controls
   Rotary|             MCUTrackPan
@@ -28,13 +31,14 @@ Zone "Channel"
   Select|             TrackUniqueSelect
   Option+Select|      TrackRangeSelect
   RecArm|             TrackRecordArm
-  Option+RecArm|      TrackSelect
+  Option+RecArm|      TrackSelect  
   Fader|              TrackVolume
+  DisplayUpperB|      TrackVolumeDisplay
   FaderTouch+Fader|   TrackVolume
   FaderTouch|         TrackTouch
 ZoneEnd
 
-Zone "Transport"
+Zone Transport
   / Top left button
   PreviousMarker       Reaper     "40172"  // Go to the previous Marker
   Hold+PreviousMarker  Reaper     "40042"  // Go to the project start
@@ -42,28 +46,29 @@ Zone "Transport"
   GoToProjectStart     Reaper     "40042"  // Go to the project start
 
   / Top right button
-  NextMarker           Reaper     "40173"  // Go to the next marker
-  Hold+NextMarker      Reaper     "40043"  // Go to the project end
+  NextMarker           Reaper     "40173"  // Go to the next marker?
+  Hold+NextMarker      Reaper     "40043"  // Go to the project end?
   ScrollForward        Reaper     "40085"  // Step through project
   GoToProjectEnd       Reaper     "40043"  // Go to the project end
 
   / Bottom left button
   Stop                 Stop                // Stop
   Cycle                CycleTimeline       // Toggle Cycle (repeat/loop)
+  LedCycle             CycleTimeline
   Metronome            Reaper     "40364"  // Toggle the Metronome
   Hold+Metronome       Reaper     "40363"  // Open Metronome Settings
 
   / Bottom right button
   Play                 Play                // Play / Pause
+  LedPlay              Play
   Record               Record
+  LedRecord            Record
   FollowCursor         Reaper     "_3537748bbdcf4f4dbc17d4f304a0574c"
-
-  TimeDisplay          TimeDisplay
 ZoneEnd
 
 
 / The encoder group buttons
-Zone "GroupButtons"
+Zone GroupButtons
   / Place for top right button function
   Track      GoZone "Home"                    // Go to home. TRhe base for all fun
   Send       MapSelectedTrackSendsToWidgets   // Open send zone for the selected track
@@ -71,21 +76,21 @@ Zone "GroupButtons"
 ZoneEnd
 
 
-Zone "PresetButtons"
+Zone PresetButtons
   // Buttons Preset
   BankLeft             TrackBank "-8"
   ChannelLeft          TrackBank "-1"
-  SelectPrevTrack      Reaper "_XENAKIOS_SELPREVTRACK"
+  SelectPrevTrack      Reaper    "_XENAKIOS_SELPREVTRACK"
   SelectPrevTrack      TrackBank "-1"
 
   BankRight            TrackBank "8"
   ChannelRight         TrackBank "1"
-  SelectNextTrack      Reaper "_XENAKIOS_SELNEXTTRACK"
+  SelectNextTrack      Reaper    "_XENAKIOS_SELNEXTTRACK"
   SelectNextTrack      TrackBank "1"
 ZoneEnd
 
 
-Zone "Buttons"
+Zone Buttons
   Option Option
 // Button Store
   Store_Default              Reaper "40157"  // Add marker at current position
@@ -120,12 +125,13 @@ Zone "Buttons"
 ZoneEnd
 
 
-Zone "Send"
+Zone Send
   SendNavigator
   DisplayZone|      FixedTextDisplay "Sends"
-  DisplayUpper|     TrackNameDisplay
-  DisplayLower|     TrackSendNameDisplay
-  DisplayAddUpper|  TrackSendVolumeDisplay
+  DisplayUpperA|    TrackNameDisplay
+  DisplayLowerA|    TrackSendNameDisplay
+  DisplayUpperB|    TrackSendVolumeDisplay
+  DisplayUpperB|    NoAction
 
   Rotary|           TrackSendPan
   RotaryPush|       Reaper "40293"   // View routing and I/O
@@ -136,15 +142,19 @@ Zone "Send"
 ZoneEnd
 
 
-Zone "FXMenu"
+Zone FXMenu
   FXMenuNavigator
-  DisplayZone|      FixedTextDisplay "Effects"
-  DisplayUpper|     FXMenuNameDisplay
-  DisplayLower|     NoAction
+  DisplayZone       FixedTextDisplay "Effects"
+  DisplayUpperA|    FXMenuNameDisplay
+  DisplayLowerA|    NoAction
+  DisplayABUpper|   NoAction
+  DisplayABower|    NoAction
   Rotary|           NoAction
   RotaryPush|       NoAction
+  Fader|            NoAction
   Mute|             Reaper _S&M_FXBYP|
   Select|           GoFXSlot
   Select|           Reaper "_S&M_WNCLS5"
-  Select|           Reaper _S&M_TOGLFLOATFX|
+  Select|           Reaper _S&M_FLOATFX|
+  Hold+Select|      Reaper _S&M_UNFLOATFX|
 ZoneEnd

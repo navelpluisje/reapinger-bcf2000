@@ -1,0 +1,29 @@
+{
+  "name": "reapinger-bcf2000",
+  "version": "0.0.1",
+  "description": "Zone and Surface files for the Behringer BCF 2000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./scripts/build.js dev",
+    "build": "./scripts/build.js",
+    "watch": "./scripts/build.js watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navelpluisje/reapinger-bcf2000.git"
+  },
+  "keywords": [
+    "Reaper",
+    "Theme"
+  ],
+  "author": "Erwin Goossen <erwin@navelpluisje.nl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navelpluisje/reapinger-bcf2000/issues"
+  },
+  "homepage": "https://navelpluisje.github.io/reapinger-bcf2000/",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0"
+  }
+}

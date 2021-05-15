@@ -205,42 +205,42 @@ WidgetEnd
 
 // Bottom Row Default
 Widget Select1
-	Press 90 18 7f
+	Press 90 18 7f 90 18 00
 	FB_TwoState 90 18 7f 90 18 00
 WidgetEnd
 
 Widget Select2
-	Press 90 19 7f
+	Press 90 19 7f 90 19 00
 	FB_TwoState 90 19 7f 90 19 00
 WidgetEnd
 
 Widget Select3
-	Press 90 1a 7f
+	Press 90 1a 7f 90 1a 00
 	FB_TwoState 90 1a 7f 90 1a 00
 WidgetEnd
 
 Widget Select4
-	Press 90 1b 7f
+	Press 90 1b 7f 90 1b 00
 	FB_TwoState 90 1b 7f 90 1b 00
 WidgetEnd
 
 Widget Select5
-	Press 90 1c 7f
+	Press 90 1c 7f 90 1c 00
 	FB_TwoState 90 1c 7f 90 1c 00
 WidgetEnd
 
 Widget Select6
-	Press 90 1d 7f
+	Press 90 1d 7f 90 1d 00
 	FB_TwoState 90 1d 7f 90 1d 00
 WidgetEnd
 
 Widget Select7
-	Press 90 1e 7f
+	Press 90 1e 7f 90 1e 00
 	FB_TwoState 90 1e 7f 90 1e 00
 WidgetEnd
 
 Widget Select8
-	Press 90 1f 7f
+	Press 90 1f 7f 90 1f 00
 	FB_TwoState 90 1f 7f 90 1f 00
 WidgetEnd
 
@@ -648,138 +648,138 @@ Widget VUMeter8
 	FB_MCUVUMeter 7
 WidgetEnd
 
-Widget DisplayUpper1
-	FB_MCUDisplayUpper 0
+Widget DisplayUpperA1
+	FB_MCUDisplayA 0
 WidgetEnd
 
-Widget DisplayUpper2
-	FB_MCUDisplayUpper 1
+Widget DisplayUpperA2
+	FB_MCUDisplayA 1
 WidgetEnd
 
-Widget DisplayUpper3
-	FB_MCUDisplayUpper 2
+Widget DisplayUpperA3
+	FB_MCUDisplayA 2
 WidgetEnd
 
-Widget DisplayUpper4
-	FB_MCUDisplayUpper 3
+Widget DisplayUpperA4
+	FB_MCUDisplayA 3
 WidgetEnd
 
-Widget DisplayUpper5
-	FB_MCUDisplayUpper 4
+Widget DisplayUpperA5
+	FB_MCUDisplayA 4
 WidgetEnd
 
-Widget DisplayUpper6
-	FB_MCUDisplayUpper 5
+Widget DisplayUpperA6
+	FB_MCUDisplayA 5
 WidgetEnd
 
-Widget DisplayUpper7
-	FB_MCUDisplayUpper 6
+Widget DisplayUpperA7
+	FB_MCUDisplayA 6
 WidgetEnd
 
-Widget DisplayUpper8
-	FB_MCUDisplayUpper 7
+Widget DisplayUpperA8
+	FB_MCUDisplayA 7
 WidgetEnd
 
-Widget DisplayLower1
-	FB_MCUDisplayLower 0
+Widget DisplayLowerA1
+	FB_MCUDisplayLowerA 0
 WidgetEnd
 
-Widget DisplayLower2
-	FB_MCUDisplayLower 1
+Widget DisplayLowerA2
+	FB_MCUDisplayLowerA 1
 WidgetEnd
 
-Widget DisplayLower3
-	FB_MCUDisplayLower 2
+Widget DisplayLowerA3
+	FB_MCUDisplayLowerA 2
 WidgetEnd
 
-Widget DisplayLower4
-	FB_MCUDisplayLower 3
+Widget DisplayLowerA4
+	FB_MCUDisplayLowerA 3
 WidgetEnd
 
-Widget DisplayLower5
-	FB_MCUDisplayLower 4
+Widget DisplayLowerA5
+	FB_MCUDisplayLowerA 4
 WidgetEnd
 
-Widget DisplayLower6
-	FB_MCUDisplayLower 5
+Widget DisplayLowerA6
+	FB_MCUDisplayLowerA 5
 WidgetEnd
 
-Widget DisplayLower7
-	FB_MCUDisplayLower 6
+Widget DisplayLowerA7
+	FB_MCUDisplayLowerA 6
 WidgetEnd
 
-Widget DisplayLower8
-	FB_MCUDisplayLower 7
+Widget DisplayLowerA8
+	FB_MCUDisplayLowerA 7
 WidgetEnd
 
 Widget DisplayAddUpper1
-	FB_MCUXTDisplayUpper 0
+	FB_MCUXTDisplayA 0
 WidgetEnd
 
 Widget DisplayAddUpper2
-	FB_MCUXTDisplayUpper 1
+	FB_MCUXTDisplayA 1
 WidgetEnd
 
 Widget DisplayAddUpper3
-	FB_MCUXTDisplayUpper 2
+	FB_MCUXTDisplayA 2
 WidgetEnd
 
 Widget DisplayAddUpper4
-	FB_MCUXTDisplayUpper 3
+	FB_MCUXTDisplayA 3
 WidgetEnd
 
 Widget DisplayAddUpper5
-	FB_MCUXTDisplayUpper 4
+	FB_MCUXTDisplayA 4
 WidgetEnd
 
 Widget DisplayAddUpper6
-	FB_MCUXTDisplayUpper 5
+	FB_MCUXTDisplayA 5
 WidgetEnd
 
 Widget DisplayAddUpper7
-	FB_MCUXTDisplayUpper 6
+	FB_MCUXTDisplayA 6
 WidgetEnd
 
 Widget DisplayAddUpper8
-	FB_MCUXTDisplayUpper 7
+	FB_MCUXTDisplayA 7
 WidgetEnd
 
 Widget DisplayAddLower1
-	FB_MCUXTDisplayLower 0
+	FB_MCUXTDisplayLowerA 0
 WidgetEnd
 
 Widget DisplayAddLower2
-	FB_MCUXTDisplayLower 1
+	FB_MCUXTDisplayLowerA 1
 WidgetEnd
 
 Widget DisplayAddLower3
-	FB_MCUXTDisplayLower 2
+	FB_MCUXTDisplayLowerA 2
 WidgetEnd
 
 Widget DisplayAddLower4
-	FB_MCUXTDisplayLower 3
+	FB_MCUXTDisplayLowerA 3
 WidgetEnd
 
 Widget DisplayAddLower5
-	FB_MCUXTDisplayLower 4
+	FB_MCUXTDisplayLowerA 4
 WidgetEnd
 
 Widget DisplayAddLower6
-	FB_MCUXTDisplayLower 5
+	FB_MCUXTDisplayLowerA 5
 WidgetEnd
 
 Widget DisplayAddLower7
-	FB_MCUXTDisplayLower 6
+	FB_MCUXTDisplayLowerA 6
 WidgetEnd
 
 Widget DisplayAddLower8
-	FB_MCUXTDisplayLower 7
+	FB_MCUXTDisplayLowerA 7
 WidgetEnd
 // Abusing some MCUXT displays for the Scribble-D
-Widget DisplayZone1
-	FB_C4DisplayUpper 0 0
+Widget DisplayZone
+	FB_C4DisplayA 0 0
 WidgetEnd
 
 Widget DisplayEffect1
-	FB_C4DisplayUpper 0 1
+	FB_C4DisplayA 0 1
 WidgetEnd

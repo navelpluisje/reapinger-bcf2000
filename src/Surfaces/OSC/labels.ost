@@ -1,0 +1,312 @@
+Widget DisplayZone
+  FB_Processor /DisplayZone
+WidgetEnd
+
+Widget DisplayName
+  FB_Processor /DisplayName
+WidgetEnd
+
+Widget LedPlay
+  FB_Processor /LedPlay
+WidgetEnd
+
+Widget LedPause
+  FB_Processor /LedPause
+WidgetEnd
+
+Widget LedRecord
+  FB_Processor /LedRecord
+WidgetEnd
+
+Widget LedCycle
+  FB_Processor /LedCycle
+WidgetEnd
+
+Widget LedSelect1
+  FB_Processor /LedSelect1
+WidgetEnd
+
+Widget LedSelect2
+  FB_Processor /LedSelect2
+WidgetEnd
+
+Widget LedSelect3
+  FB_Processor /LedSelect3
+WidgetEnd
+
+Widget LedSelect4
+  FB_Processor /LedSelect4
+WidgetEnd
+
+Widget LedSelect5
+  FB_Processor /LedSelect5
+WidgetEnd
+
+Widget LedSelect6
+  FB_Processor /LedSelect6
+WidgetEnd
+
+Widget LedSelect7
+  FB_Processor /LedSelect7
+WidgetEnd
+
+Widget LedSelect8
+  FB_Processor /LedSelect8
+WidgetEnd
+
+Widget LedMute1
+  FB_Processor /LedMute1
+WidgetEnd
+
+Widget LedMute2
+  FB_Processor /LedMute2
+WidgetEnd
+
+Widget LedMute3
+  FB_Processor /LedMute3
+WidgetEnd
+
+Widget LedMute4
+  FB_Processor /LedMute4
+WidgetEnd
+
+Widget LedMute5
+  FB_Processor /LedMute5
+WidgetEnd
+
+Widget LedMute6
+  FB_Processor /LedMute6
+WidgetEnd
+
+Widget LedMute7
+  FB_Processor /LedMute7
+WidgetEnd
+
+Widget LedMute8
+  FB_Processor /LedMute8
+WidgetEnd
+
+Widget LedSolo1
+  FB_Processor /LedSolo1
+WidgetEnd
+
+Widget LedSolo2
+  FB_Processor /LedSolo2
+WidgetEnd
+
+Widget LedSolo3
+  FB_Processor /LedSolo3
+WidgetEnd
+
+Widget LedSolo4
+  FB_Processor /LedSolo4
+WidgetEnd
+
+Widget LedSolo5
+  FB_Processor /LedSolo5
+WidgetEnd
+
+Widget LedSolo6
+  FB_Processor /LedSolo6
+WidgetEnd
+
+Widget LedSolo7
+  FB_Processor /LedSolo7
+WidgetEnd
+
+Widget LedSolo8
+  FB_Processor /LedSolo8
+WidgetEnd
+
+Widget LedRecArm1
+  FB_Processor /LedRecArm1
+WidgetEnd
+
+Widget LedRecArm2
+  FB_Processor /LedRecArm2
+WidgetEnd
+
+Widget LedRecArm3
+  FB_Processor /LedRecArm3
+WidgetEnd
+
+Widget LedRecArm4
+  FB_Processor /LedRecArm4
+WidgetEnd
+
+Widget LedRecArm5
+  FB_Processor /LedRecArm5
+WidgetEnd
+
+Widget LedRecArm6
+  FB_Processor /LedRecArm6
+WidgetEnd
+
+Widget LedRecArm7
+  FB_Processor /LedRecArm7
+WidgetEnd
+
+Widget LedRecArm8
+  FB_Processor /LedRecArm8
+WidgetEnd
+
+Widget VUMeter1
+  FB_Processor /VuMeter1
+WidgetEnd
+
+Widget VUMeter2
+  FB_Processor /VuMeter2
+WidgetEnd
+
+Widget VUMeter3
+  FB_Processor /VuMeter3
+WidgetEnd
+
+Widget VUMeter4
+  FB_Processor /VuMeter4
+WidgetEnd
+
+Widget VUMeter5
+  FB_Processor /VuMeter5
+WidgetEnd
+
+Widget VUMeter6
+  FB_Processor /VuMeter6
+WidgetEnd
+
+Widget VUMeter7
+  FB_Processor /VuMeter7
+WidgetEnd
+
+Widget VUMeter8
+  FB_Processor /VuMeter8
+WidgetEnd
+
+Widget DisplayUpperA1
+  FB_Processor /DisplayUpperA1
+WidgetEnd
+
+Widget DisplayUpperA2
+  FB_Processor /DisplayUpperA2
+WidgetEnd
+
+Widget DisplayUpperA3
+  FB_Processor /DisplayUpperA3
+WidgetEnd
+
+Widget DisplayUpperA4
+  FB_Processor /DisplayUpperA4
+WidgetEnd
+
+Widget DisplayUpperA5
+  FB_Processor /DisplayUpperA5
+WidgetEnd
+
+Widget DisplayUpperA6
+  FB_Processor /DisplayUpperA6
+WidgetEnd
+
+Widget DisplayUpperA7
+  FB_Processor /DisplayUpperA7
+WidgetEnd
+
+Widget DisplayUpperA8
+  FB_Processor /DisplayUpperA8
+WidgetEnd
+
+Widget DisplayLowerA1
+  FB_Processor /DisplayLowerA1
+WidgetEnd
+
+Widget DisplayLowerA2
+  FB_Processor /DisplayLowerA2
+WidgetEnd
+
+Widget DisplayLowerA3
+  FB_Processor /DisplayLowerA3
+WidgetEnd
+
+Widget DisplayLowerA4
+  FB_Processor /DisplayLowerA4
+WidgetEnd
+
+Widget DisplayLowerA5
+  FB_Processor /DisplayLowerA5
+WidgetEnd
+
+Widget DisplayLowerA6
+  FB_Processor /DisplayLowerA6
+WidgetEnd
+
+Widget DisplayLowerA7
+  FB_Processor /DisplayLowerA7
+WidgetEnd
+
+Widget DisplayLowerA8
+  FB_Processor /DisplayLowerA8
+WidgetEnd
+
+Widget DisplayUpperB1
+  FB_Processor /DisplayUpperB1
+WidgetEnd
+
+Widget DisplayUpperB2
+  FB_Processor /DisplayUpperB2
+WidgetEnd
+
+Widget DisplayUpperB3
+  FB_Processor /DisplayUpperB3
+WidgetEnd
+
+Widget DisplayUpperB4
+  FB_Processor /DisplayUpperB4
+WidgetEnd
+
+Widget DisplayUpperB5
+  FB_Processor /DisplayUpperB5
+WidgetEnd
+
+Widget DisplayUpperB6
+  FB_Processor /DisplayUpperB6
+WidgetEnd
+
+Widget DisplayUpperB7
+  FB_Processor /DisplayUpperB7
+WidgetEnd
+
+Widget DisplayUpperB8
+  FB_Processor /DisplayUpperB8
+WidgetEnd
+
+Widget DisplayLowerB1
+  FB_Processor /DisplayLowerB1
+WidgetEnd
+
+Widget DisplayLowerB2
+  FB_Processor /DisplayLowerB2
+WidgetEnd
+
+Widget DisplayLowerB3
+  FB_Processor /DisplayLowerB3
+WidgetEnd
+
+Widget DisplayLowerB4
+  FB_Processor /DisplayLowerB4
+WidgetEnd
+
+Widget DisplayLowerB5
+  FB_Processor /DisplayLowerB5
+WidgetEnd
+
+Widget DisplayLowerB6
+  FB_Processor /DisplayLowerB6
+WidgetEnd
+
+Widget DisplayLowerB7
+  FB_Processor /DisplayLowerB7
+WidgetEnd
+
+Widget DisplayLowerB8
+  FB_Processor /DisplayLowerB8
+WidgetEnd
+
