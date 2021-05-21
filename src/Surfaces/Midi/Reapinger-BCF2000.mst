@@ -1,4 +1,21 @@
-// The encoders
+//-----------------------------------------------------------------------------
+// Surface file for the Behringer BCF2000.
+// Kep in mind your BCF2000 has to be in MCU mode
+// The naming of the buttons is according the MC C mode documention
+// from behringer.
+//
+// Author: Erwin Goossen<erwin@navelpluisje.nl>
+// Version: 2.0.0
+//-----------------------------------------------------------------------------
+// Changelog:
+// Version 2.0.0:
+//   * First draft
+//-----------------------------------------------------------------------------
+
+
+//*****************************************************************************
+// ENCODERS
+//*****************************************************************************
 
 Widget Rotary1
 	Encoder b0 10 7f
@@ -79,9 +96,14 @@ WidgetEnd
 Widget RotaryPush8
 	Press 90 27 7f 90 27 00
 WidgetEnd
-// End Rotary
 
-// Top Row Default
+
+//*****************************************************************************
+// TOP ROW BUTTONS
+//*****************************************************************************
+
+/ ********* MUTE *********
+
 Widget Mute1
 	Press 90 10 7f 90 10 00
 	FB_TwoState 90 10 7f 90 10 00
@@ -122,7 +144,8 @@ Widget Mute8
 	FB_TwoState 90 17 7f 90 17 00
 WidgetEnd
 
-// Top Row Top Shift
+/ ********* SOLO *********
+
 Widget Solo1
 	Press 90 08 7f 90 08 00
 	FB_TwoState 90 08 7f 90 08 00
@@ -163,47 +186,53 @@ Widget Solo8
 	FB_TwoState 90 0f 7f 90 0f 00
 WidgetEnd
 
-// Top Row Bottom Shift
-Widget ShowDrumTracks
+/ ********* FUNCTION *********
+
+Widget ButtonF1
 	Press 90 36 7f 90 36 00
 	FB_TwoState 90 36 7f 90 36 00
 WidgetEnd
 
-Widget ShowBassTracks
+Widget ButtonF2
 	Press 90 37 7f 90 37 00
 	FB_TwoState 90 37 7f 90 37 00
 WidgetEnd
 
-Widget ShowGuitarTracks
+Widget ButtonF3
 	Press 90 38 7f 90 38 00
 	FB_TwoState 90 38 7f 90 38 00
 WidgetEnd
 
-Widget ShowVocalTracks
+Widget ButtonF4
 	Press 90 39 7f 90 39 00
 	FB_TwoState 90 39 7f 90 39 00
 WidgetEnd
 
-Widget ShowKeysTracks
+Widget ButtonF5
 	Press 90 3a 7f 90 3a 00
 	FB_TwoState 90 3a 7f 90 3a 00
 WidgetEnd
 
-Widget ButtonTopBS6
+Widget ButtonF6
 	Press 90 3b 7f 90 3b 00
 WidgetEnd
 
-Widget ButtonTopBS7
+Widget ButtonF7
 	Press 90 3c 7f 90 3c 00
 	FB_TwoState 90 3c 7f 90 3c 00
 WidgetEnd
 
-Widget ButtonTopBS8
+Widget ButtonF8
 	Press 90 3d 7f 90 3d 00
 	FB_TwoState 90 3d 7f 90 3d 00
 WidgetEnd
 
-// Bottom Row Default
+//*****************************************************************************
+// BOTTOM ROW BUTTONS
+//*****************************************************************************
+
+/ ********* SELECT *********
+
 Widget Select1
 	Press 90 18 7f 90 18 00
 	FB_TwoState 90 18 7f 90 18 00
@@ -244,7 +273,7 @@ Widget Select8
 	FB_TwoState 90 1f 7f 90 1f 00
 WidgetEnd
 
-// Bottom Row Top Shift
+/ ********* REC ARM *********
 
 Widget RecArm1
 	Press 90 00 7f
@@ -286,48 +315,52 @@ Widget RecArm8
 	FB_TwoState 90 07 7f 90 07 00
 WidgetEnd
 
-// Bottom Row Bottom Shift
-Widget ButtonTopBS1
+/ ********* VIEW *********
+
+Widget View1
 	Press 90 3f 7f 90 3f 00
 	FB_TwoState 90 3f 7f 90 3f 00
 WidgetEnd
 
-Widget ButtonTopBS2
+Widget View2
 	Press 90 3f 7f 90 3f 00
 	FB_TwoState 90 3f 7f 90 3f 00
 WidgetEnd
 
-Widget ButtonTopBS3
+Widget View3
 	Press 90 40 7f 90 40 00
 	FB_TwoState 90 40 7f 90 40 00
 WidgetEnd
 
-Widget ButtonTopBS4
+Widget View4
 	Press 90 41 7f 90 41 00
 	FB_TwoState 90 41 7f 90 41 00
 WidgetEnd
 
-Widget ButtonTopBS5
+Widget View5
 	Press 90 42 7f 90 42 00
 	FB_TwoState 90 42 7f 90 42 00
 WidgetEnd
 
-Widget ShowEffectsTracks
+Widget View6
 	Press 90 43 7f 90 43 00
 	FB_TwoState 90 43 7f 90 43 00
 WidgetEnd
 
-Widget ShowBussTracks
+Widget View7
 	Press 90 44 7f 90 44 00
 	FB_TwoState 90 44 7f 90 44 00
 WidgetEnd
 
-Widget ShowAllTracks
+Widget View8
 	Press 90 45 7f 90 45 00
 	FB_TwoState 90 45 7f 90 45 00
 WidgetEnd
 
-// Faders
+//*****************************************************************************
+// FADERS
+//*****************************************************************************
+
 Widget Fader1
 	Fader14Bit e0 7f 7f
 	FB_Fader14Bit e0 7f 7f
@@ -400,47 +433,52 @@ Widget FaderTouch8
 	Press 90 6f 7f 90 6f 00
 WidgetEnd
 
+//*****************************************************************************
+// TOP BUTTONS (Top 4 under the display)
+//*****************************************************************************
+
 // Top Section under Display. The 2 left ones are shift buttons
 // Top Default
-Widget Option
+Widget PagePlus
 	Press 90 29 7f 90 29 00
 WidgetEnd
 
-// Top, Top Shift
+// Top, Upper Shift
 Widget Flip
-	Press 90 32 7f
+	Press 90 32 7f 90 32 00
 	FB_TwoState 90 32 7f 90 32 00
 WidgetEnd
 
 // Top, Bottom Shift
-// Not yet implemented
-Widget View
-	Press 90 49 7f
+Widget Revert
+	Press 90 49 7f 90 49 00
+	FB_TwoState 90 49 7f 90 49 00
 WidgetEnd
 
 // Bottom Default
-Widget Track
+Widget PageMin
 	Press 90 28 7f
 	FB_TwoState 90 28 7f 90 28 00
 WidgetEnd
 
-// Bottom, Top Shift
-Widget Send
+// Bottom, Upper Shift
+Widget Motor
 	Press 90 4f 7f
 	FB_TwoState 90 4f 7f 90 4f 00
 WidgetEnd
 
 // Bottom, Bottom Shift
-Widget Effects
+Widget Save
 	Press 90 48 7f
 	FB_TwoState 90 48 7f 90 48 00
 WidgetEnd
 
-// End Top Section
+//*****************************************************************************
+// WRITE/VIEW/STORE BUTTONS
+//*****************************************************************************
 
-// Middle Section
 // Button Store
-Widget Store_Default
+Widget Eq
 	Press 90 2c 7f 90 2c 00
 	FB_TwoState 90 2c 7f 90 2c 00
 WidgetEnd
@@ -449,64 +487,68 @@ WidgetEnd
 // The above, but only the off variant
 
 // Button Store, Bottom Shift
-Widget Store_BS
+Widget Write
 	Press 90 4b 7f 90 4b 00
 WidgetEnd
 
 // Button Learn
-Widget Learn_Default
+Widget Insert
 	Press 90 2b 7f 90 2b 00
 	FB_TwoState 90 2b 7f 90 2b 00
 WidgetEnd
 
 // Button Learn, Top Shift
-Widget Learn_TS
-	Press 90 50 7f
+Widget Instrument
+	Press 90 50 7f 90 50 00
+	FB_TwoState 90 50 7f 90 50 00
 WidgetEnd
 
 // Button Learn, Bottom Shift
-Widget Learn_BS
-	Press 90 33 7f
+Widget View
+	Press 90 33 7f 90 33 00
 	FB_TwoState 90 33 7f 90 33 00
 WidgetEnd
 
 // Buton Edit
-Widget Edit_Default
-	Press 90 2a 7f
+Widget Pan
+	Press 90 2a 7f 90 2a 00
 	FB_TwoState 90 2a 7f 90 2a 00
 WidgetEnd
 
 // Button Edit, Top Shift
-Widget Edit_TS
-	Press 90 51 7f
+Widget Master
+	Press 90 51 7f 90 51 00
+	FB_TwoState 90 51 7f 90 51 00
 WidgetEnd
 
 // Button Edit, Bottom Shift
-Widget Edit_BS
-	Press 90 4a 7f
+Widget Read
+	Press 90 4a 7f 90 4a 00
+	FB_TwoState 90 4a 7f 90 4a 00
 WidgetEnd
 
 // Button Exit
-Widget Exit_Default
+Widget Send
 	Press 90 2d 7f 90 2d 00
 	FB_TwoState 90 2d 7f 90 2d 00
 WidgetEnd
 
 // Buton Exit, Top Shift
-Widget Exit_TS
+Widget SendFx
 	Press 90 4c 7f
 	FB_TwoState 90 4c 7f 90 4c 00
 WidgetEnd
 
 // Button Exit, Bottom Shift
-Widget Exit_BS
+Widget Mixer
 	Press 90 4e 7f
 	FB_TwoState 90 4e 7f 90 4e 00
 WidgetEnd
 
-// End Middle Section
+//*****************************************************************************
+// PRESET BUTTONS (The ones with the arrows)
+//*****************************************************************************
 
-// Preset Section
 // Button Left
 Widget BankLeft
 	Press 90 2e 7f
@@ -518,7 +560,7 @@ Widget ChannelLeft
 WidgetEnd
 
 // Button Left, Bottom Shift
-Widget SelectPrevTrack
+Widget Undo
 	Press 90 46 7f
 WidgetEnd
 
@@ -533,43 +575,44 @@ Widget ChannelRight
 WidgetEnd
 
 // Button Right, Bottom Shift
-Widget SelectNextTrack
+Widget Redo
 	Press 90 47 7f
 WidgetEnd
 
-// End Preset Section
+//*****************************************************************************
+// TRANSPORT BUTTONS (The bottom right group)
+//*****************************************************************************
 
-// User Section
 // Button Top Left
-Widget PreviousMarker
+Widget ScrollLeft
 	Press 90 5b 7f 90 5b 00
 WidgetEnd
 
 // Button TL, TS
-Widget ScrollBackward
+Widget Prev
 	Press 90 58 7f
 	FB_TwoState 90 58 7f 90 58 00
 WidgetEnd
 
 // Button TL, BS
-Widget GoToProjectStart
+Widget LocL
 	Press 90 54 7f
 	FB_TwoState 90 54 7f 90 54 00
 WidgetEnd
 
 // Button Top Right
-Widget NextMarker
+Widget ScrollRight
 	Press 90 5c 7f 90 5c 00
 WidgetEnd
 
 // Button TR, TS
-Widget ScrollForward
+Widget Next
 	Press 90 5a 7f
 	FB_TwoState 90 5a 7f 90 5a 00
 WidgetEnd
 
 // Button TR, BS
-Widget GoToProjectEnd
+Widget LocR
 	Press 90 55 7f
 	FB_TwoState 90 55 7f 90 55 00
 WidgetEnd
@@ -581,7 +624,7 @@ Widget Stop
 WidgetEnd
 
 // Button BL, TS
-Widget Metronome
+Widget Add
 	Press 90 59 7f 90 59 00
 	FB_TwoState 90 59 7f 90 59 00
 WidgetEnd
@@ -605,181 +648,8 @@ Widget Record
 WidgetEnd
 
 // Button BR, BS
-Widget FollowCursor
+Widget Punch
 	Press 90 57 7f 90 57 00
 	FB_TwoState 90 57 7f 90 57 00
 WidgetEnd
 // End User Section
-
-Widget TimeDisplay
-	FB_MCUTimeDisplay
-WidgetEnd
-
-// Scribble-d Widgets
-Widget VUMeter1
-	FB_MCUVUMeter 0
-WidgetEnd
-
-Widget VUMeter2
-	FB_MCUVUMeter 1
-WidgetEnd
-
-Widget VUMeter3
-	FB_MCUVUMeter 2
-WidgetEnd
-
-Widget VUMeter4
-	FB_MCUVUMeter 3
-WidgetEnd
-
-Widget VUMeter5
-	FB_MCUVUMeter 4
-WidgetEnd
-
-Widget VUMeter6
-	FB_MCUVUMeter 5
-WidgetEnd
-
-Widget VUMeter7
-	FB_MCUVUMeter 6
-WidgetEnd
-
-Widget VUMeter8
-	FB_MCUVUMeter 7
-WidgetEnd
-
-Widget DisplayUpperA1
-	FB_MCUDisplayA 0
-WidgetEnd
-
-Widget DisplayUpperA2
-	FB_MCUDisplayA 1
-WidgetEnd
-
-Widget DisplayUpperA3
-	FB_MCUDisplayA 2
-WidgetEnd
-
-Widget DisplayUpperA4
-	FB_MCUDisplayA 3
-WidgetEnd
-
-Widget DisplayUpperA5
-	FB_MCUDisplayA 4
-WidgetEnd
-
-Widget DisplayUpperA6
-	FB_MCUDisplayA 5
-WidgetEnd
-
-Widget DisplayUpperA7
-	FB_MCUDisplayA 6
-WidgetEnd
-
-Widget DisplayUpperA8
-	FB_MCUDisplayA 7
-WidgetEnd
-
-Widget DisplayLowerA1
-	FB_MCUDisplayLowerA 0
-WidgetEnd
-
-Widget DisplayLowerA2
-	FB_MCUDisplayLowerA 1
-WidgetEnd
-
-Widget DisplayLowerA3
-	FB_MCUDisplayLowerA 2
-WidgetEnd
-
-Widget DisplayLowerA4
-	FB_MCUDisplayLowerA 3
-WidgetEnd
-
-Widget DisplayLowerA5
-	FB_MCUDisplayLowerA 4
-WidgetEnd
-
-Widget DisplayLowerA6
-	FB_MCUDisplayLowerA 5
-WidgetEnd
-
-Widget DisplayLowerA7
-	FB_MCUDisplayLowerA 6
-WidgetEnd
-
-Widget DisplayLowerA8
-	FB_MCUDisplayLowerA 7
-WidgetEnd
-
-Widget DisplayAddUpper1
-	FB_MCUXTDisplayA 0
-WidgetEnd
-
-Widget DisplayAddUpper2
-	FB_MCUXTDisplayA 1
-WidgetEnd
-
-Widget DisplayAddUpper3
-	FB_MCUXTDisplayA 2
-WidgetEnd
-
-Widget DisplayAddUpper4
-	FB_MCUXTDisplayA 3
-WidgetEnd
-
-Widget DisplayAddUpper5
-	FB_MCUXTDisplayA 4
-WidgetEnd
-
-Widget DisplayAddUpper6
-	FB_MCUXTDisplayA 5
-WidgetEnd
-
-Widget DisplayAddUpper7
-	FB_MCUXTDisplayA 6
-WidgetEnd
-
-Widget DisplayAddUpper8
-	FB_MCUXTDisplayA 7
-WidgetEnd
-
-Widget DisplayAddLower1
-	FB_MCUXTDisplayLowerA 0
-WidgetEnd
-
-Widget DisplayAddLower2
-	FB_MCUXTDisplayLowerA 1
-WidgetEnd
-
-Widget DisplayAddLower3
-	FB_MCUXTDisplayLowerA 2
-WidgetEnd
-
-Widget DisplayAddLower4
-	FB_MCUXTDisplayLowerA 3
-WidgetEnd
-
-Widget DisplayAddLower5
-	FB_MCUXTDisplayLowerA 4
-WidgetEnd
-
-Widget DisplayAddLower6
-	FB_MCUXTDisplayLowerA 5
-WidgetEnd
-
-Widget DisplayAddLower7
-	FB_MCUXTDisplayLowerA 6
-WidgetEnd
-
-Widget DisplayAddLower8
-	FB_MCUXTDisplayLowerA 7
-WidgetEnd
-// Abusing some MCUXT displays for the Scribble-D
-Widget DisplayZone
-	FB_C4DisplayA 0 0
-WidgetEnd
-
-Widget DisplayEffect1
-	FB_C4DisplayA 0 1
-WidgetEnd

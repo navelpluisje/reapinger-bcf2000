@@ -1,0 +1,22 @@
+//------------------------------------------------------------------------------
+// Zone: FxMenu
+// Author: Erwin Goossen<erwin@navelpluisje.nl>
+// Version: 2.0.0
+//------------------------------------------------------------------------------
+// Changelog:
+// Version 2.0.0:
+//   * First draft
+//------------------------------------------------------------------------------
+
+Zone "FXMenu"
+  FXMenuNavigator
+
+  Rotary|           NoAction
+  RotaryPush|       NoAction
+  Fader|            NoAction
+  Mute|             Reaper _S&M_FXBYP|      // SWS/S&M: Toggle FX x bypass for selected tracks
+  Select|           GoFXSlot
+  Select|           Reaper "_S&M_WNCLS5"    // SWS/S&M: Close all floating FX windows for selected tracks
+  Select|           Reaper _S&M_FLOATFX|    // SWS/S&M: Float FX x for selected tracks
+  Hold+Select|      Reaper _S&M_UNFLOATFX|  // SWS/S&M: Unfloat FX x for selected tracks
+ZoneEnd

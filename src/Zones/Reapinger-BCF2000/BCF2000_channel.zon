@@ -1,0 +1,28 @@
+//------------------------------------------------------------------------------
+// Zone: Channel
+// Author: Erwin Goossen<erwin@navelpluisje.nl>
+// Version: 2.0.0
+//------------------------------------------------------------------------------
+// Changelog:
+// Version 2.0.0:
+//   * First draft
+//------------------------------------------------------------------------------
+
+Zone "Channel"
+  TrackNavigator
+  Option Option
+
+  Rotary|             MCUTrackPan
+  Mute|               TrackMute
+  Option+Mute|        CycleTrackAutoMode [ 0 1 3 2 4 5 ]
+  Option+Hold+Mute|   TrackAutoMode 0
+  Solo|               TrackSolo
+  Select|             TrackUniqueSelect
+  Option+Select|      TrackSelect
+  RecArm|             TrackRecordArm
+  Option+RecArm|      TrackRangeSelect
+
+  Fader|              TrackVolume
+  FaderTouch+Fader|   TrackVolume
+  FaderTouch|         TrackTouch
+ZoneEnd

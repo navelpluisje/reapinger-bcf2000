@@ -1,0 +1,20 @@
+//------------------------------------------------------------------------------
+// Zone: Receive
+// Author: Erwin Goossen<erwin@navelpluisje.nl>
+// Version: 2.0.0
+//------------------------------------------------------------------------------
+// Changelog:
+// Version 2.0.0:
+//   * First draft
+//------------------------------------------------------------------------------
+
+Zone "Receive"
+  ReceiveNavigator
+
+  Rotary|           TrackReceivePan
+  RotaryPush|       Reaper "40293"      // Track: View routing and I/O for current/last touched track
+  Mute|             TrackReceiveMute
+  Fader|            TrackReceiveVolume
+  TrackTouch+Fader| TrackReceiveVolume
+  FaderTouch|       TrackTouch
+ZoneEnd
