@@ -1,0 +1,28 @@
+Zone "LOADED (AnalogObsession) PreAmp"
+  SelectedTrackNavigator
+
+  DisplayZone     FixedTextDisplay "Effect"
+  DisplayName     FixedTextDisplay "LOADED Pre-amp"
+
+  DisplayUpperA1  FXParamNameDisplay  2 "Gain"
+  DisplayLowerA1  FXParamValueDisplay 2
+  DisplayUpperA2  FXParamNameDisplay  3 "HPF"
+  DisplayLowerA2  FXParamValueDisplay 3
+
+  DisplayUpperB1  FXParamNameDisplay  22 "▼ Bypass"
+  DisplayLowerB1  FXParamValueDisplay 22
+  DisplayUpperB2  FXParamNameDisplay  23 "▼ PAD"
+  DisplayLowerB2  FXParamValueDisplay 23
+  DisplayUpperB3  FXParamNameDisplay  24 "▼ Phase"
+  DisplayLowerB3  FXParamValueDisplay 24
+  DisplayUpperB4  FXParamNameDisplay  25 "▼ HPF Switch"
+  DisplayLowerB4  FXParamValueDisplay 25
+  DisplayUpperB5  FXParamNameDisplay  26 "▼ MIC"
+  DisplayLowerB5  FXParamValueDisplay 26
+  DisplayUpperB6  FXParamNameDisplay  27 "▼ Low Boost"
+  DisplayLowerB6  FXParamValueDisplay 27
+  DisplayUpperB7  FXParamNameDisplay  28 "▼ High Boost"
+  DisplayLowerB7  FXParamValueDisplay 28
+  DisplayUpperB8  FXParamNameDisplay  29 "▼ Transformer"
+  DisplayLowerB8  FXParamValueDisplay 29
+ZoneEnd

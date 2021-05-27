@@ -1,0 +1,24 @@
+Zone "LOADED (AnalogObsession) Compressor"
+  SelectedTrackNavigator
+
+  DisplayZone     FixedTextDisplay "Effect"
+  DisplayName     FixedTextDisplay "LOADED Compressor"
+
+  DisplayUpperA1  FXParamNameDisplay  18 "Threshold"
+  DisplayLowerA1  FXParamValueDisplay 18
+  DisplayUpperA2  FXParamNameDisplay  19 "Ratio"
+  DisplayLowerA2  FXParamValueDisplay 19
+  DisplayUpperA3  FXParamNameDisplay  20 "Mix"
+  DisplayLowerA3  FXParamValueDisplay 20
+
+  DisplayUpperB1  FXParamNameDisplay  37 "▼ Bypass"
+  DisplayLowerB1  FXParamValueDisplay 37
+  DisplayUpperB2  FXParamNameDisplay  38 "▼ Fast Attack"
+  DisplayLowerB2  FXParamValueDisplay 38
+  DisplayUpperB3  FXParamNameDisplay  39 "▼ Auto Release"
+  DisplayLowerB3  FXParamValueDisplay 39
+  DisplayUpperB4  FXParamNameDisplay  40 "▼ External Sidechain"
+  DisplayLowerB4  FXParamValueDisplay 40
+  DisplayUpperB5  FXParamNameDisplay  41 "▼ Effect Sidechain"
+  DisplayLowerB5  FXParamValueDisplay 41
+ZoneEnd

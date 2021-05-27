@@ -276,42 +276,42 @@ WidgetEnd
 / ********* REC ARM *********
 
 Widget RecArm1
-	Press 90 00 7f
+	Press 90 00 7f 90 00 00
 	FB_TwoState 90 00 7f 90 00 00
 WidgetEnd
 
 Widget RecArm2
-	Press 90 01 7f
+	Press 90 01 7f 90 01 00
 	FB_TwoState 90 01 7f 90 01 00
 WidgetEnd
 
 Widget RecArm3
-	Press 90 02 7f
+	Press 90 02 7f 90 02 00
 	FB_TwoState 90 02 7f 90 02 00
 WidgetEnd
 
 Widget RecArm4
-	Press 90 03 7f
+	Press 90 03 7f 90 03 00
 	FB_TwoState 90 03 7f 90 03 00
 WidgetEnd
 
 Widget RecArm5
-	Press 90 04 7f
+	Press 90 04 7f 90 04 00
 	FB_TwoState 90 04 7f 90 04 00
 WidgetEnd
 
 Widget RecArm6
-	Press 90 05 7f
+	Press 90 05 7f 90 05 00
 	FB_TwoState 90 05 7f 90 05 00
 WidgetEnd
 
 Widget RecArm7
-	Press 90 06 7f
+	Press 90 06 7f 90 06 00
 	FB_TwoState 90 06 7f 90 06 00
 WidgetEnd
 
 Widget RecArm8
-	Press 90 07 7f
+	Press 90 07 7f 90 07 00
 	FB_TwoState 90 07 7f 90 07 00
 WidgetEnd
 
@@ -439,7 +439,7 @@ WidgetEnd
 
 // Top Section under Display. The 2 left ones are shift buttons
 // Top Default
-Widget PagePlus
+Widget Option
 	Press 90 29 7f 90 29 00
 WidgetEnd
 
@@ -456,19 +456,19 @@ Widget Revert
 WidgetEnd
 
 // Bottom Default
-Widget PageMin
+Widget Track
 	Press 90 28 7f
 	FB_TwoState 90 28 7f 90 28 00
 WidgetEnd
 
 // Bottom, Upper Shift
-Widget Motor
+Widget Sends
 	Press 90 4f 7f
 	FB_TwoState 90 4f 7f 90 4f 00
 WidgetEnd
 
 // Bottom, Bottom Shift
-Widget Save
+Widget Effects
 	Press 90 48 7f
 	FB_TwoState 90 48 7f 90 48 00
 WidgetEnd

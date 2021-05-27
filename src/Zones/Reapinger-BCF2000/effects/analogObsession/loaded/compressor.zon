@@ -1,0 +1,28 @@
+Zone "LOADED (AnalogObsession) Compressor"
+  SelectedTrackNavigator
+
+  BankLeft      GoSubZone "LOADED (AnalogObsession) EQ"
+  BankRight     GoZone "VST3: LOADED (AnalogObsession)"
+
+  Rotary1       FXParam 18 "Threshold"
+  Rotary2       FXParam 19 "Ratio"
+  Rotary3       FXParam 20 "Mix"
+
+  RotaryPush1   FXParam 37 "Bypass"              [ 0.0 1.0 ]
+  RotaryPush2   FXParam 38 "Fast Attack"         [ 0.0 1.0 ]
+  RotaryPush3   FXParam 39 "Auto Release"        [ 0.0 1.0 ]
+  RotaryPush4   FXParam 40 "External Sidechain"  [ 0.0 1.0 ]
+  RotaryPush5   FXParam 41 "Effect Sidechain"    [ 0.0 1.0 ]
+
+
+  Rotary4       NoAction
+  Rotary5       NoAction
+  Rotary6       NoAction
+  Rotary7       NoAction
+  Rotary8       NoAction
+
+  RotaryPush6   NoAction
+  RotaryPush7   NoAction
+  RotaryPush8   NoAction
+
+ZoneEnd

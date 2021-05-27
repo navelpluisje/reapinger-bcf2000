@@ -1,6 +1,6 @@
 //------------------------------------------------------------------------------
-// Surface: Reapinger BCF2000
-// Zone: Home
+// Surface: Reapinger Labels
+// Zone: FxMenu
 // Author: Erwin Goossen<erwin@navelpluisje.nl>
 // Version: 2.0.0
 //------------------------------------------------------------------------------
@@ -9,12 +9,12 @@
 //   * First draft
 //------------------------------------------------------------------------------
 
-Zone Home
-  IncludedZones
-    Buttons
-    Channel
-    GroupButtons
-    Navigation
-    Transport
-  IncludedZonesEnd
+Zone FXMenuDisplay
+  FXMenuNavigator
+
+  DisplayZone       FixedTextDisplay "Effects"
+  DisplayUpperA|    FXMenuNameDisplay
+  DisplayLowerA|    NoAction
+  DisplayUpperB|    NoAction
+  DisplayLowerB|    NoAction
 ZoneEnd

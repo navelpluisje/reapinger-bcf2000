@@ -1,6 +1,6 @@
 //------------------------------------------------------------------------------
-// Surface: Reapinger BCF2000
-// Zone: Home
+// Surface: Reapinger Labels
+// Zone: Transport
 // Author: Erwin Goossen<erwin@navelpluisje.nl>
 // Version: 2.0.0
 //------------------------------------------------------------------------------
@@ -9,12 +9,8 @@
 //   * First draft
 //------------------------------------------------------------------------------
 
-Zone Home
-  IncludedZones
-    Buttons
-    Channel
-    GroupButtons
-    Navigation
-    Transport
-  IncludedZonesEnd
+Zone Transport
+  LedCycle      CycleTimeline
+  LedPlay       Play
+  LedRecord     Record
 ZoneEnd

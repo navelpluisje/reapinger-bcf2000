@@ -1,0 +1,19 @@
+//------------------------------------------------------------------------------
+// Surface: Reapinger BCF2000
+// Zone: GroupButtons
+// Author: Erwin Goossen<erwin@navelpluisje.nl>
+// Version: 2.0.0
+//------------------------------------------------------------------------------
+// Changelog:
+// Version 2.0.0:
+//   * First draft
+//------------------------------------------------------------------------------
+
+Zone GroupButtons
+  Option Option
+  / Place for top right button function
+  Track         GoZone "Home"                        // Go to home. TRhe base for all fun
+  Sends         MapSelectedTrackSendsToWidgets       // Open send zone for the selected track
+  Option+Sends  MapSelectedTrackReceivesToWidgets    // Go to home. TRhe base for all fun
+  Effects       MapSelectedTrackFXToMenu             // Open the fx zone for the selected track
+ZoneEnd

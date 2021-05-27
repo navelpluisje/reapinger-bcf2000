@@ -1,0 +1,63 @@
+//------------------------------------------------------------------------------
+// Surface: Reapinger Labels
+// Zone: Reacomp VST
+// Author: Erwin Goossen<erwin@navelpluisje.nl>
+// Version: 2.0.0
+//------------------------------------------------------------------------------
+// Changelog:
+// Version 2.0.0:
+//   * First draft
+//------------------------------------------------------------------------------
+
+Zone "VST: ReaComp (Cockos)" ReaComp
+  SelectedTrackNavigator
+
+  DisplayZone       FixedTextDisplay "Effect"
+  DisplayName       FixedTextDisplay "ReaComp"
+
+  DisplayUpperB1    FXParamNameDisplay  0 "Treshhold"
+  DisplayLowerB1    FXParamValueDisplay 0
+
+  DisplayUpperB2    FXParamNameDisplay  4 "PreComp"
+  DisplayLowerB2    FXParamValueDisplay 4
+
+  DisplayUpperB3    FXParamNameDisplay  2 "Attack"
+  DisplayLowerB3    FXParamValueDisplay 2
+
+  DisplayUpperB4    FXParamNameDisplay  3 "Release"
+  DisplayLowerB4    FXParamValueDisplay 3
+
+  DisplayUpperB5    FXParamNameDisplay  1 "Ratio"
+  DisplayLowerB5    FXParamValueDisplay 1
+
+  DisplayUpperB6    FXParamNameDisplay  14 "Knee"
+  DisplayLowerB6    FXParamValueDisplay 14
+
+  DisplayUpperB7    FXParamNameDisplay  11 "Wet"
+  DisplayLowerB7    FXParamValueDisplay 11
+
+  DisplayUpperB8    FXParamNameDisplay  10 "Dry"
+  DisplayLowerB8    FXParamValueDisplay 10
+
+  DisplayUpperA1    FXParamNameDisplay  8 "Sig Inp"
+  DisplayLowerA1    FXParamValueDisplay 8
+
+  DisplayUpperA2    FXParamNameDisplay  6 "Lowpass"
+  DisplayLowerA2    FXParamValueDisplay 6
+
+  DisplayUpperA3    FXParamNameDisplay  7 "Hipass"
+  DisplayLowerA3    FXParamValueDisplay 7
+
+  DisplayUpperA4    FXParamNameDisplay  13 "RMS size"
+  DisplayLowerA4    FXParamValueDisplay 13
+
+  DisplayUpperA5    FXParamNameDisplay  18 "Limit"
+  DisplayLowerA5    FXParamValueDisplay 18
+
+  DisplayUpperA6    NoAction
+  DisplayLowerA6    NoAction
+  DisplayUpperA7    NoAction
+  DisplayLowerA7    NoAction
+  DisplayUpperA8    NoAction
+  DisplayLowerA8    NoAction
+ZoneEnd

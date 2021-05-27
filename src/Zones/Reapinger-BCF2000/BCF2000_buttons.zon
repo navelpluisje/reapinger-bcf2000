@@ -1,0 +1,52 @@
+//------------------------------------------------------------------------------
+// Surface: Reapinger BCF2000
+// Zone: Buttons
+// Author: Erwin Goossen<erwin@navelpluisje.nl>
+// Version: 2.0.0
+//------------------------------------------------------------------------------
+// Changelog:
+// Version 2.0.0:
+//   * First draft
+//------------------------------------------------------------------------------
+
+Zone Buttons
+  Option Option
+
+  / Button Store
+  Eq              Reaper 40157  // Add marker at current position
+  Hold+Eq         Reaper 40614  // Edit current marker
+  Write           Reaper 40613  // Remove closest marker
+
+  / Button Learn
+  Insert          Reaper 42076  // Pre fader track metering
+  Instrument      NoAction
+  View            NoAction
+
+  / Button Edit
+  Pan             Reaper 40026  // Save the project
+  Master          Reaper 40029  // Undo step
+  Read            Reaper 40030  // Redo step
+
+  / Button Exit
+  Send            Reaper 40340  // Unsolo All Tracks
+  SendFx          NoAction
+  Mixer           NoAction
+
+  ButtonF1        NoAction
+  ButtonF2        NoAction
+  ButtonF3        NoAction
+  ButtonF4        NoAction
+  ButtonF5        NoAction
+  ButtonF6        NoAction
+  ButtonF7        NoAction
+  ButtonF8        NoAction
+
+  View1           NoAction
+  View2           NoAction
+  View3           NoAction
+  View4           NoAction
+  View5           NoAction
+  View6           NoAction
+  View7           NoAction
+  View8           NoAction
+ZoneEnd

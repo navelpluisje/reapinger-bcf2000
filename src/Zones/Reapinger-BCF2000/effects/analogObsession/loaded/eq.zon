@@ -1,0 +1,27 @@
+Zone "LOADED (AnalogObsession) EQ"
+  SelectedTrackNavigator
+
+  BankLeft      GoSubZone "LOADED (AnalogObsession) De-esser Gate"
+  BankRight     GoSubZone "LOADED (AnalogObsession) Compressor"
+
+  Rotary1       FXParam 12 "Low Gain"
+  Rotary2       FXParam 13 "Low Mid Freq"
+  Rotary3       FXParam 14 "Low Mid Gain"
+  Rotary4       FXParam 15 "High Mid Freq"
+  Rotary5       FXParam 16 "High Mid Gain"
+  Rotary6       FXParam 17 "High Gain"
+
+  RotaryPush1   FXParam 36 "EQ Bypass"       [ 0.0 1.0 ]
+
+  Rotary7       NoAction
+  Rotary8       NoAction
+
+  RotaryPush2   NoAction
+  RotaryPush3   NoAction
+  RotaryPush4   NoAction
+  RotaryPush5   NoAction
+  RotaryPush6   NoAction
+  RotaryPush7   NoAction
+  RotaryPush8   NoAction
+
+ZoneEnd

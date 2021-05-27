@@ -1,0 +1,34 @@
+Zone "LOADED (AnalogObsession) De-esser Gate"
+  SelectedTrackNavigator
+
+  DisplayZone     FixedTextDisplay "Effect"
+  DisplayName     FixedTextDisplay "LOADED De-S & Gate"
+
+  // De-esser
+  DisplayUpperA1  FXParamNameDisplay  6  "Release"
+  DisplayLowerA1  FXParamValueDisplay 6
+  DisplayUpperA2  FXParamNameDisplay  7  "Threshold"
+  DisplayLowerA2  FXParamValueDisplay 7
+  DisplayUpperA3  FXParamNameDisplay  8  "Mix"
+  DisplayLowerA3  FXParamValueDisplay 8
+
+  DisplayUpperB1  FXParamNameDisplay  31 "▼ Bypass"
+  DisplayLowerB1  FXParamValueDisplay 31
+  DisplayUpperB2  FXParamNameDisplay  32 "▼ Band"
+  DisplayLowerB2  FXParamValueDisplay 32
+  DisplayUpperB3  FXParamNameDisplay  33 "▼ Soft"
+  DisplayLowerB3  FXParamValueDisplay 33
+
+  // Gate
+  DisplayUpperA5  FXParamNameDisplay  9  "Mix"
+  DisplayLowerA5  FXParamValueDisplay 9
+  DisplayUpperA6  FXParamNameDisplay  10 "Release"
+  DisplayLowerA6  FXParamValueDisplay 10
+  DisplayUpperA7  FXParamNameDisplay  11 "Threshold"
+  DisplayLowerA7  FXParamValueDisplay 11
+
+  DisplayUpperB5  FXParamNameDisplay  34 "▼ Bypass"
+  DisplayLowerB5  FXParamValueDisplay 34
+  DisplayUpperB6  FXParamNameDisplay  35 "▼ Fast Attack"
+  DisplayLowerB6  FXParamValueDisplay 35
+ZoneEnd

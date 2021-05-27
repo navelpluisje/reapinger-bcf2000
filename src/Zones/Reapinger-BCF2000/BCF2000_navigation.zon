@@ -1,6 +1,6 @@
 //------------------------------------------------------------------------------
 // Surface: Reapinger BCF2000
-// Zone: Home
+// Zone: Navigation
 // Author: Erwin Goossen<erwin@navelpluisje.nl>
 // Version: 2.0.0
 //------------------------------------------------------------------------------
@@ -9,12 +9,15 @@
 //   * First draft
 //------------------------------------------------------------------------------
 
-Zone Home
-  IncludedZones
-    Buttons
-    Channel
-    GroupButtons
-    Navigation
-    Transport
-  IncludedZonesEnd
+Zone Navigation
+  / Buttons Preset
+  BankLeft        TrackBank -8
+  ChannelLeft     TrackBank -1
+  Undo            Reaper    _XENAKIOS_SELPREVTRACK
+  Undo            TrackBank -1
+
+  BankRight       TrackBank 8
+  ChannelRight    TrackBank 1
+  Redo            Reaper    _XENAKIOS_SELNEXTTRACK
+  Redo            TrackBank 1
 ZoneEnd

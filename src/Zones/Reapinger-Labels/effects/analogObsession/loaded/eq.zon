@@ -1,0 +1,22 @@
+Zone "LOADED (AnalogObsession) EQ"
+  SelectedTrackNavigator
+
+  DisplayZone     FixedTextDisplay "Effect"
+  DisplayName     FixedTextDisplay "LOADED Eq"
+
+  DisplayUpperA1  FXParamNameDisplay  12 "Low Gain"
+  DisplayLowerA1  FXParamValueDisplay 12
+  DisplayUpperA2  FXParamNameDisplay  13 "Low Mid Freq"
+  DisplayLowerA2  FXParamValueDisplay 13
+  DisplayUpperA3  FXParamNameDisplay  14 "Low Mid Gain"
+  DisplayLowerA3  FXParamValueDisplay 14
+  DisplayUpperA4  FXParamNameDisplay  15 "High Mid Freq"
+  DisplayLowerA4  FXParamValueDisplay 15
+  DisplayUpperA5  FXParamNameDisplay  16 "High Mid Gain"
+  DisplayLowerA5  FXParamValueDisplay 16
+  DisplayUpperA6  FXParamNameDisplay  17 "High Gain"
+  DisplayLowerA6  FXParamValueDisplay 17
+
+  DisplayUpperB1  FXParamNameDisplay  36 "⇓ Bypass"
+  DisplayLowerB1  FXParamValueDisplay 36
+ZoneEnd

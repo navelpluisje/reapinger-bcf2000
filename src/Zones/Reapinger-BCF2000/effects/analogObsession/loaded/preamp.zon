@@ -1,0 +1,25 @@
+Zone "LOADED (AnalogObsession) PreAmp"
+  SelectedTrackNavigator
+
+  BankLeft      GoSubZone "VST3: LOADED (AnalogObsession)"
+  BankRight     GoSubZone "LOADED (AnalogObsession) De-esser Gate"
+
+  Rotary1       FXParam 2  "Preamp Gain"
+  Rotary2       FXParam 3  "Preamp HPF"
+
+  RotaryPush1   FXParam 22 "Preamp Bypass"        [ 0.0 1.0 ]
+  RotaryPush2   FXParam 23 "Preamp PAD"           [ 0.0 1.0 ]
+  RotaryPush3   FXParam 24 "Preamp Phase"         [ 0.0 1.0 ]
+  RotaryPush4   FXParam 25 "Preamp HPF Switch"    [ 0.0 1.0 ]
+  RotaryPush5   FXParam 26 "Preamp MIC"           [ 0.0 1.0 ]
+  RotaryPush6   FXParam 27 "Preamp Low Boost"     [ 0.0 1.0 ]
+  RotaryPush7   FXParam 28 "Preamp High Boost"    [ 0.0 1.0 ]
+  RotaryPush8   FXParam 29 "Preamp Transformer"   [ 0.0 1.0 ]
+
+  Rotary3       NoAction
+  Rotary4       NoAction
+  Rotary5       NoAction
+  Rotary6       NoAction
+  Rotary7       NoAction
+  Rotary8       NoAction
+ZoneEnd

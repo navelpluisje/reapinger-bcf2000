@@ -1,4 +1,5 @@
 //------------------------------------------------------------------------------
+// Surface: Reapinger BCF2000
 // Zone: Channel
 // Author: Erwin Goossen<erwin@navelpluisje.nl>
 // Version: 2.0.0
@@ -8,8 +9,9 @@
 //   * First draft
 //------------------------------------------------------------------------------
 
-Zone "Channel"
+Zone Channel
   TrackNavigator
+
   Option Option
 
   Rotary|             MCUTrackPan

@@ -1,0 +1,27 @@
+Zone "VST3: LOADED (AnalogObsession)" "LOADED"
+  SelectedTrackNavigator
+
+  DisplayZone     FixedTextDisplay "Effect"
+  DisplayName     FixedTextDisplay "LOADED Main"
+
+  SubZones
+    "LOADED (AnalogObsession) PreAmp"  / Pre Amp
+    "LOADED (AnalogObsession) De-esser Gate"  / De-esser and Gate
+    "LOADED (AnalogObsession) EQ"  / Eq
+    "LOADED (AnalogObsession) Compressor"  / Compressor
+  SubZonesEnd
+
+  // Main
+  DisplayUpperA1  FXParamNameDisplay  4 "Main Input"
+  DisplayLowerA1  FXParamValueDisplay 4
+  DisplayUpperA2  FXParamNameDisplay  5 "Main Output"
+  DisplayLowerA2  FXParamValueDisplay 5
+
+  DisplayUpperB1 FXParamNameDisplay  30  "▼ Main Bypass"
+  DisplayLowerB1 FXParamValueDisplay 30
+
+  / FXParam 21 ""
+  / FXParam 42 "Bypass"
+  / FXParam 43 "Wet"
+ZoneEnd
+

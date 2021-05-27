@@ -1,0 +1,40 @@
+Zone "VST3: LOADED (AnalogObsession)" "LOADED"
+  SelectedTrackNavigator
+
+  SubZones
+    "LOADED (AnalogObsession) PreAmp"  / Pre Amp
+    "LOADED (AnalogObsession) De-esser Gate"  / De-esser and Gate
+    "LOADED (AnalogObsession) EQ"  / Eq
+    "LOADED (AnalogObsession) Compressor"  / Compressor
+  SubZonesEnd
+
+  BankLeft      GoSubZone "LOADED (AnalogObsession) Compressor"
+  BankRight     GoSubZone "LOADED (AnalogObsession) PreAmp"
+
+  // Main
+  Rotary1       FXParam 4  "Main Input"
+  Rotary2       FXParam 5  "Main Output"
+
+  RotaryPush1   FXParam 30 "Main Bypass" [ 0.0 1.0 ]
+
+  Rotary3       NoAction
+  Rotary4       NoAction
+  Rotary5       NoAction
+  Rotary6       NoAction
+  Rotary7       NoAction
+  Rotary8       NoAction
+
+  RotaryPush2   NoAction
+  RotaryPush3   NoAction
+  RotaryPush4   NoAction
+  RotaryPush5   NoAction
+  RotaryPush6   NoAction
+  RotaryPush7   NoAction
+  RotaryPush8   NoAction
+
+
+  / FXParam 21 ""
+  / FXParam 42 "Bypass"
+  / FXParam 43 "Wet"
+ZoneEnd
+

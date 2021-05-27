@@ -1,0 +1,24 @@
+//------------------------------------------------------------------------------
+// Surface: Reapinger Labels
+// Zone: Channel
+// Author: Erwin Goossen<erwin@navelpluisje.nl>
+// Version: 2.0.0
+//------------------------------------------------------------------------------
+// Changelog:
+// Version 2.0.0:
+//   * First draft
+//------------------------------------------------------------------------------
+
+Zone Channel
+  TrackNavigator
+
+  DisplayUpperA|      TrackNameDisplay
+  DisplayLowerA|      MCUTrackPanDisplay
+  VUMeter|            TrackOutputMeter
+  DisplayUpperB|      TrackVolumeDisplay
+  DisplayLowerB|      NoAction
+  LedMute|            TrackMute
+  LedSolo|            TrackSolo
+  LedSelect|          TrackUniqueSelect
+  LedRecArm|          TrackRecordArm
+ZoneEnd

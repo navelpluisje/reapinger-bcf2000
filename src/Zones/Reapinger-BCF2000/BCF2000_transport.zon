@@ -1,4 +1,5 @@
 //------------------------------------------------------------------------------
+// Surface: Reapinger BCF2000
 // Zone: Transport
 // Author: Erwin Goossen<erwin@navelpluisje.nl>
 // Version: 2.0.0
@@ -8,27 +9,27 @@
 //   * First draft
 //------------------------------------------------------------------------------
 
-Zone "Transport"
+Zone Transport
   / Top left button
-  PreviousMarker       Reaper     "40172"  // Go to the previous Marker
-  Hold+PreviousMarker  Reaper     "40042"  // Go to the project start
-  ScrollBackward       Reaper     "40084"  // Step through project
-  GoToProjectStart     Reaper     "40042"  // Go to the project start
+  ScrollLeft          Reaper 40172  // Go to the previous Marker
+  Hold+ScrollLeft     Reaper 40042  // Go to the project start
+  Prev                Reaper 40084  // Step through project
+  LocL                Reaper 40042  // Go to the project start
 
   / Top right button
-  NextMarker           Reaper     "40173"  // Go to the next marker?
-  Hold+NextMarker      Reaper     "40043"  // Go to the project end?
-  ScrollForward        Reaper     "40085"  // Step through project
-  GoToProjectEnd       Reaper     "40043"  // Go to the project end
+  ScrollRight         Reaper 40173  // Go to the next marker?
+  Hold+ScrollRight    Reaper 40043  // Go to the project end?
+  Next                Reaper 40085  // Step through project
+  LocR                Reaper 40043  // Go to the project end
 
   / Bottom left button
-  Stop                 Stop                // Stop
-  Cycle                CycleTimeline       // Toggle Cycle (repeat/loop)
-  Metronome            Reaper     "40364"  // Toggle the Metronome
-  Hold+Metronome       Reaper     "40363"  // Open Metronome Settings
+  Stop                Stop
+  Add                 CycleTimeline       // Toggle Cycle (repeat/loop)
+  Cycle               Reaper 40364  // Toggle the Metronome
+  Hold+Cycle          Reaper 40363  // Open Metronome Settings
 
   / Bottom right button
-  Play                 Play                // Play / Pause
-  Record               Record
-  FollowCursor         NoAction
+  Play                Play
+  Record              Record
+  Punch               NoAction
 ZoneEnd

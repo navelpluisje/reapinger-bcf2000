@@ -1,0 +1,33 @@
+Zone "LOADED (AnalogObsession) De-esser Gate"
+  SelectedTrackNavigator
+
+  BankLeft      GoSubZone "LOADED (AnalogObsession) PreAmp"
+  BankRight     GoSubZone "LOADED (AnalogObsession) EQ"
+
+  // De-esser
+  Rotary1       FXParam 6 "De-Esser Release"
+  Rotary2       FXParam 7 "De-Esser Threshold"
+  Rotary3       FXParam 8 "De-Esser Mix"
+
+  RotaryPush1   FXParam 31 "De-Esser Bypass"  [ 0.0 1.0 ]
+  RotaryPush2   FXParam 32 "De-Esser Band"    [ 0.0 1.0 ]
+  RotaryPush3   FXParam 33 "De-Esser Soft"    [ 0.0 1.0 ]
+
+
+  // Gate
+  Rotary5       FXParam 9 "Gate Mix"
+  Rotary6       FXParam 10 "Gate Release"
+  Rotary7       FXParam 11 "Gate Threshold"
+
+  RotaryPush5   FXParam 34 "Gate Bypass"       [ 0.0 1.0 ]
+  RotaryPush6   FXParam 35 "Gate Fast Attack"  [ 0.0 1.0 ]
+
+
+  Rotary4       NoAction
+  Rotary8       NoAction
+
+  RotaryPush4   NoAction
+  RotaryPush7   NoAction
+  RotaryPush8   NoAction
+
+ZoneEnd

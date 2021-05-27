@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------------
-// Surface: Reapinger BCF2000
+// Surface: Reapinger Labels
 // Zone: Home
 // Author: Erwin Goossen<erwin@navelpluisje.nl>
 // Version: 2.0.0
@@ -11,10 +11,10 @@
 
 Zone Home
   IncludedZones
-    Buttons
     Channel
-    GroupButtons
-    Navigation
     Transport
   IncludedZonesEnd
+
+  DisplayZone         FixedTextDisplay "Channel"
+  DisplayName         FixedTextDisplay "All"
 ZoneEnd

@@ -1,0 +1,34 @@
+Zone ResetDisplays
+  DisplayUpperA1  NoAction
+  DisplayLowerA1  NoAction
+  DisplayUpperA2  NoAction
+  DisplayLowerA2  NoAction
+  DisplayUpperA3  NoAction
+  DisplayLowerA3  NoAction
+  DisplayUpperA4  NoAction
+  DisplayLowerA4  NoAction
+  DisplayUpperA5  NoAction
+  DisplayLowerA5  NoAction
+  DisplayUpperA6  NoAction
+  DisplayLowerA6  NoAction
+  DisplayUpperA7  NoAction
+  DisplayLowerA7  NoAction
+  DisplayUpperA8  NoAction
+  DisplayLowerA8  NoAction
+  DisplayUpperB1  NoAction
+  DisplayLowerB1  NoAction
+  DisplayUpperB2  NoAction
+  DisplayLowerB2  NoAction
+  DisplayUpperB3  NoAction
+  DisplayLowerB3  NoAction
+  DisplayUpperB4  NoAction
+  DisplayLowerB4  NoAction
+  DisplayUpperB5  NoAction
+  DisplayLowerB5  NoAction
+  DisplayUpperB6  NoAction
+  DisplayLowerB6  NoAction
+  DisplayUpperB7  NoAction
+  DisplayLowerB7  NoAction
+  DisplayUpperB8  NoAction
+  DisplayLowerB8  NoAction
+ZoneEnd
