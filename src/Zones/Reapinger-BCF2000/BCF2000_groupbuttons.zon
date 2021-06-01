@@ -14,6 +14,6 @@ Zone GroupButtons
   / Place for top right button function
   Track         GoZone "Home"                        // Go to home. TRhe base for all fun
   Sends         MapSelectedTrackSendsToWidgets       // Open send zone for the selected track
-  Option+Sends  MapSelectedTrackReceivesToWidgets    // Go to home. TRhe base for all fun
+  Option+Track  MapSelectedTrackReceivesToWidgets    // Go to home. TRhe base for all fun
   Effects       MapSelectedTrackFXToMenu             // Open the fx zone for the selected track
 ZoneEnd

@@ -10,6 +10,12 @@
 //------------------------------------------------------------------------------
 
 Zone Home
+  OnInitialization  SetReceiveGoZone
+  OnInitialization  SetReceiveGoFXSlot
+  OnInitialization  SetReceiveMapSelectedTrackSendsToWidgets
+  OnInitialization  SetReceiveMapSelectedTrackReceivesToWidgets
+  OnInitialization  SetReceiveMapSelectedTrackFXToMenu
+
   IncludedZones
     Channel
     Transport

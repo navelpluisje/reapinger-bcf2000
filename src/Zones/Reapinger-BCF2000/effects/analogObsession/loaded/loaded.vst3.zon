@@ -2,10 +2,10 @@ Zone "VST3: LOADED (AnalogObsession)" "LOADED"
   SelectedTrackNavigator
 
   SubZones
-    "LOADED (AnalogObsession) PreAmp"  / Pre Amp
+    "LOADED (AnalogObsession) PreAmp"         / Pre Amp
     "LOADED (AnalogObsession) De-esser Gate"  / De-esser and Gate
-    "LOADED (AnalogObsession) EQ"  / Eq
-    "LOADED (AnalogObsession) Compressor"  / Compressor
+    "LOADED (AnalogObsession) EQ"             / Eq
+    "LOADED (AnalogObsession) Compressor"     / Compressor
   SubZonesEnd
 
   BankLeft      GoSubZone "LOADED (AnalogObsession) Compressor"

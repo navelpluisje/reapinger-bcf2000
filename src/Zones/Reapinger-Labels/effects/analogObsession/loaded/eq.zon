@@ -17,6 +17,6 @@ Zone "LOADED (AnalogObsession) EQ"
   DisplayUpperA6  FXParamNameDisplay  17 "High Gain"
   DisplayLowerA6  FXParamValueDisplay 17
 
-  DisplayUpperB1  FXParamNameDisplay  36 "⇓ Bypass"
+  DisplayUpperB1  FXParamNameDisplay  36 "▼ Bypass"
   DisplayLowerB1  FXParamValueDisplay 36
 ZoneEnd

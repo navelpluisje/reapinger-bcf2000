@@ -1,0 +1,65 @@
+Zone "VST3: Britpressor (AnalogObsession)" "BritPressor"
+	SelectedTrackNavigator
+
+  Option Option
+
+  DisplayZone       FixedTextDisplay "Effect"
+  DisplayName       FixedTextDisplay "BritPressor"
+
+	DisplayUpperA1          FXParamNameDisplay  2  "Limit Level"
+	DisplayLowerA1          FXParamValueDisplay 2
+	DisplayUpperA2          FXParamNameDisplay  10 "Lvl Rec Time"
+	DisplayLowerA2          FXParamValueDisplay 10
+	DisplayUpperA3          FXParamNameDisplay  1  "Threshold"
+	DisplayLowerA3          FXParamValueDisplay 1
+	DisplayUpperA4          FXParamNameDisplay  9  "Comp Rec Time"
+	DisplayLowerA4          FXParamValueDisplay 9
+	DisplayUpperA5          FXParamNameDisplay  3  "Gain"
+	DisplayLowerA5          FXParamValueDisplay 3
+	DisplayUpperA6          FXParamNameDisplay  5  "Ratio"
+	DisplayLowerA6          FXParamValueDisplay 5
+
+	DisplayUpperB1          FXParamNameDisplay  11 "▼ Bypass"
+	DisplayLowerB1          FXParamValueDisplay 11
+	DisplayUpperB8          FXParamNameDisplay  15 "▼ Oversample"
+	DisplayLowerB8          FXParamValueDisplay 15
+
+	Option+DisplayUpperA1   FXParamNameDisplay  4  "Mix"
+	Option+DisplayLowerA1   FXParamValueDisplay 4
+	Option+DisplayUpperA2   FXParamNameDisplay  6  "High"
+	Option+DisplayLowerA2   FXParamValueDisplay 6
+	Option+DisplayUpperA3   FXParamNameDisplay  7  "Mid"
+	Option+DisplayLowerA3   FXParamValueDisplay 7
+	Option+DisplayUpperA4   FXParamNameDisplay  8  "High Pass Filter"
+	Option+DisplayLowerA4   FXParamValueDisplay 8
+
+	Option+DisplayUpperB1   FXParamNameDisplay  12 "▼ Ext Sidechain"
+	Option+DisplayLowerB1   FXParamValueDisplay 12
+
+	/ FXParam 13 ""
+	/ FXParam 14 ""
+
+	DisplayUpperA7          NoAction
+	DisplayLowerA7          NoAction
+	DisplayUpperA8          NoAction
+	DisplayLowerA8          NoAction
+  Option+DisplayUpperA5   NoAction
+  Option+DisplayLowerA5   NoAction
+  Option+DisplayUpperA6   NoAction
+  Option+DisplayLowerA6   NoAction
+
+  DisplayUpperB2          NoAction
+  DisplayLowerB2          NoAction
+  DisplayUpperB3          NoAction
+  DisplayLowerB3          NoAction
+  DisplayUpperB4          NoAction
+  DisplayLowerB4          NoAction
+  DisplayUpperB5          NoAction
+  DisplayLowerB5          NoAction
+  DisplayUpperB6          NoAction
+  DisplayLowerB6          NoAction
+  DisplayUpperB7          NoAction
+  DisplayLowerB7          NoAction
+  Option+DisplayUpperB8   NoAction
+  Option+DisplayLowerB8   NoAction
+ZoneEnd

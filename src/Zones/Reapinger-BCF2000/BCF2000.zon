@@ -10,6 +10,17 @@
 //------------------------------------------------------------------------------
 
 Zone Home
+  OnInitialization  SetBroadcastGoZone
+  OnInitialization  SetReceiveGoZone
+  OnInitialization  SetBroadcastGoFXSlot
+  OnInitialization  SetReceiveGoFXSlot
+  OnInitialization  SetBroadcastMapSelectedTrackSendsToWidgets
+  OnInitialization  SetReceiveMapSelectedTrackSendsToWidgets
+  OnInitialization  SetBroadcastMapSelectedTrackReceivesToWidgets
+  OnInitialization  SetReceiveMapSelectedTrackReceivesToWidgets
+  OnInitialization  SetBroadcastMapSelectedTrackFXToMenu
+  OnInitialization  SetReceiveMapSelectedTrackFXToMenu
+
   IncludedZones
     Buttons
     Channel

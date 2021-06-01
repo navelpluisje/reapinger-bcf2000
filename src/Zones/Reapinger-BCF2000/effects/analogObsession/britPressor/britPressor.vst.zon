@@ -1,0 +1,25 @@
+Zone "VST: Britpressor (AnalogObsession)"
+	SelectedTrackNavigator
+
+  Option Option
+
+	Rotary1             FXParam 1 "Limit Level"       [ 0.0 0.0455 0.0909 0.1364 0.1818 0.2273 0.2727 0.3182 0.3636 0.4091 0.4545 0.5 0.5455 0.5909 0.6364 0.6818 0.7273 0.7727 0.8182 0.8636 0.9091 0.9545 1.0 ]
+	Rotary2             FXParam 9 "Lvl Rec Time"      [ 0.0 0.2 0.4 0.6 0.8 1.0 ]
+	Rotary3             FXParam 0 "Threshold"         [ 0.0 0.067 0.133 0.2 0.266 0.333 0.4 0.466 0.533 0.6 0.666 0.733 0.8 0.866 0.933 1.0 ]
+	Rotary4             FXParam 8 "Comp Rec Time"     [ 0.0 0.2 0.4 0.6 0.8 1.0 ]
+	Rotary5             FXParam 2 "Gain"              [ 0.0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 0.95 1.0 ]
+	Rotary6             FXParam 4 "Ratio"             [ 0.0 0.25 0.5 0.75 1.0 ]
+
+	RotaryPush1         FXParam 10 "Bypass"           [ 0.0 1.0 ]
+	RotaryPush8         FXParam 14 "Oversample"       [ 0.0 1.0 ]
+
+	Option+Rotary1      FXParam 3 "Mix"               [ 0.0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 0.95 1.0 ]
+	Option+Rotary2      FXParam 5 "High"              [ 0.0 0.25 0.5 0.75 1.0 ]
+	Option+Rotary3      FXParam 6 "Mid"               [ 0.0 0.25 0.5 0.75 1.0 ]
+	Option+Rotary4      FXParam 7 "High Pass Filter"  [ 0.0 0.25 0.5 0.75 1.0 ]
+
+	Option+RotaryPush1  FXParam 11 "Ext Sidechain"  [ 0.0 1.0 ]
+
+	/ FXParam 12 ""
+	/ FXParam 13 ""
+ZoneEnd

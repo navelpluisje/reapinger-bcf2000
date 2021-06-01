@@ -1,0 +1,43 @@
+Zone "VST3: BritPre (AnalogObsession)" "BritPre"
+  SelectedTrackNavigator
+
+  DisplayZone       FixedTextDisplay "Effect"
+  DisplayName       FixedTextDisplay "BritPre"
+
+  DisplayUpperA1    FXParamNameDisplay  1 "Gain"
+  DisplayLowerA1    FXParamValueDisplay 1
+  DisplayUpperA2    FXParamNameDisplay  2 "Output"
+  DisplayLowerA2    FXParamValueDisplay 2
+
+  DisplayUpperB1    FXParamNameDisplay  7 "▼ Mic Pre"
+  DisplayLowerB1    FXParamValueDisplay 7
+  DisplayUpperB2    FXParamNameDisplay  8 "▼ Phase"
+  DisplayLowerB2    FXParamValueDisplay 8
+  DisplayUpperB3    FXParamNameDisplay  6 "▼ Preamp Bypass"
+  DisplayLowerB3    FXParamValueDisplay 6
+
+  DisplayUpperA5    FXParamNameDisplay  3 "Highpass Filter"
+  DisplayLowerA5    FXParamValueDisplay 3
+  DisplayUpperA6    FXParamNameDisplay  4 "Lowpass Filter"
+  DisplayLowerA6    FXParamValueDisplay 4
+  DisplayUpperB6    FXParamNameDisplay  5 "▼ Filter Bypass"
+  DisplayLowerB6    FXParamValueDisplay 5
+
+  DisplayUpperB8    FXParamNameDisplay  9 "▼ Oversampling"
+  DisplayLowerB8    FXParamValueDisplay 9
+
+  DisplayUpperA3    NoAction
+  DisplayLowerA3    NoAction
+  DisplayUpperA4    NoAction
+  DisplayLowerA4    NoAction
+  DisplayUpperA7    NoAction
+  DisplayLowerA7    NoAction
+  DisplayUpperA8    NoAction
+  DisplayLowerA8    NoAction
+  DisplayUpperB4    NoAction
+  DisplayLowerB4    NoAction
+  DisplayUpperB5    NoAction
+  DisplayLowerB5    NoAction
+  DisplayUpperB7    NoAction
+  DisplayLowerB7    NoAction
+ZoneEnd

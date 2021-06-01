@@ -1,0 +1,24 @@
+Zone "VST3: BritPre (AnalogObsession)"
+  SelectedTrackNavigator
+
+  Rotary1       FXParam 1 "Gain"              [ (13) 0.0 0.08 0.16 0.24 0.32 0.4 0.48 0.56 0.64 0.72 0.8 0.88 0.96 1.0 ]
+  Rotary2       FXParam 2 "Output"
+
+  RotaryPush1   FXParam 7 "Mic Pre"           [ 0.0 1.0 ]
+  RotaryPush2   FXParam 8 "Phase"             [ 0.0 1.0 ]
+  RotaryPush3   FXParam 6 "Preamp Bypass"     [ 0.0 1.0 ]
+
+  Rotary5       FXParam 3 "Highpass Filter"   [ 0.0 0.25 0.5 0.75 1.0 ]
+  Rotary6       FXParam 4 "Lowpass Filter"    [ 0.0 0.25 0.5 0.75 1.0 ]
+  RotaryPush6   FXParam 5 "Filter Bypass"     [ 0.0 1.0 ]
+
+  RotaryPush8   FXParam 9 "Oversampling"      [ 0.0 1.0 ]
+
+  Rotary3       NoAction
+  Rotary4       NoAction
+  Rotary7       NoAction
+  Rotary8       NoAction
+  RotaryPush4   NoAction
+  RotaryPush5   NoAction
+  RotaryPush7   NoAction
+ZoneEnd

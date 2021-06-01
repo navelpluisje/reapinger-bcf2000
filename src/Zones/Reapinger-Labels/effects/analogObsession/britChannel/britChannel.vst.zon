@@ -1,0 +1,41 @@
+Zone "VST: BritChannel (AnalogObsession)" "BritChannel"
+  SelectedTrackNavigator
+
+  DisplayZone       FixedTextDisplay "Effect"
+  DisplayName       FixedTextDisplay "BritChannel"
+
+  DisplayUpperA1    FXParamNameDisplay  7 "High Gain"
+  DisplayLowerA1    FXParamValueDisplay 7
+  DisplayUpperA2    FXParamNameDisplay  5 "Mid Freq"
+  DisplayLowerA2    FXParamValueDisplay 5
+  DisplayUpperA3    FXParamNameDisplay  6 "Mid Gain"
+  DisplayLowerA3    FXParamValueDisplay 6
+  DisplayUpperA4    FXParamNameDisplay  3 "Low Freq"
+  DisplayLowerA4    FXParamValueDisplay 3
+  DisplayUpperA5    FXParamNameDisplay  4 "Low Gain"
+  DisplayLowerA5    FXParamValueDisplay 4
+  DisplayUpperA6    FXParamNameDisplay  2 "HighPass"
+  DisplayLowerA6    FXParamValueDisplay 2
+  DisplayUpperA7    FXParamNameDisplay  0 "Preamp Gain"
+  DisplayLowerA7    FXParamValueDisplay 0
+  DisplayUpperA8    FXParamNameDisplay  1 "Output Trim"
+  DisplayLowerA8    FXParamValueDisplay 1
+
+  DisplayUpperB1    FXParamNameDisplay  10 "▼ Oversampling"
+  DisplayLowerB1    FXParamValueDisplay 10
+  DisplayUpperB7    FXParamNameDisplay  9 "▼ Mic Pre"
+  DisplayLowerB7    FXParamValueDisplay 9
+  DisplayUpperB8    FXParamNameDisplay  8 "▼ Bypass"
+  DisplayLowerB8    FXParamValueDisplay 8
+
+  DisplayUpperB2    NoAction
+  DisplayLowerB2    NoAction
+  DisplayUpperB3    NoAction
+  DisplayLowerB3    NoAction
+  DisplayUpperB4    NoAction
+  DisplayLowerB4    NoAction
+  DisplayUpperB5    NoAction
+  DisplayLowerB5    NoAction
+  DisplayUpperB6    NoAction
+  DisplayLowerB6    NoAction
+ZoneEnd

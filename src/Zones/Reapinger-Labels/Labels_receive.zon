@@ -12,9 +12,10 @@
 Zone Receive
   ReceiveNavigator
 
-  DisplayZone|      FixedTextDisplay "Receives"
-  DisplayUpperA|    TrackNameDisplay
-  DisplayLowerA|    TrackReceiveNameDisplay
-  DisplayUpperB|    TrackReceiveVolumeDisplay
+  DisplayZone       FixedTextDisplay "Receives"
+  DisplayName       TrackNameDisplay
+  DisplayUpperA|    TrackReceiveNameDisplay
+  DisplayLowerA|    TrackReceiveVolumeDisplay
+  DisplayUpperB|    TrackReceivePanDisplay
   DisplayUpperB|    NoAction
 ZoneEnd

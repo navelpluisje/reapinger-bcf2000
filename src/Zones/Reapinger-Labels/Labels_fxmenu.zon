@@ -9,10 +9,11 @@
 //   * First draft
 //------------------------------------------------------------------------------
 
-Zone FXMenuDisplay
+Zone FXMenu
   FXMenuNavigator
 
   DisplayZone       FixedTextDisplay "Effects"
+  DisplayName       TrackNameDisplay
   DisplayUpperA|    FXMenuNameDisplay
   DisplayLowerA|    NoAction
   DisplayUpperB|    NoAction

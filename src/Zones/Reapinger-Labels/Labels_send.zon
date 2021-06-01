@@ -12,9 +12,10 @@
 Zone Send
   SendNavigator
 
-  DisplayZone|      FixedTextDisplay "Sends"
-  DisplayUpperA|    TrackNameDisplay
-  DisplayLowerA|    TrackSendNameDisplay
-  DisplayUpperB|    TrackSendVolumeDisplay
+  DisplayZone       FixedTextDisplay "Sends"
+  DisplayName       TrackNameDisplay
+  DisplayUpperA|    TrackSendNameDisplay
+  DisplayLowerA|    TrackSendVolumeDisplay
+  DisplayUpperB|    TrackSendPanDisplay
   DisplayUpperB|    NoAction
 ZoneEnd
