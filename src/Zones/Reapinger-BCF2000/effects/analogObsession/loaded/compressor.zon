@@ -1,3 +1,15 @@
+//------------------------------------------------------------------------------
+// Surface: Reapinger BCF2000
+// Effect: Loaded VST3 by Analog Obsession
+// SubZone: Compressor
+// Author: Erwin Goossen<erwin@navelpluisje.nl>
+// Version: 1.0.0
+//------------------------------------------------------------------------------
+// Changelog:
+// Version 1.0.0:
+//   * First draft
+//------------------------------------------------------------------------------
+
 Zone "LOADED (AnalogObsession) Compressor"
   SelectedTrackNavigator
 

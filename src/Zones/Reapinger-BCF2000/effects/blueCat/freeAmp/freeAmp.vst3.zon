@@ -1,6 +1,16 @@
+//------------------------------------------------------------------------------
+// Surface: Reapinger BCF2000
+// Effect: Free Amp VST3 by Blue Cat
+// Author: Erwin Goossen<erwin@navelpluisje.nl>
+// Version: 1.0.0
+//------------------------------------------------------------------------------
+// Changelog:
+// Version 1.0.0:
+//   * First draft
+//------------------------------------------------------------------------------
+
 Zone "VST3: Blue Cat's Free Amp (Blue Cat Audio)" "Blue Cat Free Amp"
   SelectedTrackNavigator
-  Option Option
 
   RotaryPush1    FXParam 0 "ByPass" [ 0.0 1.0 ]
   Rotary1        FXParam 1 "Gain"

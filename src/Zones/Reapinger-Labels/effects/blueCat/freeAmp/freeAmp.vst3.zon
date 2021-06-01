@@ -1,0 +1,41 @@
+Zone "VST3: Blue Cat's Free Amp (Blue Cat Audio)" "BC Free Amp"
+  SelectedTrackNavigator
+
+  DisplayZone     FixedTextDisplay "Effect"
+  DisplayName     FixedTextDisplay "BC Free Amp"
+
+  DisplayUpperB1    FXParamNameDisplay  0 "▼ ByPass"
+  DisplayLowerB1    FXParamValueDisplay 0
+  DisplayUpperA1    FXParamNameDisplay  1 "Gain"
+  DisplayLowerA1    FXParamValueDisplay 1
+  DisplayUpperA2    FXParamNameDisplay  3 "Drive"
+  DisplayLowerA2    FXParamValueDisplay 3
+  DisplayUpperA3    FXParamNameDisplay  4 "Bass"
+  DisplayLowerA3    FXParamValueDisplay 4
+  DisplayUpperA4    FXParamNameDisplay  5 "Mid"
+  DisplayLowerA4    FXParamValueDisplay 5
+  DisplayUpperA5    FXParamNameDisplay  6 "Treble"
+  DisplayLowerA5    FXParamValueDisplay 6
+  DisplayUpperA6    FXParamNameDisplay  7 "Tone"
+  DisplayLowerA6    FXParamValueDisplay 7
+  DisplayUpperA7    FXParamNameDisplay  8 "Volume"
+  DisplayLowerA7    FXParamValueDisplay 8
+  DisplayUpperB8    FXParamNameDisplay  2 "▼ Model"
+  DisplayLowerB8    FXParamValueDisplay 2
+
+/ Rest all the other stuff
+  DisplayUpperB2    NoAction
+  DisplayLowerB2    NoAction
+  DisplayUpperB3    NoAction
+  DisplayLowerB3    NoAction
+  DisplayUpperB4    NoAction
+  DisplayLowerB4    NoAction
+  DisplayUpperB5    NoAction
+  DisplayLowerB5    NoAction
+  DisplayUpperB6    NoAction
+  DisplayLowerB6    NoAction
+  DisplayUpperB7    NoAction
+  DisplayLowerB7    NoAction
+  DisplayUpperA8    NoAction
+  DisplayLowerA8    NoAction
+ZoneEnd

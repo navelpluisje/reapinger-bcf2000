@@ -1,0 +1,38 @@
+Zone "VST3: Blue Cat's Gain 3 (Dual) (Blue Cat Audio)" "BC Gain Dual"
+  SelectedTrackNavigator
+
+  DisplayUpperB1    FXParamNameDisplay  0 "▼ On/Off"
+  DisplayLowerB1    FXParamValueDisplay 0
+  DisplayUpperA1    FXParamNameDisplay  2 "Gain L"
+  DisplayLowerA1    FXParamValueDisplay 2
+  DisplayUpperA2    FXParamNameDisplay  3 "Gain R"
+  DisplayLowerA2    FXParamValueDisplay 3
+  DisplayUpperB2    FXParamNameDisplay  1 "▼ Stereo Mode"
+  DisplayLowerB2    FXParamValueDisplay 1
+
+/ Reset all the others
+	DisplayUpperA3    NoAction
+	DisplayLowerA3    NoAction
+	DisplayUpperA4    NoAction
+	DisplayLowerA4    NoAction
+	DisplayUpperA5    NoAction
+	DisplayLowerA5    NoAction
+	DisplayUpperA6    NoAction
+	DisplayLowerA6    NoAction
+	DisplayUpperA7    NoAction
+	DisplayLowerA7    NoAction
+	DisplayUpperA8    NoAction
+	DisplayLowerA8    NoAction
+	DisplayUpperB3    NoAction
+	DisplayLowerB3    NoAction
+	DisplayUpperB4    NoAction
+	DisplayLowerB4    NoAction
+	DisplayUpperB5    NoAction
+	DisplayLowerB5    NoAction
+	DisplayUpperB6    NoAction
+	DisplayLowerB6    NoAction
+	DisplayUpperB7    NoAction
+	DisplayLowerB7    NoAction
+	DisplayUpperB8    NoAction
+	DisplayLowerB8    NoAction
+ZoneEnd

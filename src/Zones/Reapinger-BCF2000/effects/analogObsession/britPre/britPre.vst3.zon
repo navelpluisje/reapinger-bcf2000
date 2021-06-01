@@ -1,3 +1,14 @@
+//------------------------------------------------------------------------------
+// Surface: Reapinger BCF2000
+// Effect: BritPre VST3 by Analog Obsession
+// Author: Erwin Goossen<erwin@navelpluisje.nl>
+// Version: 1.0.0
+//------------------------------------------------------------------------------
+// Changelog:
+// Version 1.0.0:
+//   * First draft
+//------------------------------------------------------------------------------
+
 Zone "VST3: BritPre (AnalogObsession)"
   SelectedTrackNavigator
 
