@@ -1,0 +1,9 @@
+Zone "Home"
+  IncludedZones
+    "Buttons"
+    "GroupButtons"
+    "PresetButtons"
+    "Transport"
+    "Channel"
+  IncludedZonesEnd
+ZoneEnd

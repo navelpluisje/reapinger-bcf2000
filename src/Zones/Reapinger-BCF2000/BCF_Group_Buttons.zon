@@ -1,0 +1,7 @@
+/ The encoder group buttons
+Zone "GroupButtons"
+  / Place for top right button function
+  Track      GoZone "Home"                    // Go to home. The base for all fun
+  Send       MapSelectedTrackSendsToWidgets   // Open send zone for the selected track
+  Effects    MapSelectedTrackFXToMenu         // Open the fx zone for the selected track
+ZoneEnd

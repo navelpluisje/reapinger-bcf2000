@@ -1,0 +1,22 @@
+Zone "Buttons"
+  Option Option
+// Button Store
+  Store_Default              Reaper "40157"  // Add marker at current position
+  Hold+Store_Default         Reaper "40614"  // Edit current marker
+  Store_BS                   Reaper "40613"  // Remove closest marker
+
+// Button Learn
+  Learn_Default              Reaper "42076"  // Pre fader track metering
+  Learn_TS                   NoAction
+  Learn_BS                   NoAction
+
+// Button Edit
+  Edit_Default               Reaper "40026"  // Save the project
+  Edit_TS                    Reaper "40029"  // Undo step
+  Edit_BS                    Reaper "40030"  // Redo step
+
+// Button Exit
+  Exit_Default               Reaper "41743"  // Refresh Control Surfaces
+  Exit_TS                    NoAction
+  Exit_BS                    NoAction
+ZoneEnd
