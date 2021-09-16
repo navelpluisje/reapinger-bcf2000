@@ -1,0 +1,14 @@
+Zone "SelectedTrackSend"
+SelectedTrackSendNavigator
+  DisplayZone|      FixedTextDisplay "Sends"
+  DisplayUpper|     TrackNameDisplay
+  DisplayLower|     TrackSendNameDisplay
+  DisplayAddUpper|  TrackSendVolumeDisplay
+
+  Rotary|           TrackSendPan
+  RotaryPush|       Reaper "40293"   // View routing and I/O
+  Mute|             TrackSendMute
+  Fader|            TrackSendVolume
+  TrackTouch+Fader| TrackSendVolume
+  FaderTouch|       TrackTouch
+ZoneEnd

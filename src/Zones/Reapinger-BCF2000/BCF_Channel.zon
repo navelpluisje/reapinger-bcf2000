@@ -1,0 +1,25 @@
+Zone "Channel"
+  TrackNavigator
+  Option Option
+
+  // Some display stuff
+  DisplayZone1        FixedTextDisplay "Channel"
+  DisplayUpper|       TrackNameDisplay
+  DisplayLower|       MCUTrackPanDisplay Rotary|
+  TrackTouch+DisplayLower| 	TrackVolumeDisplay
+  VUMeter|            TrackOutputMeter
+
+  // The channel controls
+  Rotary|             MCUTrackPan
+  Mute|               TrackMute
+  Option+Mute|        CycleTrackAutoMode [ 0 1 3 2 4 5 ]
+  Option+Hold+Mute|   TrackAutoMode 0
+  Solo|               TrackSolo
+  Select|             TrackUniqueSelect
+  Option+Select|      TrackRangeSelect
+  RecArm|             TrackRecordArm
+  Option+RecArm|      TrackSelect
+  Fader|              TrackVolume
+  FaderTouch+Fader|   TrackVolume
+  FaderTouch|         TrackTouch
+ZoneEnd

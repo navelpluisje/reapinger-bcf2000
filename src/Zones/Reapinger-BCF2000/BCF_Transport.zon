@@ -1,0 +1,26 @@
+Zone "Transport"
+  / Top left button
+  PreviousMarker       Reaper     "40172"  // Go to the previous Marker
+  Hold+PreviousMarker  Reaper     "40042"  // Go to the project start
+  ScrollBackward       Reaper     "40084"  // Step through project
+  GoToProjectStart     Reaper     "40042"  // Go to the project start
+
+  / Top right button
+  NextMarker           Reaper     "40173"  // Go to the next marker
+  Hold+NextMarker      Reaper     "40043"  // Go to the project end
+  ScrollForward        Reaper     "40085"  // Step through project
+  GoToProjectEnd       Reaper     "40043"  // Go to the project end
+
+  / Bottom left button
+  Stop                 Stop                // Stop
+  Cycle                CycleTimeline       // Toggle Cycle (repeat/loop)
+  Metronome            Reaper     "40364"  // Toggle the Metronome
+  Hold+Metronome       Reaper     "40363"  // Open Metronome Settings
+
+  / Bottom right button
+  Play                 Play                // Play / Pause
+  Record               Record
+  FollowCursor         Reaper     "_3537748bbdcf4f4dbc17d4f304a0574c"
+
+  TimeDisplay          TimeDisplay
+ZoneEnd

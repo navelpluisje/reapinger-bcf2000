@@ -1,0 +1,12 @@
+Zone "PresetButtons"
+  // Buttons Preset
+  BankLeft             TrackBank "-8"
+  ChannelLeft          TrackBank "-1"
+  SelectPrevTrack      Reaper "_XENAKIOS_SELPREVTRACK"
+  SelectPrevTrack      TrackBank "-1"
+
+  BankRight            TrackBank "8"
+  ChannelRight         TrackBank "1"
+  SelectNextTrack      Reaper "_XENAKIOS_SELNEXTTRACK"
+  SelectNextTrack      TrackBank "1"
+ZoneEnd

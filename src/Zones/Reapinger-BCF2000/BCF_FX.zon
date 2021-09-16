@@ -1,0 +1,12 @@
+Zone "SelectedTrackFXMenu"
+  SelectedTrackFXMenuNavigator
+  DisplayZone|      FixedTextDisplay "Effects"
+  DisplayUpper|     FXMenuNameDisplay
+  DisplayLower|     NoAction
+  Rotary|           NoAction
+  RotaryPush|       NoAction
+  Mute|             Reaper _S&M_FXBYP|
+  Select|           GoFXSlot
+  Select|           Reaper "_S&M_WNCLS5"
+  Select|           Reaper _S&M_TOGLFLOATFX|
+ZoneEnd
